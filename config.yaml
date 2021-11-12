@@ -37,9 +37,6 @@ permalinks:
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
 disableAliases: true
-outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, redirects]
-  section: [HTML, RSS]
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

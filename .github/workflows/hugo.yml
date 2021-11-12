@@ -18,8 +18,8 @@ jobs:
         with:
           hugo-version: "0.88.0"
              
-      - name: Clean public directory
-        run: rm -rf public
+      #- name: Clean public directory
+      #  run: rm -rf public
 
       - name: Build
         run: hugo --minify

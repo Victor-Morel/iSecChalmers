@@ -6,11 +6,11 @@ title: Andrei Sabelfeld
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Chalmers University of Technology
   url: ""
 
 # Short bio (displayed in user profile at end of posts)

@@ -32,7 +32,7 @@
   {{end}}
 
   {{ range $query }}
-  {{- if ne (index (.Params.user_groups) 0) "Alumni" -}}
+  {{- if and (ne (index (.Params.user_groups) 0) "Alumni") (ne (index (.Params.user_groups) 0) "Former Members") -}}
     {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
     {{/* Get link to user's profile page. */}}
     {{ $link := "" }}

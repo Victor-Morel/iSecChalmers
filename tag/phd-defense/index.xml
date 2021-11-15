@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PhD Defense | Chalmers Security Lab</title><link>iSec/tag/phd-defense/</link><atom:link href="iSec/tag/phd-defense/index.xml" rel="self" type="application/rss+xml"/><description>PhD Defense</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>PhD Defense</title><link>iSec/tag/phd-defense/</link></image><item><title>Boel Nelson's PhD Defense: Differential Privacy — A Balancing Act</title><link>iSec/event/2021/2021-06-18-css-talk45/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>iSec/event/2021/2021-06-18-css-talk45/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Boel Nelson\
+&lt;strong>When:&lt;/strong> 14:00 Friday {{ page.date | date_to_long_string }}\
+&lt;strong>Where:&lt;/strong> &lt;a href="https://chalmers.zoom.us/j/69493968177?pwd=cFF3ZXAvdnRPRlVkc1U4a1hCQi9kUT09" target="_blank" rel="noopener">Zoom&lt;/a>\
+&lt;strong>Password:&lt;/strong> 1999\
+&lt;strong>Details about the thesis:&lt;/strong> &lt;a href="https://research.chalmers.se/en/publication/523824" target="_blank" rel="noopener">https://research.chalmers.se/en/publication/523824&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>\
+{{ page.teaser }}&lt;/p>
+&lt;p>&lt;a href="https://research.chalmers.se/en/publication/523824" target="_blank" rel="noopener">Details about the thesis and related publications&lt;/a>.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MAC | Chalmers Security Lab</title><link>iSec/tag/mac/</link><atom:link href="iSec/tag/mac/index.xml" rel="self" type="application/rss+xml"/><description>MAC</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><image><url>/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>MAC</title><link>iSec/tag/mac/</link></image><item><title>A different perspective on libraries for information-flow control</title><link>iSec/event/2021/2021-06-04-css-talk43/</link><pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate><guid>iSec/event/2021/2021-06-04-css-talk43/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Carlos Tomé Cortiñas\
+&lt;strong>When:&lt;/strong> 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\
+&lt;strong>Where:&lt;/strong> &lt;a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target="_blank" rel="noopener">Zoom&lt;/a>\
+&lt;strong>Password:&lt;/strong> 485011\
+&lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>\
+{{ page.teaser }}&lt;/p></description></item></channel></rss>

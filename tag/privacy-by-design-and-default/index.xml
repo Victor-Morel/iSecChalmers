@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy by Design and Default | Chalmers Security Lab</title><link>iSec/tag/privacy-by-design-and-default/</link><atom:link href="iSec/tag/privacy-by-design-and-default/index.xml" rel="self" type="application/rss+xml"/><description>Privacy by Design and Default</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate><image><url>/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Privacy by Design and Default</title><link>iSec/tag/privacy-by-design-and-default/</link></image><item><title>Simone Fischer-Hübner's Honorary Doctorate Lecture:
+Challenges of User-centric Privacy Enhancing Technologies</title><link>iSec/event/2021/2021-09-17-css-talk46/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>iSec/event/2021/2021-09-17-css-talk46/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="https://simone.hotell.kau.se/" target="_blank" rel="noopener">Prof. Simone Fischer-Hübner&lt;/a>\
+&lt;strong>When:&lt;/strong> 16:30–17:00 on Friday {{ page.date | date_to_long_string }}.\
+Other honorary doctors will speak before and after Simone - feel free
+to attend the whole event 4pm-6pm! (If you attend in person, please do
+come at 4pm.)\
+&lt;strong>Where:&lt;/strong> Chalmersska huset\
+(limited seats, register via &lt;a href="mailto:events@chalmers.se">events@chalmers.se&lt;/a> to attend in person)\
+&lt;strong>Where (online):&lt;/strong> &lt;a href="https://www.youtube.com/watch?v=njiEDbx_eXA" target="_blank" rel="noopener">on YouTube&lt;/a>\
+&lt;strong>Title:&lt;/strong> Challenges of User-centric Privacy Enhancing Technologies&lt;/p>
+&lt;p>&lt;strong>Abstract:&lt;/strong>\
+{{ page.teaser }}&lt;/p>
+&lt;p>Further info on the event
+&lt;a href="https://www.chalmers.se/en/about-chalmers/calendar/Pages/Watch-the-Chalmers%27-Honorary-Doctors%27-Speech.aspx" target="_blank" rel="noopener">in English&lt;/a>
+and
+&lt;a href="https://www.chalmers.se/sv/om-chalmers/kalendarium/Sidor/Lyssna-till-Chalmers-hedersdoktorer.aspx" target="_blank" rel="noopener">in Swedish&lt;/a>.&lt;/p></description></item></channel></rss>

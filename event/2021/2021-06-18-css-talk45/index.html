@@ -4,9 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Boel Nelson\ When: 14:00 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 1999\ Details about the thesis: https://research.chalmers.se/en/publication/523824
-Abstract:\ {{ page.teaser }}
-Details about the thesis and related publications.">
+<meta name=description content="Data privacy is an ever important aspect of data analyses. Historically, a plethora of privacy techniques have been introduced to protect data, but few have stood the test of time. From investigating the overlap between big data research, and security and privacy research, I have found that _differential privacy_ presents itself as a promising defender of data privacy.">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-06-18-css-talk45/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,15 +22,13 @@ Details about the thesis and related publications.">
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-06-18-css-talk45/">
-<meta property="og:title" content="Boel Nelson's PhD Defense: Differential Privacy — A Balancing Act | Chalmers Security Lab">
-<meta property="og:description" content="Who: Boel Nelson\ When: 14:00 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 1999\ Details about the thesis: https://research.chalmers.se/en/publication/523824
-Abstract:\ {{ page.teaser }}
-Details about the thesis and related publications."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:title" content="Differential Privacy — A Balancing Act | Chalmers Security Lab">
+<meta property="og:description" content="Data privacy is an ever important aspect of data analyses. Historically, a plethora of privacy techniques have been introduced to protect data, but few have stood the test of time. From investigating the overlap between big data research, and security and privacy research, I have found that _differential privacy_ presents itself as a promising defender of data privacy."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-06-18T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-06-18T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-06-18-css-talk45/"},"name":"Boel Nelson's PhD Defense: Differential Privacy — A Balancing Act","startDate":"2021-06-18T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Boel Nelson\\ When: 14:00 Friday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 1999\\ Details about the thesis: https://research.chalmers.se/en/publication/523824\nAbstract:\\ {{ page.teaser }}\nDetails about the thesis and related publications."}</script>
-<title>Boel Nelson's PhD Defense: Differential Privacy — A Balancing Act | Chalmers Security Lab</title>
+<meta property="article:published_time" content="2021-06-18T14:00:00+00:00">
+<meta property="article:modified_time" content="2021-06-18T14:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-06-18-css-talk45/"},"name":"Differential Privacy — A Balancing Act","startDate":"2021-06-18T14:00:00Z","performer":{"@type":"Person","name":"Boel Nelson"},"description":"Data privacy is an ever important aspect of data analyses. Historically, a plethora of privacy techniques have been introduced to protect data, but few have stood the test of time. From investigating the overlap between big data research, and security and privacy research, I have found that _differential privacy_ presents itself as a promising defender of data privacy."}</script>
+<title>Differential Privacy — A Balancing Act | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=42fbb7c57e02f5cfacb8d460eae27458>
 <script src=/iSec/js/wowchemy-init.min.c2ae95842e5b33a787c7b8c567e989a4.js></script>
@@ -96,22 +92,42 @@ Details about the thesis and related publications."><meta property="og:image" co
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>Boel Nelson's PhD Defense: Differential Privacy — A Balancing Act</h1>
+<h1>Differential Privacy — A Balancing Act</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/boel-nelson/>Boel Nelson</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract><p>Data privacy is an ever important aspect of data analyses. Historically, a plethora of privacy techniques have been introduced to protect data, but few have stood the test of time. From investigating the overlap between big data research, and security and privacy research, I have found that <em>differential privacy</em> presents itself as a promising defender of data privacy.</p>
+<p>Differential privacy is a rigorous, mathematical notion of privacy. Nevertheless, privacy comes at a cost. In order to achieve differential privacy, we need to introduce some form of inaccuracy (i.e. error) to our analyses. Hence, practitioners need to engage in a <em>balancing act</em> between accuracy and privacy when adopting differential privacy. As a consequence, understanding this accuracy/privacy trade-off is vital to being able to use differential privacy in real data analyses.</p>
+<p>In this thesis, I aim to bridge the gap between differential privacy in theory, and differential privacy in practice. Most notably, I aim to convey a better understanding of the accuracy/privacy trade-off, by 1) implementing tools to tweak accuracy/privacy in a real use case, 2) presenting a methodology for empirically predicting error, and 3) systematizing and analyzing known accuracy improvement techniques for differentially private algorithms. Additionally, I also put differential privacy into context by investigating how it can be applied in the automotive domain. Using the automotive domain as an example, I introduce the main challenges that constitutes the balancing act, and provide advice for moving forward.</p>
+</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-Jun 18, 2021 12:00 AM
+Jun 18, 2021 2:00 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/69493968177?pwd=cFF3ZXAvdnRPRlVkc1U4a1hCQi9kUT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -120,14 +136,8 @@ Jun 18, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Boel Nelson\
-<strong>When:</strong> 14:00 Friday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/j/69493968177?pwd=cFF3ZXAvdnRPRlVkc1U4a1hCQi9kUT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 1999\
-<strong>Details about the thesis:</strong> <a href=https://research.chalmers.se/en/publication/523824 target=_blank rel=noopener>https://research.chalmers.se/en/publication/523824</a></p>
-<p><strong>Abstract:</strong>\
-{{ page.teaser }}</p>
-<p><a href=https://research.chalmers.se/en/publication/523824 target=_blank rel=noopener>Details about the thesis and related publications</a>.</p>
+<p>More details about the thesis: <a href=https://research.chalmers.se/en/publication/523824 target=_blank rel=noopener>https://research.chalmers.se/en/publication/523824</a></p>
+<p>Zoom Password: 1999</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>
@@ -137,32 +147,32 @@ Jun 18, 2021 12:00 AM
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=iSec/event/2021/2021-06-18-css-talk45/&text=Boel%20Nelson&amp;#39;s%20PhD%20Defense:%20Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=iSec/event/2021/2021-06-18-css-talk45/&text=Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=iSec/event/2021/2021-06-18-css-talk45/&t=Boel%20Nelson&amp;#39;s%20PhD%20Defense:%20Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=iSec/event/2021/2021-06-18-css-talk45/&t=Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Boel%20Nelson&amp;#39;s%20PhD%20Defense:%20Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act&body=iSec/event/2021/2021-06-18-css-talk45/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act&body=iSec/event/2021/2021-06-18-css-talk45/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=iSec/event/2021/2021-06-18-css-talk45/&title=Boel%20Nelson&amp;#39;s%20PhD%20Defense:%20Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=iSec/event/2021/2021-06-18-css-talk45/&title=Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Boel%20Nelson&amp;#39;s%20PhD%20Defense:%20Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act%20iSec/event/2021/2021-06-18-css-talk45/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act%20iSec/event/2021/2021-06-18-css-talk45/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=iSec/event/2021/2021-06-18-css-talk45/&title=Boel%20Nelson&amp;#39;s%20PhD%20Defense:%20Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=iSec/event/2021/2021-06-18-css-talk45/&title=Differential%20Privacy%20%e2%80%94%20A%20Balancing%20Act" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>

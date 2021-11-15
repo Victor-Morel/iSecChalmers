@@ -4,8 +4,9 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Carlos Tomé Cortiñas\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 485011\ Title: {{ page.title }}
-Abstract:\ {{ page.teaser }}">
+<meta name=description content=" There is a long line of research on how to control information flow in pure programming languages.  In Haskell, for instance, the MAC library [Russo 2015] provides IFC primitives that allows programmers to write (statically) secure programs. MAC enforces security by controlling the interaction of an indexed monad for print effects, MAC, and a type for labeling data, Labeled.
+In this talk, I will present a different point in the design space of IFC libraries which in some sense refines MAC. The starting point will be a pure language where the monad for print effects&amp;mdash;think of IO in Haskell restricted to print&amp;mdash;keeps track of the output channels within the type. Looking at MAC in this setting, we see that one can safely embed effectful computations into the MAC monad. It appears that in this extended setting the MAC monad is redundant in the sense that we can express its interface in terms of indexed IO and Labeled. Arguably, this refinement yields a library which is: conceptually cleaner; more compositional; and it allows more programs to typecheck.
+This talk is based on a paper that Alejandro Russo and I are currently preparing for submission. ">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-06-04-css-talk43/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +25,13 @@ Abstract:\ {{ page.teaser }}">
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-06-04-css-talk43/">
 <meta property="og:title" content="A different perspective on libraries for information-flow control | Chalmers Security Lab">
-<meta property="og:description" content="Who: Carlos Tomé Cortiñas\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 485011\ Title: {{ page.title }}
-Abstract:\ {{ page.teaser }}"><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content=" There is a long line of research on how to control information flow in pure programming languages.  In Haskell, for instance, the MAC library [Russo 2015] provides IFC primitives that allows programmers to write (statically) secure programs. MAC enforces security by controlling the interaction of an indexed monad for print effects, MAC, and a type for labeling data, Labeled.
+In this talk, I will present a different point in the design space of IFC libraries which in some sense refines MAC. The starting point will be a pure language where the monad for print effects&amp;mdash;think of IO in Haskell restricted to print&amp;mdash;keeps track of the output channels within the type. Looking at MAC in this setting, we see that one can safely embed effectful computations into the MAC monad. It appears that in this extended setting the MAC monad is redundant in the sense that we can express its interface in terms of indexed IO and Labeled. Arguably, this refinement yields a library which is: conceptually cleaner; more compositional; and it allows more programs to typecheck.
+This talk is based on a paper that Alejandro Russo and I are currently preparing for submission. "><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-06-04T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-06-04T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-06-04-css-talk43/"},"name":"A different perspective on libraries for information-flow control","startDate":"2021-06-04T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Carlos Tomé Cortiñas\\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 485011\\ Title: {{ page.title }}\nAbstract:\\ {{ page.teaser }}"}</script>
+<meta property="article:published_time" content="2021-06-04T13:15:00+00:00">
+<meta property="article:modified_time" content="2021-06-04T13:15:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-06-04-css-talk43/"},"name":"A different perspective on libraries for information-flow control","startDate":"2021-06-04T13:15:00Z","performer":{"@type":"Person","name":"Carlos Tomé"},"description":" There is a long line of research on how to control information flow in pure programming languages.  In Haskell, for instance, the MAC library [Russo 2015] provides IFC primitives that allows programmers to write (statically) secure programs. MAC enforces security by controlling the interaction of an indexed monad for print effects, MAC, and a type for labeling data, Labeled.\nIn this talk, I will present a different point in the design space of IFC libraries which in some sense refines MAC. The starting point will be a pure language where the monad for print effects\u0026mdash;think of IO in Haskell restricted to print\u0026mdash;keeps track of the output channels within the type. Looking at MAC in this setting, we see that one can safely embed effectful computations into the MAC monad. It appears that in this extended setting the MAC monad is redundant in the sense that we can express its interface in terms of indexed IO and Labeled. Arguably, this refinement yields a library which is: conceptually cleaner; more compositional; and it allows more programs to typecheck.\nThis talk is based on a paper that Alejandro Russo and I are currently preparing for submission. "}</script>
 <title>A different perspective on libraries for information-flow control | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=b5bf52e05ca834d1413d0d3364d60221>
@@ -96,20 +98,39 @@ Abstract:\ {{ page.teaser }}"><meta property="og:image" content="/iSec/media/ico
 <div class="article-container pt-3">
 <h1>A different perspective on libraries for information-flow control</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/carlos-tome/>Carlos Tomé</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>There is a long line of research on how to control information flow in pure programming languages. In Haskell, for instance, the MAC library [Russo 2015] provides IFC primitives that allows programmers to write (statically) secure programs. MAC enforces security by controlling the interaction of an indexed monad for print effects, MAC, and a type for labeling data, Labeled.
+In this talk, I will present a different point in the design space of IFC libraries which in some sense refines MAC. The starting point will be a pure language where the monad for print effects—think of IO in Haskell restricted to print—keeps track of the output channels within the type. Looking at MAC in this setting, we see that one can safely embed effectful computations into the MAC monad. It appears that in this extended setting the MAC monad is redundant in the sense that we can express its interface in terms of indexed IO and Labeled. Arguably, this refinement yields a library which is: conceptually cleaner; more compositional; and it allows more programs to typecheck.
+This talk is based on a paper that Alejandro Russo and I are currently preparing for submission.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-Jun 4, 2021 12:00 AM
+Jun 4, 2021 1:15 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,13 +139,6 @@ Jun 4, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Carlos Tomé Cortiñas\
-<strong>When:</strong> 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 485011\
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-{{ page.teaser }}</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

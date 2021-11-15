@@ -4,8 +4,8 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Mathias Payer, EPFL\ When: 13:15 - 14:15 Thursday {{ page.date | date_to_long_string }}\ Where: Zoom (Note, not the usual zoom room!)\ Password: \ Title: {{ page.title }}
-Abstract:\ Memory corruption plagues systems since the dawn of computing.">
+<meta name=description content=" Memory corruption plagues systems since the dawn of computing. Despite the rise of strong mitigations, exploits are still  prevalent. This situation calls for automatic software testing  techniques that discover reachable vulnerabilities before any attacker. We will disuss types of bugs, where to find them, and how to prune them.
+Finding and fixing bugs is the only way to prohibit all exploitation vectors. We develop fuzzing techniques that follow an adversarial approach, focusing on the exposed attack surface and exploring potentially reachable vulnerabilities. In this talk, we will discuss two aspects of fuzzing hard to reach code: (i) learning how code is exposed to attacker-controlled input and (ii) testing drivers that interact with exposed peripherals. First, we assess the threat surface by characterizing the potential computational power that a vulnerability gives. In a multi-step process we follow the flow of information and synthesize complex fuzzing stubs to test specific code sequences. Second, by providing a custom-tailored emulation environment we create virtual mock devices that allow fuzzing the peripheral/driver interface. In these projects we develop new techniques to test different kinds of hard to reach code and exposed large amounts of vulnerabilities in Android and the Linux kernel. ">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-03-18-css-talk36/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +24,12 @@ Abstract:\ Memory corruption plagues systems since the dawn of computing.">
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-03-18-css-talk36/">
 <meta property="og:title" content="Towards new fuzzing frontiers: exploring the boundaries of testing | Chalmers Security Lab">
-<meta property="og:description" content="Who: Mathias Payer, EPFL\ When: 13:15 - 14:15 Thursday {{ page.date | date_to_long_string }}\ Where: Zoom (Note, not the usual zoom room!)\ Password: \ Title: {{ page.title }}
-Abstract:\ Memory corruption plagues systems since the dawn of computing."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content=" Memory corruption plagues systems since the dawn of computing. Despite the rise of strong mitigations, exploits are still  prevalent. This situation calls for automatic software testing  techniques that discover reachable vulnerabilities before any attacker. We will disuss types of bugs, where to find them, and how to prune them.
+Finding and fixing bugs is the only way to prohibit all exploitation vectors. We develop fuzzing techniques that follow an adversarial approach, focusing on the exposed attack surface and exploring potentially reachable vulnerabilities. In this talk, we will discuss two aspects of fuzzing hard to reach code: (i) learning how code is exposed to attacker-controlled input and (ii) testing drivers that interact with exposed peripherals. First, we assess the threat surface by characterizing the potential computational power that a vulnerability gives. In a multi-step process we follow the flow of information and synthesize complex fuzzing stubs to test specific code sequences. Second, by providing a custom-tailored emulation environment we create virtual mock devices that allow fuzzing the peripheral/driver interface. In these projects we develop new techniques to test different kinds of hard to reach code and exposed large amounts of vulnerabilities in Android and the Linux kernel. "><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-03-18T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-03-18T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-03-18-css-talk36/"},"name":"Towards new fuzzing frontiers: exploring the boundaries of testing","startDate":"2021-03-18T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Mathias Payer, EPFL\\ When: 13:15 - 14:15 Thursday {{ page.date | date_to_long_string }}\\ Where: Zoom (Note, not the usual zoom room!)\\ Password: \\ Title: {{ page.title }}\nAbstract:\\ Memory corruption plagues systems since the dawn of computing."}</script>
+<meta property="article:published_time" content="2021-03-18T13:15:00+00:00">
+<meta property="article:modified_time" content="2021-03-18T13:15:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-03-18-css-talk36/"},"name":"Towards new fuzzing frontiers: exploring the boundaries of testing","startDate":"2021-03-18T13:15:00Z","performer":{"@type":"Person","name":"Mathias Payer"},"description":" Memory corruption plagues systems since the dawn of computing. Despite the rise of strong mitigations, exploits are still  prevalent. This situation calls for automatic software testing  techniques that discover reachable vulnerabilities before any attacker. We will disuss types of bugs, where to find them, and how to prune them.\nFinding and fixing bugs is the only way to prohibit all exploitation vectors. We develop fuzzing techniques that follow an adversarial approach, focusing on the exposed attack surface and exploring potentially reachable vulnerabilities. In this talk, we will discuss two aspects of fuzzing hard to reach code: (i) learning how code is exposed to attacker-controlled input and (ii) testing drivers that interact with exposed peripherals. First, we assess the threat surface by characterizing the potential computational power that a vulnerability gives. In a multi-step process we follow the flow of information and synthesize complex fuzzing stubs to test specific code sequences. Second, by providing a custom-tailored emulation environment we create virtual mock devices that allow fuzzing the peripheral/driver interface. In these projects we develop new techniques to test different kinds of hard to reach code and exposed large amounts of vulnerabilities in Android and the Linux kernel. "}</script>
 <title>Towards new fuzzing frontiers: exploring the boundaries of testing | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=3ac9089f0cd55de35732306b4c20ba01>
@@ -96,20 +96,38 @@ Abstract:\ Memory corruption plagues systems since the dawn of computing."><meta
 <div class="article-container pt-3">
 <h1>Towards new fuzzing frontiers: exploring the boundaries of testing</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/mathias-payer/>Mathias Payer</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>Memory corruption plagues systems since the dawn of computing. Despite the rise of strong mitigations, exploits are still prevalent. This situation calls for automatic software testing techniques that discover reachable vulnerabilities before any attacker. We will disuss types of bugs, where to find them, and how to prune them.
+Finding and fixing bugs is the only way to prohibit all exploitation vectors. We develop fuzzing techniques that follow an adversarial approach, focusing on the exposed attack surface and exploring potentially reachable vulnerabilities. In this talk, we will discuss two aspects of fuzzing hard to reach code: (i) learning how code is exposed to attacker-controlled input and (ii) testing drivers that interact with exposed peripherals. First, we assess the threat surface by characterizing the potential computational power that a vulnerability gives. In a multi-step process we follow the flow of information and synthesize complex fuzzing stubs to test specific code sequences. Second, by providing a custom-tailored emulation environment we create virtual mock devices that allow fuzzing the peripheral/driver interface. In these projects we develop new techniques to test different kinds of hard to reach code and exposed large amounts of vulnerabilities in Android and the Linux kernel.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-Mar 18, 2021 12:00 AM
+Mar 18, 2021 1:15 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,21 +136,8 @@ Mar 18, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Mathias Payer, EPFL\
-<strong>When:</strong> 13:15 - 14:15 Thursday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href=https://chalmers.zoom.us/j/65826436680 target=_blank rel=noopener>Zoom</a> (Note, not the usual zoom room!)\
-<strong>Password:</strong> \
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-Memory corruption plagues systems since the dawn of computing. Despite the rise of strong mitigations, exploits are still prevalent. This situation calls for automatic software testing techniques that discover reachable vulnerabilities before any attacker. We will disuss types of bugs, where to find them, and how to prune them.</p>
-<p>Finding and fixing bugs is the only way to prohibit all exploitation vectors. We develop fuzzing techniques that follow an adversarial approach, focusing on the exposed attack surface and exploring potentially reachable vulnerabilities. In this talk, we will discuss two aspects of fuzzing hard to reach code: (i) learning how code is exposed to attacker-controlled input and (ii) testing drivers that interact with exposed peripherals. First, we assess the threat surface
-by characterizing the potential computational power that a vulnerability gives. In a multi-step process we follow the flow of information and synthesize complex fuzzing stubs to test specific code sequences. Second, by providing a custom-tailored emulation environment we create virtual mock devices that allow fuzzing the peripheral/driver interface. In these projects we develop new techniques to test different kinds of hard to reach code and exposed large amounts of vulnerabilities in Android and the Linux kernel.</p>
-<p><strong>Speaker Bio:</strong>\
-Mathias Payer is a security researcher and assistant professor at EPFL, leading the HexHive group. His research focuses on protecting applications in the presence of vulnerabilities, with a focus on memory corruption and type violations. He is interested in software security, system security, binary exploitation, effective mitigations, fault isolation/privilege separation, strong sanitization, and software testing (fuzzing) using a combination of binary analysis and
+<p>Mathias Payer is a security researcher and assistant professor at EPFL, leading the HexHive group. His research focuses on protecting applications in the presence of vulnerabilities, with a focus on memory corruption and type violations. He is interested in software security, system security, binary exploitation, effective mitigations, fault isolation/privilege separation, strong sanitization, and software testing (fuzzing) using a combination of binary analysis and
 compiler-based techniques. Research in the HexHive group is generously supported by the ERC, SNSF, DARPA, ONR, AFOSR, or NSF, as well as several industry partners. Follow him on Twitter @gannimo. Details about his group are at <a href=https://hexhive.epfl.ch target=_blank rel=noopener>https://hexhive.epfl.ch</a></p>
-<h2 id=previous-talks>Previous Talks</h2>
-<p>{: .t60 }
-{% include list-posts tag=&lsquo;csstalk&rsquo;%}</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

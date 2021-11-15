@@ -4,8 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Dennis Kengo Oka\ When: 10:00 - 11:00 Thursday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 485011\ Title: {{ page.title }}
-Abstract:\ {{ page.teaser }}">
+<meta name=description content="This presentation provides an introduction to fuzz testing of automotive systems with a focus on both process and practical topics. We first discuss the typical automotive development process to better understand where the fuzz testing activity fits into the overall process. We also discuss common practical pitfalls and challenges when performing fuzz testing of automotive systems. Based on this understanding, a few examples of how fuzz testing can be performed in practice, including how to build a fuzz testing environment for automotive systems, are explained. Last, we also explore how to perform continuous fuzz testing using automated tools and virtual ECUs as part of a CI/CD pipeline.">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-05-27-css-talk42/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +23,11 @@ Abstract:\ {{ page.teaser }}">
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-05-27-css-talk42/">
 <meta property="og:title" content="Fuzz Testing Automotive Systems - Process and Practice | Chalmers Security Lab">
-<meta property="og:description" content="Who: Dennis Kengo Oka\ When: 10:00 - 11:00 Thursday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 485011\ Title: {{ page.title }}
-Abstract:\ {{ page.teaser }}"><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content="This presentation provides an introduction to fuzz testing of automotive systems with a focus on both process and practical topics. We first discuss the typical automotive development process to better understand where the fuzz testing activity fits into the overall process. We also discuss common practical pitfalls and challenges when performing fuzz testing of automotive systems. Based on this understanding, a few examples of how fuzz testing can be performed in practice, including how to build a fuzz testing environment for automotive systems, are explained. Last, we also explore how to perform continuous fuzz testing using automated tools and virtual ECUs as part of a CI/CD pipeline."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-05-27T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-05-27T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-05-27-css-talk42/"},"name":"Fuzz Testing Automotive Systems - Process and Practice","startDate":"2021-05-27T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Dennis Kengo Oka\\ When: 10:00 - 11:00 Thursday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 485011\\ Title: {{ page.title }}\nAbstract:\\ {{ page.teaser }}"}</script>
+<meta property="article:published_time" content="2021-05-27T10:00:00+00:00">
+<meta property="article:modified_time" content="2021-05-27T10:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-05-27-css-talk42/"},"name":"Fuzz Testing Automotive Systems - Process and Practice","startDate":"2021-05-27T10:00:00Z","performer":{"@type":"Person","name":"Dennis Kengo Oka"},"description":"This presentation provides an introduction to fuzz testing of automotive systems with a focus on both process and practical topics. We first discuss the typical automotive development process to better understand where the fuzz testing activity fits into the overall process. We also discuss common practical pitfalls and challenges when performing fuzz testing of automotive systems. Based on this understanding, a few examples of how fuzz testing can be performed in practice, including how to build a fuzz testing environment for automotive systems, are explained. Last, we also explore how to perform continuous fuzz testing using automated tools and virtual ECUs as part of a CI/CD pipeline."}</script>
 <title>Fuzz Testing Automotive Systems - Process and Practice | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=0f38788ad60a453812ff36322065c97d>
@@ -96,20 +94,37 @@ Abstract:\ {{ page.teaser }}"><meta property="og:image" content="/iSec/media/ico
 <div class="article-container pt-3">
 <h1>Fuzz Testing Automotive Systems - Process and Practice</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/dennis-kengo-oka/>Dennis Kengo Oka</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>This presentation provides an introduction to fuzz testing of automotive systems with a focus on both process and practical topics. We first discuss the typical automotive development process to better understand where the fuzz testing activity fits into the overall process. We also discuss common practical pitfalls and challenges when performing fuzz testing of automotive systems. Based on this understanding, a few examples of how fuzz testing can be performed in practice, including how to build a fuzz testing environment for automotive systems, are explained. Last, we also explore how to perform continuous fuzz testing using automated tools and virtual ECUs as part of a CI/CD pipeline.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-May 27, 2021 12:00 AM
+May 27, 2021 10:00 AM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,13 +133,6 @@ May 27, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Dennis Kengo Oka\
-<strong>When:</strong> 10:00 - 11:00 Thursday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 485011\
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-{{ page.teaser }}</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

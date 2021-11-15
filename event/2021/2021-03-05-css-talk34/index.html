@@ -4,8 +4,8 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Nadia Polikarpova, University of California, San Diego \ When: 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454 \ Title: {{ page.title }}
-Abstract:\ Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies.">
+<meta name=description content=" Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies. A promising approach to enforcing these policies is to use Information Flow Control (IFC) frameworks, which separate policy specification from the application code and automatically enforce policies either dynamically (at run time) or statically (at compile time). While static enforcement is desirable because it catches errors early and avoids run-time overhead, existing static IFC frameworks either lack support for expressive data-dependent policies (necessary in modern applications), or require manual proofs or annotations to be strewed throughout the application code.
+In this talk I will present Lifty, a static IFC framework that overcomes the limitations of existing static approaches. A Lifty programmer annotates the sources of sensitive data with expressive, data-dependent security policies, and Lifty statically and automatically verifies that the application handles the data according to the policies. Moreover, if verification fails, Lifty suggests a provably correct repair, thereby easing the programmer burden of implementing policy enforcing code throughout the application. The main insight behind Lifty is to encode information flow control using liquid types, an expressive yet decidable type system. Liquid types enable fully automatic checking of complex policies, and power our repair mechanism via type-driven error localization and patch synthesis. ">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-03-05-css-talk34/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +24,12 @@ Abstract:\ Modern applications handle sensitive user data in complex ways, subje
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-03-05-css-talk34/">
 <meta property="og:title" content="Liquid Information Flow Control | Chalmers Security Lab">
-<meta property="og:description" content="Who: Nadia Polikarpova, University of California, San Diego \ When: 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454 \ Title: {{ page.title }}
-Abstract:\ Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content=" Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies. A promising approach to enforcing these policies is to use Information Flow Control (IFC) frameworks, which separate policy specification from the application code and automatically enforce policies either dynamically (at run time) or statically (at compile time). While static enforcement is desirable because it catches errors early and avoids run-time overhead, existing static IFC frameworks either lack support for expressive data-dependent policies (necessary in modern applications), or require manual proofs or annotations to be strewed throughout the application code.
+In this talk I will present Lifty, a static IFC framework that overcomes the limitations of existing static approaches. A Lifty programmer annotates the sources of sensitive data with expressive, data-dependent security policies, and Lifty statically and automatically verifies that the application handles the data according to the policies. Moreover, if verification fails, Lifty suggests a provably correct repair, thereby easing the programmer burden of implementing policy enforcing code throughout the application. The main insight behind Lifty is to encode information flow control using liquid types, an expressive yet decidable type system. Liquid types enable fully automatic checking of complex policies, and power our repair mechanism via type-driven error localization and patch synthesis. "><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-03-05T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-03-05T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-03-05-css-talk34/"},"name":"Liquid Information Flow Control","startDate":"2021-03-05T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Nadia Polikarpova, University of California, San Diego \\ When: 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 143454 \\ Title: {{ page.title }}\nAbstract:\\ Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies."}</script>
+<meta property="article:published_time" content="2021-03-05T17:00:00+00:00">
+<meta property="article:modified_time" content="2021-03-05T17:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-03-05-css-talk34/"},"name":"Liquid Information Flow Control","startDate":"2021-03-05T17:00:00Z","performer":{"@type":"Person","name":"Nadia Polikarpova"},"description":" Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies. A promising approach to enforcing these policies is to use Information Flow Control (IFC) frameworks, which separate policy specification from the application code and automatically enforce policies either dynamically (at run time) or statically (at compile time). While static enforcement is desirable because it catches errors early and avoids run-time overhead, existing static IFC frameworks either lack support for expressive data-dependent policies (necessary in modern applications), or require manual proofs or annotations to be strewed throughout the application code.\nIn this talk I will present Lifty, a static IFC framework that overcomes the limitations of existing static approaches. A Lifty programmer annotates the sources of sensitive data with expressive, data-dependent security policies, and Lifty statically and automatically verifies that the application handles the data according to the policies. Moreover, if verification fails, Lifty suggests a provably correct repair, thereby easing the programmer burden of implementing policy enforcing code throughout the application. The main insight behind Lifty is to encode information flow control using liquid types, an expressive yet decidable type system. Liquid types enable fully automatic checking of complex policies, and power our repair mechanism via type-driven error localization and patch synthesis. "}</script>
 <title>Liquid Information Flow Control | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=815ccc91543fbd2af0ab15b1c3c8fedd>
@@ -96,20 +96,38 @@ Abstract:\ Modern applications handle sensitive user data in complex ways, subje
 <div class="article-container pt-3">
 <h1>Liquid Information Flow Control</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/nadia-polikarpova/>Nadia Polikarpova</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies. A promising approach to enforcing these policies is to use Information Flow Control (IFC) frameworks, which separate policy specification from the application code and automatically enforce policies either dynamically (at run time) or statically (at compile time). While static enforcement is desirable because it catches errors early and avoids run-time overhead, existing static IFC frameworks either lack support for expressive data-dependent policies (necessary in modern applications), or require manual proofs or annotations to be strewed throughout the application code.
+In this talk I will present Lifty, a static IFC framework that overcomes the limitations of existing static approaches. A Lifty programmer annotates the sources of sensitive data with expressive, data-dependent security policies, and Lifty statically and automatically verifies that the application handles the data according to the policies. Moreover, if verification fails, Lifty suggests a provably correct repair, thereby easing the programmer burden of implementing policy enforcing code throughout the application. The main insight behind Lifty is to encode information flow control using liquid types, an expressive yet decidable type system. Liquid types enable fully automatic checking of complex policies, and power our repair mechanism via type-driven error localization and patch synthesis.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-Mar 5, 2021 12:00 AM
+Mar 5, 2021 5:00 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,19 +136,7 @@ Mar 5, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Nadia Polikarpova, University of California, San Diego \
-<strong>When:</strong> 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/my/securityseminar?pwd=UHBtVWtvSUs0STNoYTdiUmwreGRTUT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 143454 \
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-Modern applications handle sensitive user data in complex ways, subject to increasingly complex security policies. A promising approach to enforcing these policies is to use Information Flow Control (IFC) frameworks, which separate policy specification from the application code and automatically enforce policies either dynamically (at run time) or statically (at compile time). While static enforcement is desirable because it catches errors early and avoids run-time overhead, existing static IFC frameworks either lack support for expressive data-dependent policies (necessary in modern applications), or require manual proofs or annotations to be strewed throughout the application code.</p>
-<p>In this talk I will present Lifty, a static IFC framework that overcomes the limitations of existing static approaches. A Lifty programmer annotates the sources of sensitive data with expressive, data-dependent security policies, and Lifty statically and automatically verifies that the application handles the data according to the policies. Moreover, if verification fails, Lifty suggests a provably correct repair, thereby easing the programmer burden of implementing policy enforcing code throughout the application. The main insight behind Lifty is to encode information flow control using liquid types, an expressive yet decidable type system. Liquid types enable fully automatic checking of complex policies, and power our repair mechanism via type-driven error localization and patch synthesis.</p>
-<p><strong>Speaker Bio:</strong>\
-Nadia Polikarpova is an assistant professor at UC San Diego, and a member of the Programming Systems group. She received her Ph.D. in Computer Science from ETH Zurich in 2014, and then spent a couple years as a postdoctoral researcher at MIT. Nadia&rsquo;s research interests are in program synthesis, program verification, and type systems. She is a 2020 Sloan Fellow, and a recipient of the 2020 NSF Career Award and the 2020 Intel Rising Stars Award.</p>
-<h2 id=previous-talks>Previous Talks</h2>
-<p>{: .t60 }
-{% include list-posts tag=&lsquo;csstalk&rsquo;%}</p>
+<p>Nadia Polikarpova is an assistant professor at UC San Diego, and a member of the Programming Systems group. She received her Ph.D. in Computer Science from ETH Zurich in 2014, and then spent a couple years as a postdoctoral researcher at MIT. Nadia&rsquo;s research interests are in program synthesis, program verification, and type systems. She is a 2020 Sloan Fellow, and a recipient of the 2020 NSF Career Award and the 2020 Intel Rising Stars Award.</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

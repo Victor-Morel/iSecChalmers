@@ -4,8 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Deian Stefan, University of California, San Diego \ When: 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454 \ Title: {{ page.title }}
-Abstract:\ WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e.">
+<meta name=description content="WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e.g., C/C++ and Rust) in the browser. Since its initial design, though, Wasm has been increasingly used to sandbox untrusted code outside the browser. For example, Fastly and Cloudflare use Wasm to sandbox client applications running on their edge clouds, and with Mozilla we are using Wasm to sandbox libraries in Firefox. In this talk I will describe this effort and our effort to make Wasm more secure (e.g., by hardening Wasm against compiler bugs and Spectre attacks). ">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-03-12-css-talk35/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +23,11 @@ Abstract:\ WebAssembly (Wasm) is a portable bytecode originally designed to safe
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-03-12-css-talk35/">
 <meta property="og:title" content="Practical secure compilation using WebAssembly | Chalmers Security Lab">
-<meta property="og:description" content="Who: Deian Stefan, University of California, San Diego \ When: 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454 \ Title: {{ page.title }}
-Abstract:\ WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content="WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e.g., C/C++ and Rust) in the browser. Since its initial design, though, Wasm has been increasingly used to sandbox untrusted code outside the browser. For example, Fastly and Cloudflare use Wasm to sandbox client applications running on their edge clouds, and with Mozilla we are using Wasm to sandbox libraries in Firefox. In this talk I will describe this effort and our effort to make Wasm more secure (e.g., by hardening Wasm against compiler bugs and Spectre attacks). "><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-03-12T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-03-12T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-03-12-css-talk35/"},"name":"Practical secure compilation using WebAssembly","startDate":"2021-03-12T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Deian Stefan, University of California, San Diego \\ When: 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 143454 \\ Title: {{ page.title }}\nAbstract:\\ WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e."}</script>
+<meta property="article:published_time" content="2021-03-12T17:00:00+00:00">
+<meta property="article:modified_time" content="2021-03-12T17:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-03-12-css-talk35/"},"name":"Practical secure compilation using WebAssembly","startDate":"2021-03-12T17:00:00Z","performer":{"@type":"Person","name":"Deian Stefan"},"description":"WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e.g., C/C++ and Rust) in the browser. Since its initial design, though, Wasm has been increasingly used to sandbox untrusted code outside the browser. For example, Fastly and Cloudflare use Wasm to sandbox client applications running on their edge clouds, and with Mozilla we are using Wasm to sandbox libraries in Firefox. In this talk I will describe this effort and our effort to make Wasm more secure (e.g., by hardening Wasm against compiler bugs and Spectre attacks). "}</script>
 <title>Practical secure compilation using WebAssembly | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=3ea71c3e40de46567fdaaa4d27767fc1>
@@ -96,20 +94,37 @@ Abstract:\ WebAssembly (Wasm) is a portable bytecode originally designed to safe
 <div class="article-container pt-3">
 <h1>Practical secure compilation using WebAssembly</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/deian-stefan/>Deian Stefan</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e.g., C/C++ and Rust) in the browser. Since its initial design, though, Wasm has been increasingly used to sandbox untrusted code outside the browser. For example, Fastly and Cloudflare use Wasm to sandbox client applications running on their edge clouds, and with Mozilla we are using Wasm to sandbox libraries in Firefox. In this talk I will describe this effort and our effort to make Wasm more secure (e.g., by hardening Wasm against compiler bugs and Spectre attacks).</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-Mar 12, 2021 12:00 AM
+Mar 12, 2021 5:00 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,16 +133,6 @@ Mar 12, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Deian Stefan, University of California, San Diego \
-<strong>When:</strong> 17:00 - 18:00 Friday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/my/securityseminar?pwd=UHBtVWtvSUs0STNoYTdiUmwreGRTUT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 143454 \
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-WebAssembly (Wasm) is a portable bytecode originally designed to safely run native code (e.g., C/C++ and Rust) in the browser. Since its initial design, though, Wasm has been increasingly used to sandbox untrusted code outside the browser. For example, Fastly and Cloudflare use Wasm to sandbox client applications running on their edge clouds, and with Mozilla we are using Wasm to sandbox libraries in Firefox. In this talk I will describe this effort and our effort to make Wasm more secure (e.g., by hardening Wasm against compiler bugs and Spectre attacks).</p>
-<h2 id=previous-talks>Previous Talks</h2>
-<p>{: .t60 }
-{% include list-posts tag=&lsquo;csstalk&rsquo;%}</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

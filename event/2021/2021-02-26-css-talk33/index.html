@@ -4,8 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Stefano Calzavara, Università Ca' Foscari Venezia\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454 \ Title: {{ page.title }}
-Abstract:\ Web application security is a complicated matter.">
+<meta name=description content=" Web application security is a complicated matter. To assist site operators in secure web application development, browser vendors offer client-side security mechanisms designed to offer robust protection against common threats. Unfortunately, prior research showed that these mechanisms are often ineffective in practice for several reasons. In this talk, I provide yet another perspective on why client-side security mechanisms often fail, by focusing on the problem of inconsistent configuration. Inconsistencies not only affect web application security, but might also bias the results of web security measurements. In particular, I identify inconsistencies in the adoption of popular client-side security mechanisms like CSP, HSTS and cookie security attributes, which motivates the relevance of this issue and the need for further research on it. ">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-02-26-css-talk33/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +23,11 @@ Abstract:\ Web application security is a complicated matter.">
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-02-26-css-talk33/">
 <meta property="og:title" content="w0RLd w1dE W3b - The dangers of web security inconsistencies | Chalmers Security Lab">
-<meta property="og:description" content="Who: Stefano Calzavara, Università Ca' Foscari Venezia\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454 \ Title: {{ page.title }}
-Abstract:\ Web application security is a complicated matter."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content=" Web application security is a complicated matter. To assist site operators in secure web application development, browser vendors offer client-side security mechanisms designed to offer robust protection against common threats. Unfortunately, prior research showed that these mechanisms are often ineffective in practice for several reasons. In this talk, I provide yet another perspective on why client-side security mechanisms often fail, by focusing on the problem of inconsistent configuration. Inconsistencies not only affect web application security, but might also bias the results of web security measurements. In particular, I identify inconsistencies in the adoption of popular client-side security mechanisms like CSP, HSTS and cookie security attributes, which motivates the relevance of this issue and the need for further research on it. "><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-02-26T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-02-26T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-02-26-css-talk33/"},"name":"w0RLd w1dE W3b - The dangers of web security inconsistencies","startDate":"2021-02-26T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Stefano Calzavara, Università Ca' Foscari Venezia\\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 143454 \\ Title: {{ page.title }}\nAbstract:\\ Web application security is a complicated matter."}</script>
+<meta property="article:published_time" content="2021-02-26T13:15:00+00:00">
+<meta property="article:modified_time" content="2021-02-26T13:15:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-02-26-css-talk33/"},"name":"w0RLd w1dE W3b - The dangers of web security inconsistencies","startDate":"2021-02-26T13:15:00Z","performer":{"@type":"Person","name":"Stefano Calzavara"},"description":" Web application security is a complicated matter. To assist site operators in secure web application development, browser vendors offer client-side security mechanisms designed to offer robust protection against common threats. Unfortunately, prior research showed that these mechanisms are often ineffective in practice for several reasons. In this talk, I provide yet another perspective on why client-side security mechanisms often fail, by focusing on the problem of inconsistent configuration. Inconsistencies not only affect web application security, but might also bias the results of web security measurements. In particular, I identify inconsistencies in the adoption of popular client-side security mechanisms like CSP, HSTS and cookie security attributes, which motivates the relevance of this issue and the need for further research on it. "}</script>
 <title>w0RLd w1dE W3b - The dangers of web security inconsistencies | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=f4b7d66502887b813c75c9c63e02ae69>
@@ -96,20 +94,37 @@ Abstract:\ Web application security is a complicated matter."><meta property="og
 <div class="article-container pt-3">
 <h1>w0RLd w1dE W3b - The dangers of web security inconsistencies</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/stefano-calzavara/>Stefano Calzavara</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>Web application security is a complicated matter. To assist site operators in secure web application development, browser vendors offer client-side security mechanisms designed to offer robust protection against common threats. Unfortunately, prior research showed that these mechanisms are often ineffective in practice for several reasons. In this talk, I provide yet another perspective on why client-side security mechanisms often fail, by focusing on the problem of inconsistent configuration. Inconsistencies not only affect web application security, but might also bias the results of web security measurements. In particular, I identify inconsistencies in the adoption of popular client-side security mechanisms like CSP, HSTS and cookie security attributes, which motivates the relevance of this issue and the need for further research on it.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-Feb 26, 2021 12:00 AM
+Feb 26, 2021 1:15 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,19 +133,8 @@ Feb 26, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Stefano Calzavara, Università Ca' Foscari Venezia\
-<strong>When:</strong> 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/my/securityseminar?pwd=UHBtVWtvSUs0STNoYTdiUmwreGRTUT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 143454 \
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-Web application security is a complicated matter. To assist site operators in secure web application development, browser vendors offer client-side security mechanisms designed to offer robust protection against common threats. Unfortunately, prior research showed that these mechanisms are often ineffective in practice for several reasons. In this talk, I provide yet another perspective on why client-side security mechanisms often fail, by focusing on the problem of inconsistent configuration. Inconsistencies not only affect web application security, but might also bias the results of web security measurements. In particular, I identify inconsistencies in the adoption of popular client-side security mechanisms like CSP, HSTS and cookie security attributes, which motivates the relevance of this issue and the need for further research on it.</p>
-<p><strong>Speaker Bio:</strong>\
-Stefano Calzavara is a tenure-track assistant professor at Università Ca' Foscari Venezia, Italy. He holds a National Scientific License (ASN) for the role of Associate Professor in Computer Science and Information Engineering from the end of 2019.</p>
+<p>Stefano Calzavara is a tenure-track assistant professor at Università Ca' Foscari Venezia, Italy. He holds a National Scientific License (ASN) for the role of Associate Professor in Computer Science and Information Engineering from the end of 2019.</p>
 <p>Stefano&rsquo;s research focuses on formal methods, computer security and their intersection, with a strong emphasis on web security. Stefano has published 46 papers on these topics at widely recognized international conferences and journals, including IEEE S&P, ACM CCS, NDSS, USENIX Security, WWW, IEEE CSF, ESOP, ACM CSUR, ACM TOPLAS and ACM TWEB. He is pleased to regularly serve in the program committees of a number of scientific events, including flagship conferences like ACM CCS, USENIX Security, WWW, IEEE EuroS&P and IEEE CSF.</p>
-<h2 id=previous-talks>Previous Talks</h2>
-<p>{: .t60 }
-{% include list-posts tag=&lsquo;csstalk&rsquo;%}</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

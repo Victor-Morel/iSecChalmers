@@ -4,8 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.2.0 for Hugo">
-<meta name=description content="Who: Sandro Stucki\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454\ Title: {{ page.title }}
-Abstract:\ {{ page.teaser }}">
+<meta name=description content="In this talk, I will present some work in progress on using IFC principles for enforcing GDPR-style privacy principles. Privacy legislation such as the GDPR specifies legal requirements for protecting the private data of individuals but remains vague about how to implement such requirements in practice. Traditional security mechanisms such as cryptography or access control are blunt instruments for this job since they typically cannot distinguish between intended and inappropriate usage of private data. To complement them, I propose a programming language-based framework that uses IFC mechanisms to enforce privacy principles such as purpose limitation and data minimization. I will start by illustrating how these principles are ultimately about information flow and how they can be integrated in existing IFC frameworks. I’ll then sketch a simple type system for tracking secure and private information flow.">
 <link rel=alternate hreflang=en-us href=iSec/event/2021/2021-05-07-css-talk40/>
 <meta name=theme-color content="#1565c0">
 <script src=/iSec/js/mathjax-config.js></script>
@@ -24,12 +23,11 @@ Abstract:\ {{ page.teaser }}">
 <meta property="og:site_name" content="Chalmers Security Lab">
 <meta property="og:url" content="iSec/event/2021/2021-05-07-css-talk40/">
 <meta property="og:title" content="Can we enforce GDPR principles via information flow control? | Chalmers Security Lab">
-<meta property="og:description" content="Who: Sandro Stucki\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\ Where: Zoom\ Password: 143454\ Title: {{ page.title }}
-Abstract:\ {{ page.teaser }}"><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
+<meta property="og:description" content="In this talk, I will present some work in progress on using IFC principles for enforcing GDPR-style privacy principles. Privacy legislation such as the GDPR specifies legal requirements for protecting the private data of individuals but remains vague about how to implement such requirements in practice. Traditional security mechanisms such as cryptography or access control are blunt instruments for this job since they typically cannot distinguish between intended and inappropriate usage of private data. To complement them, I propose a programming language-based framework that uses IFC mechanisms to enforce privacy principles such as purpose limitation and data minimization. I will start by illustrating how these principles are ultimately about information flow and how they can be integrated in existing IFC frameworks. I’ll then sketch a simple type system for tracking secure and private information flow."><meta property="og:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-05-07T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-05-07T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-05-07-css-talk40/"},"name":"Can we enforce GDPR principles via information flow control?","startDate":"2021-05-07T00:00:00Z","performer":{"@type":"Person","name":"Authors"},"description":"Who: Sandro Stucki\\ When: 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\\ Where: Zoom\\ Password: 143454\\ Title: {{ page.title }}\nAbstract:\\ {{ page.teaser }}"}</script>
+<meta property="article:published_time" content="2021-05-07T13:15:00+00:00">
+<meta property="article:modified_time" content="2021-05-07T13:15:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"iSec/event/2021/2021-05-07-css-talk40/"},"name":"Can we enforce GDPR principles via information flow control?","startDate":"2021-05-07T13:15:00Z","performer":{"@type":"Person","name":"Sandro Stucki"},"description":"In this talk, I will present some work in progress on using IFC principles for enforcing GDPR-style privacy principles. Privacy legislation such as the GDPR specifies legal requirements for protecting the private data of individuals but remains vague about how to implement such requirements in practice. Traditional security mechanisms such as cryptography or access control are blunt instruments for this job since they typically cannot distinguish between intended and inappropriate usage of private data. To complement them, I propose a programming language-based framework that uses IFC mechanisms to enforce privacy principles such as purpose limitation and data minimization. I will start by illustrating how these principles are ultimately about information flow and how they can be integrated in existing IFC frameworks. I’ll then sketch a simple type system for tracking secure and private information flow."}</script>
 <title>Can we enforce GDPR principles via information flow control? | Chalmers Security Lab</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=1c4a7d4064319d7b342ca4e0498ed8c3>
@@ -96,20 +94,37 @@ Abstract:\ {{ page.teaser }}"><meta property="og:image" content="/iSec/media/ico
 <div class="article-container pt-3">
 <h1>Can we enforce GDPR principles via information flow control?</h1>
 <div class=article-metadata>
-<span class=middot-divider></span>
-<span class=article-categories>
-<i class="fas fa-folder mr-1"></i><a href=iSec/category/talk/>talk</a></span>
+<div>
+<span>
+<a href=iSec/author/sandro-stucki/>Sandro Stucki</a></span>
+</div>
 </div>
 </div>
 <div class=article-container>
-<br>
+<h3>Abstract</h3>
+<p class=pub-abstract>In this talk, I will present some work in progress on using IFC principles for enforcing GDPR-style privacy principles. Privacy legislation such as the GDPR specifies legal requirements for protecting the private data of individuals but remains vague about how to implement such requirements in practice. Traditional security mechanisms such as cryptography or access control are blunt instruments for this job since they typically cannot distinguish between intended and inappropriate usage of private data. To complement them, I propose a programming language-based framework that uses IFC mechanisms to enforce privacy principles such as purpose limitation and data minimization. I will start by illustrating how these principles are ultimately about information flow and how they can be integrated in existing IFC frameworks. I’ll then sketch a simple type system for tracking secure and private information flow.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Date</div>
 <div class="col-12 col-md-9">
-May 7, 2021 12:00 AM
+May 7, 2021 1:15 PM
+</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Event</div>
+<div class="col-12 col-md-9">
+<a href="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09" target=_blank rel=noopener>
+Zoom
+</a>
 </div>
 </div>
 </div>
@@ -118,13 +133,6 @@ May 7, 2021 12:00 AM
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
 <div class=article-style>
-<p><strong>Who:</strong> Sandro Stucki\
-<strong>When:</strong> 13:15 - 14:15 Friday {{ page.date | date_to_long_string }}\
-<strong>Where:</strong> <a href="https://chalmers.zoom.us/my/securityseminar?pwd=UHBtVWtvSUs0STNoYTdiUmwreGRTUT09" target=_blank rel=noopener>Zoom</a>\
-<strong>Password:</strong> 143454\
-<strong>Title: {{ page.title }}</strong></p>
-<p><strong>Abstract:</strong>\
-{{ page.teaser }}</p>
 </div>
 <div class=article-tags>
 <a class="badge badge-light" href=iSec/tag/csstalk/>csstalk</a>

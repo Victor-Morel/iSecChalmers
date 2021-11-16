@@ -21,5 +21,5 @@ design:
 
 <br>
 
-**Chalmers Security Lab** has been a center of excellence for Systems Security research, teaching, and practice since 
-its founding in 2016.
+**Chalmers Security Lab** is a center of excellence for Security and Privacy research and teaching at 
+Chalmers University of Technology and Gothenburg University.

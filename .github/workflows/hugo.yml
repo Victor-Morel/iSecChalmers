@@ -17,6 +17,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.84.1"
+          extended: true
       
       - name: Set up Python 3.8
         uses: actions/setup-python@v2

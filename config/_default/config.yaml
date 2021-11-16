@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Chalmers Security Lab # Website name
-baseurl: 'iSec/' # Website URL
+baseurl: 'https://www.cse.chalmers.se' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################

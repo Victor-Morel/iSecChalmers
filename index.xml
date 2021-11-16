@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chalmers Security Lab</title><link>iSec/</link><atom:link href="iSec/index.xml" rel="self" type="application/rss+xml"/><description>Chalmers Security Lab</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Nov 2021 13:15:00 +0000</lastBuildDate><image><url>/iSec/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Chalmers Security Lab</title><link>iSec/</link></image><item><title>Is Privacy by Construction Possible?</title><link>iSec/event/2021/2021-11-19-gerardo/</link><pubDate>Fri, 19 Nov 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-11-19-gerardo/</guid><description>&lt;p>Gerardo Schneider is a professor of Computer Science at the University of Gothenburg, Sweden. He had previously been at VERIMAG (Grenoble, France), Uppsala University (Sweden), Irisa/INRIA (Rennes, France), and the University of Oslo (Norway). He currently is the Head of the Formal Methods Unit at the Dept. of Computer Science and Engineering (since 2017). His research interests include formal verification (runtime verification, model checking, and verification of real-time and hybrid systems), the specification and analysis of normative documents, and privacy.&lt;/p></description></item><item><title>CoVault: Facilitating highly secure, high-stakes data analytics</title><link>iSec/event/2021/2021-11-03-deepak/</link><pubDate>Wed, 03 Nov 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-11-03-deepak/</guid><description>&lt;p>Deepak Garg is a tenured faculty member at the Max Planck Institute
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chalmers Security Lab</title><link>iSec/</link><atom:link href="iSec/index.xml" rel="self" type="application/rss+xml"/><description>Chalmers Security Lab</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Nov 2021 13:15:00 +0000</lastBuildDate><image><url>/iSec/media/icon_huf405b5a3d64669240eafa59ffeef17e8_561926_512x512_fill_lanczos_center_2.png</url><title>Chalmers Security Lab</title><link>iSec/</link></image><item><title>Is Privacy by Construction Possible?</title><link>iSec/event/2021/2021-11-19-gerardo/</link><pubDate>Fri, 19 Nov 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-11-19-gerardo/</guid><description>&lt;p>Gerardo Schneider is a professor of Computer Science at the University of Gothenburg, Sweden. He had previously been at VERIMAG (Grenoble, France), Uppsala University (Sweden), Irisa/INRIA (Rennes, France), and the University of Oslo (Norway). He currently is the Head of the Formal Methods Unit at the Dept. of Computer Science and Engineering (since 2017). His research interests include formal verification (runtime verification, model checking, and verification of real-time and hybrid systems), the specification and analysis of normative documents, and privacy.&lt;/p></description></item><item><title>CoVault: Facilitating highly secure, high-stakes data analytics</title><link>iSec/event/2021/2021-11-03-deepak/</link><pubDate>Wed, 03 Nov 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-11-03-deepak/</guid><description>&lt;p>Deepak Garg is a tenured faculty member at the Max Planck Institute
 for Software Systems in Kaiserslautern and Saarbruecken, Germany. His
 research focuses on the design of secure software systems,
 language-based security and programming languages. Deepak has a PhD
@@ -42,14 +42,14 @@ his masters from UW-Madison.&lt;/p></description></item><item><title>Practical D
 &lt;p>Other honorary doctors will speak before and after Simone - feel free
 to attend the whole event 4pm-6pm! (If you attend in person, please do
 come at 4pm.)&lt;/p>
-&lt;p>Limited seats, register via &lt;a href="mailto:events@chalmers.se">events@chalmers.se&lt;/a> to attend in person.&lt;/p></description></item><item><title>Differential Privacy — A Balancing Act</title><link>iSec/event/2021/2021-06-18-css-talk45/</link><pubDate>Fri, 18 Jun 2021 14:00:00 +0000</pubDate><guid>iSec/event/2021/2021-06-18-css-talk45/</guid><description>&lt;p>More details about the thesis: &lt;a href="https://research.chalmers.se/en/publication/523824" target="_blank" rel="noopener">https://research.chalmers.se/en/publication/523824&lt;/a>&lt;/p>
+&lt;p>Limited seats, register via &lt;a href="mailto:events@chalmers.se">events@chalmers.se&lt;/a> to attend in person.&lt;/p></description></item><item><title>Modelling cryptographic distinguishers using machine learning</title><link>iSec/publication/brunetta-2021/</link><pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate><guid>iSec/publication/brunetta-2021/</guid><description/></item><item><title>Differential Privacy — A Balancing Act</title><link>iSec/event/2021/2021-06-18-css-talk45/</link><pubDate>Fri, 18 Jun 2021 14:00:00 +0000</pubDate><guid>iSec/event/2021/2021-06-18-css-talk45/</guid><description>&lt;p>More details about the thesis: &lt;a href="https://research.chalmers.se/en/publication/523824">https://research.chalmers.se/en/publication/523824&lt;/a>&lt;/p>
 &lt;p>Zoom Password: 1999&lt;/p></description></item><item><title>High-Assurance Cryptography Software in the Spectre Era</title><link>iSec/event/2021/2021-06-11-css-talk44/</link><pubDate>Fri, 11 Jun 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-06-11-css-talk44/</guid><description>&lt;p>To appear in the Proceedings of the IEEE Symposium on Security and
-Privacy, 2021. &lt;a href="https://eprint.iacr.org/2020/1104" target="_blank" rel="noopener">https://eprint.iacr.org/2020/1104&lt;/a>&lt;/p></description></item><item><title>A different perspective on libraries for information-flow control</title><link>iSec/event/2021/2021-06-04-css-talk43/</link><pubDate>Fri, 04 Jun 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-06-04-css-talk43/</guid><description/></item><item><title>Fuzz Testing Automotive Systems - Process and Practice</title><link>iSec/event/2021/2021-05-27-css-talk42/</link><pubDate>Thu, 27 May 2021 10:00:00 +0000</pubDate><guid>iSec/event/2021/2021-05-27-css-talk42/</guid><description/></item><item><title>Can we enforce GDPR principles via information flow control?</title><link>iSec/event/2021/2021-05-07-css-talk40/</link><pubDate>Fri, 07 May 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-05-07-css-talk40/</guid><description/></item><item><title>A Quantale of Information</title><link>iSec/event/2021/2021-04-29-css-talk39/</link><pubDate>Thu, 29 Apr 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-04-29-css-talk39/</guid><description>&lt;p>Joint work with Sebastian Hunt, City, University of London. (Conditionally accepted to CSF 2021.)&lt;/p></description></item><item><title>On the Evolution of IT Security</title><link>iSec/event/2021/2021-04-16-css-talk38/</link><pubDate>Fri, 16 Apr 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-04-16-css-talk38/</guid><description>&lt;p>David Jacoby is a senior security researcher at Kaspersky Lab. David has worked with IT security for over 25 years, and his fields of expertise include vulnerability and threat research, product and security audits, penetration tests, and security research. In his day to day job, David works on improving awareness of the current and future threats and vulnerabilities to which both consumers and large enterprises are exposed and fight cybercrime.&lt;/p>
+Privacy, 2021. &lt;a href="https://eprint.iacr.org/2020/1104">https://eprint.iacr.org/2020/1104&lt;/a>&lt;/p></description></item><item><title>A different perspective on libraries for information-flow control</title><link>iSec/event/2021/2021-06-04-css-talk43/</link><pubDate>Fri, 04 Jun 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-06-04-css-talk43/</guid><description/></item><item><title>Fuzz Testing Automotive Systems - Process and Practice</title><link>iSec/event/2021/2021-05-27-css-talk42/</link><pubDate>Thu, 27 May 2021 10:00:00 +0000</pubDate><guid>iSec/event/2021/2021-05-27-css-talk42/</guid><description/></item><item><title>Can we enforce GDPR principles via information flow control?</title><link>iSec/event/2021/2021-05-07-css-talk40/</link><pubDate>Fri, 07 May 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-05-07-css-talk40/</guid><description/></item><item><title>A Quantale of Information</title><link>iSec/event/2021/2021-04-29-css-talk39/</link><pubDate>Thu, 29 Apr 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-04-29-css-talk39/</guid><description>&lt;p>Joint work with Sebastian Hunt, City, University of London. (Conditionally accepted to CSF 2021.)&lt;/p></description></item><item><title>On the Evolution of IT Security</title><link>iSec/event/2021/2021-04-16-css-talk38/</link><pubDate>Fri, 16 Apr 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-04-16-css-talk38/</guid><description>&lt;p>David Jacoby is a senior security researcher at Kaspersky Lab. David has worked with IT security for over 25 years, and his fields of expertise include vulnerability and threat research, product and security audits, penetration tests, and security research. In his day to day job, David works on improving awareness of the current and future threats and vulnerabilities to which both consumers and large enterprises are exposed and fight cybercrime.&lt;/p>
 &lt;p>In addition, David worked as the technical advisor for the continuation of the Millennium books written by David Lagercrantz. He has also been included in multiple other books such as &amp;ldquo;A Guide to Kernel Exploitation: Attacking the Core&amp;rdquo;, &amp;ldquo;Generation 500&amp;rdquo; and &amp;ldquo;Svenska Hackare&amp;rdquo;. Additional to being an advisor for book projects David is also often seen on TV in programs such as “Stoppa Tjuven” and TV4 Nyhetsmorgon.&lt;/p></description></item><item><title>SoK: Chasing Accuracy and Privacy, and Catching Both in Differentially Private Histogram Publication</title><link>iSec/event/2021/2021-04-09-css-talk37/</link><pubDate>Fri, 09 Apr 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-04-09-css-talk37/</guid><description/></item><item><title>Towards new fuzzing frontiers: exploring the boundaries of testing</title><link>iSec/event/2021/2021-03-18-css-talk36/</link><pubDate>Thu, 18 Mar 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-03-18-css-talk36/</guid><description>&lt;p>Mathias Payer is a security researcher and assistant professor at EPFL, leading the HexHive group. His research focuses on protecting applications in the presence of vulnerabilities, with a focus on memory corruption and type violations. He is interested in software security, system security, binary exploitation, effective mitigations, fault isolation/privilege separation, strong sanitization, and software testing (fuzzing) using a combination of binary analysis and
-compiler-based techniques. Research in the HexHive group is generously supported by the ERC, SNSF, DARPA, ONR, AFOSR, or NSF, as well as several industry partners. Follow him on Twitter @gannimo. Details about his group are at &lt;a href="https://hexhive.epfl.ch" target="_blank" rel="noopener">https://hexhive.epfl.ch&lt;/a>&lt;/p></description></item><item><title>Practical secure compilation using WebAssembly</title><link>iSec/event/2021/2021-03-12-css-talk35/</link><pubDate>Fri, 12 Mar 2021 17:00:00 +0000</pubDate><guid>iSec/event/2021/2021-03-12-css-talk35/</guid><description/></item><item><title>Liquid Information Flow Control</title><link>iSec/event/2021/2021-03-05-css-talk34/</link><pubDate>Fri, 05 Mar 2021 17:00:00 +0000</pubDate><guid>iSec/event/2021/2021-03-05-css-talk34/</guid><description>&lt;p>Nadia Polikarpova is an assistant professor at UC San Diego, and a member of the Programming Systems group. She received her Ph.D. in Computer Science from ETH Zurich in 2014, and then spent a couple years as a postdoctoral researcher at MIT. Nadia&amp;rsquo;s research interests are in program synthesis, program verification, and type systems. She is a 2020 Sloan Fellow, and a recipient of the 2020 NSF Career Award and the 2020 Intel Rising Stars Award.&lt;/p></description></item><item><title>w0RLd w1dE W3b - The dangers of web security inconsistencies</title><link>iSec/event/2021/2021-02-26-css-talk33/</link><pubDate>Fri, 26 Feb 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-02-26-css-talk33/</guid><description>&lt;p>Stefano Calzavara is a tenure-track assistant professor at Università Ca' Foscari Venezia, Italy. He holds a National Scientific License (ASN) for the role of Associate Professor in Computer Science and Information Engineering from the end of 2019.&lt;/p>
-&lt;p>Stefano&amp;rsquo;s research focuses on formal methods, computer security and their intersection, with a strong emphasis on web security. Stefano has published 46 papers on these topics at widely recognized international conferences and journals, including IEEE S&amp;amp;P, ACM CCS, NDSS, USENIX Security, WWW, IEEE CSF, ESOP, ACM CSUR, ACM TOPLAS and ACM TWEB. He is pleased to regularly serve in the program committees of a number of scientific events, including flagship conferences like ACM CCS, USENIX Security, WWW, IEEE EuroS&amp;amp;P and IEEE CSF.&lt;/p></description></item><item><title>Let's not make a fuzz about it</title><link>iSec/event/2021/2021-02-19-css-talk32/</link><pubDate>Fri, 19 Feb 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-02-19-css-talk32/</guid><description/></item><item><title>HMAC and 'Secure Preferences': Revisiting Chromium-Based Browsers Security</title><link>iSec/event/2021/2021-02-05-css-talk31/</link><pubDate>Fri, 05 Feb 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-02-05-css-talk31/</guid><description/></item><item><title>Security Assurance Cases for Road Vehicles: an Industry Perspective</title><link>iSec/event/2021/2021-01-29-css-talk30/</link><pubDate>Fri, 29 Jan 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-01-29-css-talk30/</guid><description/></item><item><title>An Overview of Vehicular Security</title><link>iSec/event/2021/2021-01-22-css-talk29/</link><pubDate>Fri, 22 Jan 2021 13:30:00 +0000</pubDate><guid>iSec/event/2021/2021-01-22-css-talk29/</guid><description/></item><item><title>Decentralized Action Integrity for Trigger-Action Platforms</title><link>iSec/event/2020/2020-11-20-css-talk28/</link><pubDate>Fri, 20 Nov 2020 16:00:00 +0000</pubDate><guid>iSec/event/2020/2020-11-20-css-talk28/</guid><description>&lt;p>Earlence Fernandes (&lt;a href="http://www.earlence.com/" target="_blank" rel="noopener">http://www.earlence.com/&lt;/a>) is an Assistant Professor in the Computer Sciences department at UW Madison. His research interests are in emerging cyber-physical systems like smart homes, buildings and vehicles. He has been awarded two best papers (at Oakland and IEEE SecDev) for his work on smart homes. He earned his PhD at the University of Michigan in 2017.&lt;/p></description></item><item><title>When Good Components Go Bad: Formally Secure Compilation Despite Dynamic Compromise</title><link>iSec/event/2019/2019-12-05-css-talk27/</link><pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-12-05-css-talk27/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Catalin Hritcu from Inria Paris, France \
-&lt;strong>When:&lt;/strong> 14:00 - 15:00 Thursday {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> Room ES52, Linsen (Maskingränd 2).\
+compiler-based techniques. Research in the HexHive group is generously supported by the ERC, SNSF, DARPA, ONR, AFOSR, or NSF, as well as several industry partners. Follow him on Twitter @gannimo. Details about his group are at &lt;a href="https://hexhive.epfl.ch">https://hexhive.epfl.ch&lt;/a>&lt;/p></description></item><item><title>Practical secure compilation using WebAssembly</title><link>iSec/event/2021/2021-03-12-css-talk35/</link><pubDate>Fri, 12 Mar 2021 17:00:00 +0000</pubDate><guid>iSec/event/2021/2021-03-12-css-talk35/</guid><description/></item><item><title>Liquid Information Flow Control</title><link>iSec/event/2021/2021-03-05-css-talk34/</link><pubDate>Fri, 05 Mar 2021 17:00:00 +0000</pubDate><guid>iSec/event/2021/2021-03-05-css-talk34/</guid><description>&lt;p>Nadia Polikarpova is an assistant professor at UC San Diego, and a member of the Programming Systems group. She received her Ph.D. in Computer Science from ETH Zurich in 2014, and then spent a couple years as a postdoctoral researcher at MIT. Nadia&amp;rsquo;s research interests are in program synthesis, program verification, and type systems. She is a 2020 Sloan Fellow, and a recipient of the 2020 NSF Career Award and the 2020 Intel Rising Stars Award.&lt;/p></description></item><item><title>w0RLd w1dE W3b - The dangers of web security inconsistencies</title><link>iSec/event/2021/2021-02-26-css-talk33/</link><pubDate>Fri, 26 Feb 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-02-26-css-talk33/</guid><description>&lt;p>Stefano Calzavara is a tenure-track assistant professor at Università Ca' Foscari Venezia, Italy. He holds a National Scientific License (ASN) for the role of Associate Professor in Computer Science and Information Engineering from the end of 2019.&lt;/p>
+&lt;p>Stefano&amp;rsquo;s research focuses on formal methods, computer security and their intersection, with a strong emphasis on web security. Stefano has published 46 papers on these topics at widely recognized international conferences and journals, including IEEE S&amp;amp;P, ACM CCS, NDSS, USENIX Security, WWW, IEEE CSF, ESOP, ACM CSUR, ACM TOPLAS and ACM TWEB. He is pleased to regularly serve in the program committees of a number of scientific events, including flagship conferences like ACM CCS, USENIX Security, WWW, IEEE EuroS&amp;amp;P and IEEE CSF.&lt;/p></description></item><item><title>Let's not make a fuzz about it</title><link>iSec/event/2021/2021-02-19-css-talk32/</link><pubDate>Fri, 19 Feb 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-02-19-css-talk32/</guid><description/></item><item><title>HMAC and 'Secure Preferences': Revisiting Chromium-Based Browsers Security</title><link>iSec/event/2021/2021-02-05-css-talk31/</link><pubDate>Fri, 05 Feb 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-02-05-css-talk31/</guid><description/></item><item><title>Security Assurance Cases for Road Vehicles: an Industry Perspective</title><link>iSec/event/2021/2021-01-29-css-talk30/</link><pubDate>Fri, 29 Jan 2021 13:15:00 +0000</pubDate><guid>iSec/event/2021/2021-01-29-css-talk30/</guid><description/></item><item><title>An Overview of Vehicular Security</title><link>iSec/event/2021/2021-01-22-css-talk29/</link><pubDate>Fri, 22 Jan 2021 13:30:00 +0000</pubDate><guid>iSec/event/2021/2021-01-22-css-talk29/</guid><description/></item><item><title>Decentralized Action Integrity for Trigger-Action Platforms</title><link>iSec/event/2020/2020-11-20-css-talk28/</link><pubDate>Fri, 20 Nov 2020 16:00:00 +0000</pubDate><guid>iSec/event/2020/2020-11-20-css-talk28/</guid><description>&lt;p>Earlence Fernandes (&lt;a href="http://www.earlence.com/">http://www.earlence.com/&lt;/a>) is an Assistant Professor in the Computer Sciences department at UW Madison. His research interests are in emerging cyber-physical systems like smart homes, buildings and vehicles. He has been awarded two best papers (at Oakland and IEEE SecDev) for his work on smart homes. He earned his PhD at the University of Michigan in 2017.&lt;/p></description></item><item><title>After you, please: browser extensions order attacks and countermeasures</title><link>iSec/publication/picazo-2019/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>iSec/publication/picazo-2019/</guid><description/></item><item><title>Are the Interpulse Intervals of an ECG signal a good source of entropy? An in-depth entropy analysis based on NIST 800-90B recommendation</title><link>iSec/publication/ortiz-2019-a/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>iSec/publication/ortiz-2019-a/</guid><description/></item><item><title>HMAC and “secure preferences”: Revisiting chromium-based browsers security</title><link>iSec/publication/picazo-sanchez-2020/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>iSec/publication/picazo-sanchez-2020/</guid><description/></item><item><title>When Good Components Go Bad: Formally Secure Compilation Despite Dynamic Compromise</title><link>iSec/event/2019/2019-12-05-css-talk27/</link><pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-12-05-css-talk27/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Catalin Hritcu from Inria Paris, France \&lt;br>
+&lt;strong>When:&lt;/strong> 14:00 - 15:00 Thursday {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> Room ES52, Linsen (Maskingränd 2).\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;/p>
 &lt;p>We propose a new formal criterion for evaluating secure
@@ -91,9 +91,9 @@ Paris, and was previously also a Research Associate at University of
 Pennsylvania and a Visiting Researcher at Microsoft Research Redmond.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Risk Analysis of Privacy Policies</title><link>iSec/event/2019/2019-11-22-css-talk26/</link><pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-11-22-css-talk26/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Raúl Pardo Jimenez from IT University of Copenhagen, Denmark \
-&lt;strong>When:&lt;/strong> 11:00 - 12:00 Friday {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> Room 8103, EDIT building.\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Risk Analysis of Privacy Policies</title><link>iSec/event/2019/2019-11-22-css-talk26/</link><pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-11-22-css-talk26/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Raúl Pardo Jimenez from IT University of Copenhagen, Denmark \&lt;br>
+&lt;strong>When:&lt;/strong> 11:00 - 12:00 Friday {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 8103, EDIT building.\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;/p>
 &lt;p>In this talk, I present an approach to enhance informed consent
@@ -107,14 +107,14 @@ illustrated with an IoT example.&lt;/p>
 &lt;p>This talk is based on work published at
 DBSec19, and a paper under submission to the Journal of Computer
 Security. You can find an publicly available version of the paper here
-&lt;a href="https://hal.inria.fr/hal-02067924v2" target="_blank" rel="noopener">https://hal.inria.fr/hal-02067924v2&lt;/a>&lt;/p>
+&lt;a href="https://hal.inria.fr/hal-02067924v2">https://hal.inria.fr/hal-02067924v2&lt;/a>&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>The Simplest Multi-key Linearly Homomorphic Signature Scheme</title><link>iSec/event/2019/2019-10-17-css-talk25/</link><pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-10-17-css-talk25/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Elena Pagnin from Aarhus University, Denmark \
-&lt;strong>When:&lt;/strong> 10:00 - 11:00 Thursday {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> Room 8103, EDIT building.\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>The Simplest Multi-key Linearly Homomorphic Signature Scheme</title><link>iSec/event/2019/2019-10-17-css-talk25/</link><pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-10-17-css-talk25/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Elena Pagnin from Aarhus University, Denmark \&lt;br>
+&lt;strong>When:&lt;/strong> 10:00 - 11:00 Thursday {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 8103, EDIT building.\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 We consider the problem of outsourcing computation on data authenticated by different users.
 Our aim is to describe and implement the simplest possible solution to provide data integrity in cloud-based scenarios.
 Concretely, our multi-key linearly homomorphic signature scheme (mklhs) allows users to upload signed data on a server,
@@ -130,9 +130,9 @@ hashing inpairing groups.
 We provide a discussion on such trade-offs that can be useful to other implementers of pairing-based protocols.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>The Rush Dilemma: Attacking and Repairing Smart Contracts on Forking Blockchains</title><link>iSec/event/2019/2019-10-16-css-talk24/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-10-16-css-talk24/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Daniele Friolo from Sapienza University of Rome, Italy \
-&lt;strong>When:&lt;/strong> 15:00 - 16:00 Wednesday {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> Room 5128, EDIT building.\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>The Rush Dilemma: Attacking and Repairing Smart Contracts on Forking Blockchains</title><link>iSec/event/2019/2019-10-16-css-talk24/</link><pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-10-16-css-talk24/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Daniele Friolo from Sapienza University of Rome, Italy \&lt;br>
+&lt;strong>When:&lt;/strong> 15:00 - 16:00 Wednesday {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 5128, EDIT building.\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;/p>
 &lt;p>We investigate the security of smart contracts within a blockchain that can fork (as Bitcoin and Ethereum). In particular, we focus on multi-party computation (MPC) protocols run on-chain with the aid of smart contracts, and observe that honest players face the following dilemma: Should I rush sending protocol&amp;rsquo;s messages based on the current view of the blockchain, or rather wait that a message is confirmed on the chain before sending the next one?&lt;/p>
@@ -145,30 +145,30 @@ We provide a discussion on such trade-offs that can be useful to other implement
 &lt;p>Our techniques are inspired by ideas on resettably secure computation (Goyal and Sahai, EUROCRYPT &amp;lsquo;09). We also provide a prototype implementation of our coin tossing protocol using Ethereum smart contracts, and instantiate our generic compiler in a concrete setting, showing that both our constructions yield considerable improvements in terms of efficiency.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>SAID: Reshaping Signal into an Identity-Based Asynchronous Messaging Protocol with Authenticated Ratcheting</title><link>iSec/event/2019/2019-04-24-css-talk23/</link><pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-04-24-css-talk23/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Elena Pagnin from Aarhus University, Denmark \
-&lt;strong>When:&lt;/strong> 10:00 - 11:00 Wednesday {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> Room Analysen, EDIT building.\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>SAID: Reshaping Signal into an Identity-Based Asynchronous Messaging Protocol with Authenticated Ratcheting</title><link>iSec/event/2019/2019-04-24-css-talk23/</link><pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate><guid>iSec/event/2019/2019-04-24-css-talk23/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Elena Pagnin from Aarhus University, Denmark \&lt;br>
+&lt;strong>When:&lt;/strong> 10:00 - 11:00 Wednesday {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> Room Analysen, EDIT building.\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 As messaging applications are becoming increasingly popular, it is of utmost importance to analyze their security and mitigate existing weaknesses. This paper focuses on one of the most acclaimed messaging applications: Signal.&lt;/p>
 &lt;p>Signal is a protocol that provides end-to-end channel security, forward secrecy, and post-compromise security. These features are achieved thanks to a key-ratcheting mechanism that updates the key material at every message. Due to its high security impact, Signal’s key-ratcheting has recently been formalized, along with an analysis of its security.&lt;/p>
 &lt;p>In this paper, we revisit Signal, describing some attacks against the original design and proposing SAID: Signal Authenticated and IDentity-based. As the name indicates, our protocol relies on an identity-based setup, which allows us to dispense with Signal’s centralized server. We use the identity-based long-term secrets to obtain persistent and explicit authentication, such that SAID achieves higher security guarantees than Signal.&lt;/p>
 &lt;p>We prove the security of SAID not only in the Authenticated Key Exchange (AKE) model (as done by previous work), but also in the Authenticated and Confidential Channel Establishment (ACCE) model, which we adapted and redefined for SAID and asynchronous messaging protocols in general into a model we call identity-based Multistage Asynchronous Messaging (iMAM). We believe our model to be more faithful in particular to the true security of Signal, whose use of the message keys prevents them from achieving the composable guarantee claimed by previous analysis.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>An example preprint / working paper</title><link>iSec/publication/preprint/</link><pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate><guid>iSec/publication/preprint/</guid><description>&lt;p>Supplementary notes can be added here, including &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">code and math&lt;/a>.&lt;/p></description></item><item><title>Trusted Execution Environments for Privacy-preserving Cloud Applications</title><link>iSec/event/2018/2018-01-26-css-talk22/</link><pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate><guid>iSec/event/2018/2018-01-26-css-talk22/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Pascal Felber from the University of Neuchâtel, Switzerland \
-&lt;strong>When:&lt;/strong> 11:15 - 12:30 Friday{{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> EL42, EDIT building.\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Feasibility analysis of Inter-Pulse Intervals based solutions for cryptographic token generation by two electrocardiogram sensors</title><link>iSec/publication/ortiz-martin-2019/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>iSec/publication/ortiz-martin-2019/</guid><description/></item><item><title>Latex Gloves: Protecting Browser Extensions from Probing and Revelation Attacks</title><link>iSec/publication/sjosten-2019/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>iSec/publication/sjosten-2019/</guid><description/></item><item><title>Trusted Execution Environments for Privacy-preserving Cloud Applications</title><link>iSec/event/2018/2018-01-26-css-talk22/</link><pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate><guid>iSec/event/2018/2018-01-26-css-talk22/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Pascal Felber from the University of Neuchâtel, Switzerland \&lt;br>
+&lt;strong>When:&lt;/strong> 11:15 - 12:30 Friday{{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> EL42, EDIT building.\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 In this talk, we will give an overview of popular trusted execution environments (TEEs), with special emphasis on Intel&amp;rsquo;s SGX, and we will describe how they can be exploited for implementing privacy-preserving operations in the Cloud that are both secure and efficient. We will discuss their main benefits and limitations, and we will present some of the recent systems that have been developed on top of them.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>CLIO: Cryptographically Secure Information Flow Control on Key-Value Stores</title><link>iSec/event/2017/2017-05-05-css-talk21/</link><pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-05-05-css-talk21/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Pablo Buiras, PhD from Chalmers, now PostDoc at Harvard university\
-&lt;strong>When:&lt;/strong> 10:30 - 11:30 Friday{{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> room EDIT 3364\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Heartbeats do not make good pseudo-random number generators: An analysis of the randomness of inter-pulse intervals</title><link>iSec/publication/ortiz-martin-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>iSec/publication/ortiz-martin-2018/</guid><description/></item><item><title>HIKE: Walking the privacy trail</title><link>iSec/publication/pagnin-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>iSec/publication/pagnin-2018/</guid><description/></item><item><title>Migrating monitors + ABE: A suitable combination for secure IoT?</title><link>iSec/publication/pace-2018/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>iSec/publication/pace-2018/</guid><description/></item><item><title>CLIO: Cryptographically Secure Information Flow Control on Key-Value Stores</title><link>iSec/event/2017/2017-05-05-css-talk21/</link><pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-05-05-css-talk21/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Pablo Buiras, PhD from Chalmers, now PostDoc at Harvard university\&lt;br>
+&lt;strong>When:&lt;/strong> 10:30 - 11:30 Friday{{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> room EDIT 3364\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Cryptography can in principle be used to protect users' data when stored
 or transmitted, but in practice is error-prone and can potentially
 result in a violation of a user&amp;rsquo;s security concerns.
@@ -187,11 +187,11 @@ with a novel proof technique composing cryptographic proof techniques with stand
 programming language techniques.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Historical Analyses of the Client-Side Web Security and How to tell people they have an issue</title><link>iSec/event/2017/2017-04-06-css-talk20/</link><pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-04-06-css-talk20/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> room EDIT 8103\
-&lt;strong>When:&lt;/strong> 9:30-10:30{{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> room EDIT 8103 \
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Historical Analyses of the Client-Side Web Security and How to tell people they have an issue</title><link>iSec/event/2017/2017-04-06-css-talk20/</link><pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-04-06-css-talk20/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> room EDIT 8103\&lt;br>
+&lt;strong>When:&lt;/strong> 9:30-10:30{{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> room EDIT 8103 \&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 In this talk, I will present two lines of research I am
 currently pursuing. On the one hand, my work focusses on client-side Web
 security. To better understand how the eco system evolved, we conducted
@@ -213,36 +213,36 @@ notifying at scale, moreover highlighting which of these areas require
 further research.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Recent work on probabilistic programming languages</title><link>iSec/event/2017/2017-03-06-css-talk19/</link><pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-03-06-css-talk19/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Daniel Huang \
-&lt;strong>When:&lt;/strong> 16.00 {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> 5128 (Grouproom) \
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Recent work on probabilistic programming languages</title><link>iSec/event/2017/2017-03-06-css-talk19/</link><pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-03-06-css-talk19/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Daniel Huang \&lt;br>
+&lt;strong>When:&lt;/strong> 16.00 {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> 5128 (Grouproom) \&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 In this talk, we will present some of our recent work on probabilistic programming languages. In the first half of the talk, we will describe a semantics for these languages based on Type-2 computable distributions. Such an approach enables us to reason denotationally about probabilistic programs as well as in terms of sampling. In the second half, we will describe a compiler for a simple probabilistic programming language. The compiler uses a sequence of intermediate languages to gradually and successively transform a specification of a probabilistic model into a Markov Chain Monte Carlo inference algorithm for execution on the CPU or GPU.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Privacy and security threat modeling: current research directions</title><link>iSec/event/2017/2017-02-08-css-talk18/</link><pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-02-08-css-talk18/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Riccardo Scandariato \
-&lt;strong>When:&lt;/strong> 11h00 - 11h30 {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> Lindholmen, Jupiter building, 4th floor, room 473\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Privacy and security threat modeling: current research directions</title><link>iSec/event/2017/2017-02-08-css-talk18/</link><pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate><guid>iSec/event/2017/2017-02-08-css-talk18/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Riccardo Scandariato \&lt;br>
+&lt;strong>When:&lt;/strong> 11h00 - 11h30 {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> Lindholmen, Jupiter building, 4th floor, room 473\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Threat analysis is the cornerstone of security-by-design and privacy-by-design approaches for building more secure and privacy-friendly software systems. Threat analysis provides the means to assess a design model (e.g., a software architecture) and identify potential flaws early on in the software development life-cycle. This talk will overview the issues we (empirically) found in state-of-the-practice threat analysis techniques.
 Moving forward, the talk will outline our present research directions in the field of threat analysis, with particular focus on a) improving the efficiency of said techniques and b) supporting automated analysis and refactoring.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Security and Privacy on Medical Devices</title><link>iSec/event/2016/2016-10-26-css-talk17/</link><pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-10-26-css-talk17/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Pablo Picazo\
-&lt;strong>When:&lt;/strong> Friday, {{ page.date | date_to_long_string }}\
-&lt;strong>Where:&lt;/strong> room 5128\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Secure photo sharing in social networks</title><link>iSec/publication/picazo-sanchez-2017/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>iSec/publication/picazo-sanchez-2017/</guid><description/></item><item><title>Security and Privacy on Medical Devices</title><link>iSec/event/2016/2016-10-26-css-talk17/</link><pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-10-26-css-talk17/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Pablo Picazo\&lt;br>
+&lt;strong>When:&lt;/strong> Friday, {{ page.date | date_to_long_string }}\&lt;br>
+&lt;strong>Where:&lt;/strong> room 5128\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 The new generation of Implantable Medical Devices (IMDs) is a reality but the security threats mainly linked to the inclusion of wireless connectivity seem to have not received the adequate attention. The security mechanisms supported on-board of these devices must guarantee a balance between the patient safety and the security of the device &amp;ndash; that is, a trade-off between the normal operation mode and the emergency mode. Once introduced the particularities and the security risks of these devices, different security solutions will be revised in the context of identification, key generation, random number generation, etc.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>ZKBoo: Faster Zero-Knowledge for Boolean Circuits</title><link>iSec/event/2016/2016-08-25-css-talk6/</link><pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-08-25-css-talk6/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="https://link.com/" target="_blank" rel="noopener">Fname Lname&lt;/a>\
-&lt;strong>When:&lt;/strong> Thursday, {{ page.date | date_to_long_string }}, 14:00-15:00\
-&lt;strong>Where:&lt;/strong> Room 3364\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>ZKBoo: Faster Zero-Knowledge for Boolean Circuits</title><link>iSec/event/2016/2016-08-25-css-talk6/</link><pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-08-25-css-talk6/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="https://link.com/" target="_blank" rel="noopener">Fname Lname&lt;/a>\&lt;br>
+&lt;strong>When:&lt;/strong> Thursday, {{ page.date | date_to_long_string }}, 14:00-15:00\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 3364\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 In this talk we describe ZKBoo, a proposal for practically efficient
 zero-knowledge arguments especially tailored for Boolean circuits and
 report on a proof-of-concept implementation. As an highlight, we can
@@ -263,11 +263,11 @@ zero-knowledge protocols for the SHA-1 and SHA-256 circuits;&lt;/p>
 best paper award.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Enhancing the COWL W3C Standard</title><link>iSec/event/2016/2016-06-08-css-talk16/</link><pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-06-08-css-talk16/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Niklas Andreasson\
-&lt;strong>When:&lt;/strong> 10:00, June 8 \
-&lt;strong>Where:&lt;/strong> room EDIT 8103\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Enhancing the COWL W3C Standard</title><link>iSec/event/2016/2016-06-08-css-talk16/</link><pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-06-08-css-talk16/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Niklas Andreasson\&lt;br>
+&lt;strong>When:&lt;/strong> 10:00, June 8 \&lt;br>
+&lt;strong>Where:&lt;/strong> room EDIT 8103\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Web applications are often composed by resources such as JavaScript
 written, and provided, by different parties. This reuse leads to questions concerning security,
 and whether one can trust that third-party code will not leak users’ sensitive information.
@@ -294,11 +294,11 @@ part of this, note some practical problems.Through the thesis we managed to make
 contributions to the COWL W3C specification.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Selene: Voting with Transparent Verification and Coercion Mitigation</title><link>iSec/event/2016/2016-06-08-css-talk15/</link><pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-06-08-css-talk15/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Peter Y A Ryan (University of Luxembourg)\
-&lt;strong>When:&lt;/strong> 14:30, June 8 \
-&lt;strong>Where:&lt;/strong> room EDIT 81033\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Selene: Voting with Transparent Verification and Coercion Mitigation</title><link>iSec/event/2016/2016-06-08-css-talk15/</link><pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-06-08-css-talk15/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Peter Y A Ryan (University of Luxembourg)\&lt;br>
+&lt;strong>When:&lt;/strong> 14:30, June 8 \&lt;br>
+&lt;strong>Where:&lt;/strong> room EDIT 81033\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 In conventional cryptographic E2E verification schemes, voters are
 provided with encrypted ballots that enable them to confirm that their
 vote is accurately included in the tally. Technically this is very
@@ -328,14 +328,14 @@ tally identified by their secret tracker.&lt;/p>
 the coercer&amp;rsquo;s tracker, or the coercer may simply claim that the tracker
 is his. I describe some elaborations of the basic scheme to counter this
 problem.&lt;/p>
-&lt;p>&lt;a href="http://eprint.iacr.org/2015/1105.pdf" target="_blank" rel="noopener">http://eprint.iacr.org/2015/1105.pdf&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://eprint.iacr.org/2015/1105.pdf">http://eprint.iacr.org/2015/1105.pdf&lt;/a>&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Verification of differential private computationss</title><link>iSec/event/2016/2016-05-31-css-talk14/</link><pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-31-css-talk14/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Gilles Barthe (IMDEA)\
-&lt;strong>When:&lt;/strong> 13:30, May 31 \
-&lt;strong>Where:&lt;/strong> room EDIT 8103\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Verification of differential private computationss</title><link>iSec/event/2016/2016-05-31-css-talk14/</link><pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-31-css-talk14/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Gilles Barthe (IMDEA)\&lt;br>
+&lt;strong>When:&lt;/strong> 13:30, May 31 \&lt;br>
+&lt;strong>Where:&lt;/strong> room EDIT 8103\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Differential privacy is a statistical notion of privacy which achieves
 compelling trade-offs between input privacy and accuracy (of outputs).
 Differential privacy is also an attractive target for verification:
@@ -350,11 +350,11 @@ the strengths of our program logics with novel and elegant proofs of
 challenging examples from differential privacy.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title> Privacy engineering: from the building blocks to the system</title><link>iSec/event/2016/2016-05-29-css-talk11/</link><pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-29-css-talk11/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Thibaud Antignac\
-&lt;strong>When:&lt;/strong> 11:00 am, April 29\
-&lt;strong>Where:&lt;/strong> EDIT 8103\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title> Privacy engineering: from the building blocks to the system</title><link>iSec/event/2016/2016-05-29-css-talk11/</link><pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-29-css-talk11/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Thibaud Antignac\&lt;br>
+&lt;strong>When:&lt;/strong> 11:00 am, April 29\&lt;br>
+&lt;strong>Where:&lt;/strong> EDIT 8103\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 This talk will be about privacy engineering, a field mainly concerned
 with techniques, methods, and tools to systematically take into account
 and address privacy issues when building a system. During this journey,
@@ -365,30 +365,30 @@ to be tackled to be in a situation to deliver more privacy in
 information systems.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Architectural requirements for language-level control of external timing channels</title><link>iSec/event/2016/2016-05-27-css-talk10/</link><pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-27-css-talk10/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Aslan Askarov (Aarhus University)\
-&lt;strong>When:&lt;/strong> 14:15, April 27\
-&lt;strong>Where:&lt;/strong> room ED\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Architectural requirements for language-level control of external timing channels</title><link>iSec/event/2016/2016-05-27-css-talk10/</link><pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-27-css-talk10/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Aslan Askarov (Aarhus University)\&lt;br>
+&lt;strong>When:&lt;/strong> 14:15, April 27\&lt;br>
+&lt;strong>Where:&lt;/strong> room ED\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 A promising new approach to controlling timing channels relies on distinguishing between the direct timing dependencies that are visible at the program control flow level, and the indirect timing dependencies that typically have architectural nature. The approach allows using programming language techniques to mitigate direct dependencies, while delegating the control of the indirect dependencies to the underlying hardware. An essential element in this approach is the so-called semantic interface that stipulates a set of security and functional requirements on hardware in order for the PL-level mitigation to be sound. This talk will present the semantic interface; discuss existing practical realizations from literature, and evaluate security of this approach in a setting of active adversaries that are capable to evict caches.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Frozen Realms: draft standard support for safer JavaScript plugins</title><link>iSec/event/2016/2016-05-27-css-talk13/</link><pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-27-css-talk13/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Mark S. Miller (Google)\
-&lt;strong>When:&lt;/strong> 10:00, May 27 \
-&lt;strong>Where:&lt;/strong> room EDIT 3364\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Frozen Realms: draft standard support for safer JavaScript plugins</title><link>iSec/event/2016/2016-05-27-css-talk13/</link><pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-27-css-talk13/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Mark S. Miller (Google)\&lt;br>
+&lt;strong>When:&lt;/strong> 10:00, May 27 \&lt;br>
+&lt;strong>Where:&lt;/strong> room EDIT 3364\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Support ultra-fine-grain protection domains in JavaScript.
 Minimizing standardization, development, explanation, and runtime costs.
 Maximizing security, compatibility, simplicity, and expressiveness benefits.
-See &lt;a href="https://github.com/FUDCo/proposal-frozen-realms" target="_blank" rel="noopener">https://github.com/FUDCo/proposal-frozen-realms&lt;/a>&lt;/p>
+See &lt;a href="https://github.com/FUDCo/proposal-frozen-realms">https://github.com/FUDCo/proposal-frozen-realms&lt;/a>&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Security of login pages on the Web: who else can know your password?</title><link>iSec/event/2016/2016-05-11-css-talk12/</link><pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-11-css-talk12/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Steven Van Acker (Chalmers)\
-&lt;strong>When:&lt;/strong> 14:15, May 11 \
-&lt;strong>Where:&lt;/strong> room ED\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Security of login pages on the Web: who else can know your password?</title><link>iSec/event/2016/2016-05-11-css-talk12/</link><pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-05-11-css-talk12/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Steven Van Acker (Chalmers)\&lt;br>
+&lt;strong>When:&lt;/strong> 14:15, May 11 \&lt;br>
+&lt;strong>Where:&lt;/strong> room ED\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Most people with an online presence these days, store large amounts of information about their lives in online web services: e-mails, pictures, medical information, &amp;hellip; To prevent unauthorised access to their personal and private information, these web services require users to authenticate and this authentication is typically done using a username and password, transmitted for verification via a login page. These login pages are critical to a user’s security. If an attacker can steal a user&amp;rsquo;s username and password, they can gain access to that user&amp;rsquo;s account easily.&lt;/p>
 &lt;p>In this talk we take a look at the state of the art when it comes to security of login pages. We consider several attacker models, ranging from your typical Starbucks network attacker to sophisticated nation-state attackers.&lt;/p>
 &lt;p>With these attackers in mind, we look at what the ideal login page looks like, using all security measures currently built into browsers, on top of some common sense.&lt;/p>
@@ -400,14 +400,14 @@ Most people with an online presence these days, store large amounts of informati
 &lt;strong>When:&lt;/strong> 11:00, May 6 in
 &lt;strong>Where:&lt;/strong> room EDIT 8103
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Mutational fuzzing is a powerful tool to detect vulnerabilities in software. It requires a initial set of inputs for the program to test. A traditional criteria to select inputs is to maximize code coverage in order to try to use all the instructions at least once. Unfortunately it is still insufficient to deal with real-world code like complex parsers in order to discover vulnerable conditions.&lt;/p>
 &lt;p>In this talk we introduce a new approach based on program behaviors, in which traces are extracted and analyzed using Machine Learning to detect similarity between executions. Using this approach, we show how to perform vulnerability detection as well as preliminary results on how to improve seed selection for mutational fuzzing.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
 {% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title> Two Can Keep a Secret, If One of Them Uses Haskell</title><link>iSec/event/2016/2016-04-15-css-talk8/</link><pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-04-15-css-talk8/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Alejandro Russo
 &lt;strong>When:&lt;/strong> 11:00 am on April 15
-&lt;strong>Where:&lt;/strong> Room 3364\
+&lt;strong>Where:&lt;/strong> Room 3364\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;/p>
 &lt;p>For several decades, researchers from different communities have
@@ -435,11 +435,11 @@ The main focus of the talk is on Muliti-Linear Maps (MLM). Roughly speaking, MLM
 The talk will end with an introduction to obfuscation. &amp;gt;From an abstract point of view, one could think at obfuscation as a MLM without zero testing and in which only a pre-determined sequence of operations is allowed. In practice, an obfuscator is an algorithm that takes as input a program P and outputs another program O(P). such that O(P) and P have equal outputs on equal inputs and O(P) is an intelligible program.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Formal Security Analysis of Mobile and Web Applications</title><link>iSec/event/2016/2016-03-17-css-talk5/</link><pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-03-17-css-talk5/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="https://www.sps.cs.uni-saarland.de/maffei/" target="_blank" rel="noopener">Matteo Maffei&lt;/a>\
-&lt;strong>When:&lt;/strong> Thursday, {{ page.date | date_to_long_string }}, 13:30-14:30\
-&lt;strong>Where:&lt;/strong> Room 3364\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Formal Security Analysis of Mobile and Web Applications</title><link>iSec/event/2016/2016-03-17-css-talk5/</link><pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-03-17-css-talk5/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="https://www.sps.cs.uni-saarland.de/maffei/" target="_blank" rel="noopener">Matteo Maffei&lt;/a>\&lt;br>
+&lt;strong>When:&lt;/strong> Thursday, {{ page.date | date_to_long_string }}, 13:30-14:30\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 3364\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 In this talk, I will present two ongoing projects on the formal
 verification of security properties for mobile and web
 applications.&lt;/p>
@@ -495,12 +495,12 @@ more than 40 conferences, and he is currently the regular columnist on
 security and privacy of the ACM SIGLOG newsletter.ill be summarized and I will discuss future research directions on data anonymization.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Anonymization of sparse multidimensional data</title><link>iSec/event/2016/2016-03-08-css-talk4/</link><pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-03-08-css-talk4/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="http://web.imis.athena-innovation.gr/~mter/" target="_blank" rel="noopener">Manolis Terrovitis&lt;/a>\
-&lt;strong>When:&lt;/strong> Tuesday, {{ page.date | date_to_long_string }}, 15:00-12:00\
-&lt;strong>Where:&lt;/strong> Room 8103\
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Anonymization of sparse multidimensional data</title><link>iSec/event/2016/2016-03-08-css-talk4/</link><pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-03-08-css-talk4/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="http://web.imis.athena-innovation.gr/~mter/" target="_blank" rel="noopener">Manolis Terrovitis&lt;/a>\&lt;br>
+&lt;strong>When:&lt;/strong> Tuesday, {{ page.date | date_to_long_string }}, 15:00-12:00\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 8103\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
-Data privacy is of increasing importance as most human activities leave digital traces in some information system. \
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
+Data privacy is of increasing importance as most human activities leave digital traces in some information system. \&lt;br>
 In this presentation I will talk about data anonymization and more specifically about protection against identity disclosure in the publication of sparse multidimensional data.
 The presentation will explain the notion of km-anonymity and how it is applied to collections of high dimensional data like set-values and tree-structured data.
 I will sketch the techniques that anonymize data through generalization, record splitting (disassociation) and algorithms that work on tree-structured data.
@@ -508,15 +508,15 @@ The advantages and disadvantages of each approach will be summarized and I will 
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
 {% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>Daniel Hausknecht's Licentiate presentation</title><link>iSec/event/2016/2016-02-29-css-talk3/</link><pubDate>Mon, 29 Feb 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-02-29-css-talk3/</guid><description>&lt;p>##Talk 1:
-&lt;strong>Who:&lt;/strong> William Robertson\
-&lt;strong>When:&lt;/strong> Monday, {{ page.date | date_to_long_string }}, 10:00-11:00\
-&lt;strong>Where:&lt;/strong> Room 8103\
+&lt;strong>Who:&lt;/strong> William Robertson\&lt;br>
+&lt;strong>When:&lt;/strong> Monday, {{ page.date | date_to_long_string }}, 10:00-11:00\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 8103\&lt;br>
 &lt;strong>Title:&lt;/strong> &lt;em>&lt;strong>on web malware&lt;/strong>&lt;/em> (read abstract and bio below)&lt;/p>
 &lt;p>##Talk 2:
-&lt;strong>Who:&lt;/strong> Daniel Hausknecht&amp;rsquo;s \
-&lt;strong>When:&lt;/strong> Monday, {{ page.date | date_to_long_string }}, 13:15-15:00\
-&lt;strong>Where:&lt;/strong> Room EE\
-&lt;strong>Title:&lt;/strong> &lt;em>&lt;strong>Licentiate&amp;rsquo;s defence&lt;/strong>&lt;/em> (read abstract below)\
+&lt;strong>Who:&lt;/strong> Daniel Hausknecht&amp;rsquo;s \&lt;br>
+&lt;strong>When:&lt;/strong> Monday, {{ page.date | date_to_long_string }}, 13:15-15:00\&lt;br>
+&lt;strong>Where:&lt;/strong> Room EE\&lt;br>
+&lt;strong>Title:&lt;/strong> &lt;em>&lt;strong>Licentiate&amp;rsquo;s defence&lt;/strong>&lt;/em> (read abstract below)\&lt;br>
 [get the slides here](url for slides)&lt;/p>
 &lt;p>&lt;strong>Abstract of Robertson&amp;rsquo;s talk:&lt;/strong>
 The modern Web is heavily reliant on JavaScript for implementing
@@ -535,36 +535,26 @@ Northeastern University in Boston, MA, and co-directs the NEU Systems
 Security Lab. His research revolves around improving the security of
 operating systems, mobile devices, and the web, making use of techniques
 such as security by design, program analysis, and anomaly detection.&lt;/p>
-&lt;p>&lt;strong>Abstract of Hausknecht&amp;rsquo;s talk:&lt;/strong>&lt;/p></description></item><item><title>Towards more secure and usable text passwords</title><link>iSec/event/2016/2016-01-28-css-talk2/</link><pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-01-28-css-talk2/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Prof. &lt;a href="http://www.ece.cmu.edu/~lbauer/bio.html" target="_blank" rel="noopener">Lujo Bauer&lt;/a> from Carnegie Mellon University\
-&lt;strong>When:&lt;/strong> Thursday, {{ page.date | date_to_long_string }}, 15:00\
-&lt;strong>Where:&lt;/strong> Room EA\
+&lt;p>&lt;strong>Abstract of Hausknecht&amp;rsquo;s talk:&lt;/strong>&lt;/p></description></item><item><title>Towards more secure and usable text passwords</title><link>iSec/event/2016/2016-01-28-css-talk2/</link><pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate><guid>iSec/event/2016/2016-01-28-css-talk2/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> Prof. &lt;a href="http://www.ece.cmu.edu/~lbauer/bio.html" target="_blank" rel="noopener">Lujo Bauer&lt;/a> from Carnegie Mellon University\&lt;br>
+&lt;strong>When:&lt;/strong> Thursday, {{ page.date | date_to_long_string }}, 15:00\&lt;br>
+&lt;strong>Where:&lt;/strong> Room EA\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Abstract:&lt;/strong>
 Many security problems arise at the interface between computer systems and their users. One set of such problems relates to authentication and text-based passwords, which despite numerous shortcomings and attacks remain the dominant authentication method in computer systems.
-\
-Is pa$$w0rd1 a good password or a bad one? For several years, we&amp;rsquo;ve been studying how to help users create passwords that are hard for attackers to crack, but are still easy for users to remember and use. A key challenge in this work was to develop and validate a methodology for collecting passwords and assessing their strength and usability. I&amp;rsquo;ll discuss our approach, and how we applied it to over 50,000 participants to study the effects of password-composition policies, password-strength meters, and detailed, step-by-step feedback and guidance during the password creation policies.&lt;/p></description></item><item><title>Establishing and Maintaining Root of Trust on Commodity Computer Systems</title><link>iSec/event/2015/2015-11-27-css-talk1/</link><pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate><guid>iSec/event/2015/2015-11-27-css-talk1/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="http://users.ece.cmu.edu/~virgil/" target="_blank" rel="noopener">Virgil Gligor&lt;/a> CMU\
-&lt;strong>When:&lt;/strong> Friday, {{ page.date | date_to_long_string }}, 11:00-12:00\
-&lt;strong>Where:&lt;/strong> Room 8103\
+\&lt;br>
+Is pa$$w0rd1 a good password or a bad one? For several years, we&amp;rsquo;ve been studying how to help users create passwords that are hard for attackers to crack, but are still easy for users to remember and use. A key challenge in this work was to develop and validate a methodology for collecting passwords and assessing their strength and usability. I&amp;rsquo;ll discuss our approach, and how we applied it to over 50,000 participants to study the effects of password-composition policies, password-strength meters, and detailed, step-by-step feedback and guidance during the password creation policies.&lt;/p></description></item><item><title>Establishing and Maintaining Root of Trust on Commodity Computer Systems</title><link>iSec/event/2015/2015-11-27-css-talk1/</link><pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate><guid>iSec/event/2015/2015-11-27-css-talk1/</guid><description>&lt;p>&lt;strong>Who:&lt;/strong> &lt;a href="http://users.ece.cmu.edu/~virgil/" target="_blank" rel="noopener">Virgil Gligor&lt;/a> CMU\&lt;br>
+&lt;strong>When:&lt;/strong> Friday, {{ page.date | date_to_long_string }}, 11:00-12:00\&lt;br>
+&lt;strong>Where:&lt;/strong> Room 8103\&lt;br>
 &lt;strong>Title: {{ page.title }}&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Abstract:&lt;/strong>\
+&lt;p>&lt;strong>Abstract:&lt;/strong>\&lt;br>
 Suppose that a trustworthy program must be booted on a commodity system that may contain persistent malware. For example, a formally verified micro-kernel, micro-hypervisor, or a subsystem obtained from a trustworthy provider must be booted on a computer system that runs Windows, Linux, or Android applications. Establishing root of trust assures the user that either the system is in a malware-free state in which the trustworthy-program boot takes place or the presence of malware is discovered, with high probability. Obtaining such assurance is challenging because malware can survive in system state across repeated secure- and trusted-boot operations. These operations do not always have malware-unmediated access to device memories; e.g., memories of bring-your-own devices (e.g., keyboards, consoles, printers, routers), and sometimes even disk controllers. They certainly have no unmediated access to all non-volatile memories of interconnected components of a personal system; e.g., components of home systems, autos. To date, concrete assurance for root-of-trust establishment has not been obtained on commodity systems that scale to large configurations.
-\
+\&lt;br>
 Establishing root of trust makes all persistent malware ephemeral and forces the adversary to repeat the malware-insertion attack, perhaps at some added cost. Nevertheless, some malware-controlled software can always be assumed to exist in commodity operating systems and applications. The inherent size and complexity of their operating systems and applications (aka the “giants”) render them vulnerable to successful adversary attacks. In contrast, small and simple software components with rather limited function and high-assurance layered security properties (aka the “wimps”) can be resistant to adversary attacks.
 Maintaining root of trust assures a user that a commodity computer’s wimps are isolated from, and safely co-exist with, adversary-controlled giants. To survive, secure wimps must use services of, or compose with, insecure giants. This appears to be “paradoxical:” wimps can counter all adversary attacks but survive only if they use giants’ adversary-controlled services from which they have to defend themselves.
-\
+\&lt;br>
 I this seminar, I will illustrate the challenges of root-of-trust establishment via “verifiable boot” operations that do not require secrets, TPMs, or adversary bounds. Then, I will present a method to define a wimp’s adversary accurately and completely using a structure found in cryptographic protocols. A consequence of such definitions is the ability to produce partial orders on adversary attacks. Finally, I will present secure wimp composition with giants, via two examples of experimental systems (i.e., on-demand isolated I/O channels and a trusted display service) designed and implemented at CMU CyLab.&lt;/p>
 &lt;p>&lt;strong>Biographical Note&lt;/strong>
 Virgil D. Gligor received his B.Sc., M.Sc., and Ph.D. degrees from the University of California at Berkeley. He taught at the University of Maryland between 1976 and 2007, and is currently a Professor of ECE at Carnegie Mellon University. Between 2007 and 2015 he was the co-Director of CyLab. Over the past forty years, his research interests ranged from access control mechanisms, penetration analysis, and denial-of-service protection, to cryptographic protocols and applied cryptography. Gligor was an editorial board member of several ACM and IEEE journals and the Editor in Chief of the IEEE Transactions on Dependable and Secure Computing. He received the 2006 National Information Systems Security Award jointly given by NIST and NSA, the 2011 Outstanding Innovation Award of the ACM SIG on Security Audit and Control, and the 2013 Technical Achievement Award of the IEEE Computer Society.&lt;/p>
 &lt;h2 id="previous-talks">Previous Talks&lt;/h2>
 &lt;p>{: .t60 }
-{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title>An example journal article</title><link>iSec/publication/journal-article/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>iSec/publication/journal-article/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-&lt;/div>
-&lt;/div>
-&lt;p>Supplementary notes can be added here, including &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">code and math&lt;/a>.&lt;/p></description></item><item><title>An example conference paper</title><link>iSec/publication/conference-paper/</link><pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate><guid>iSec/publication/conference-paper/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-&lt;/div>
-&lt;/div>
-&lt;p>Supplementary notes can be added here, including &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">code and math&lt;/a>.&lt;/p></description></item><item><title/><link>iSec/people/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>iSec/people/</guid><description/></item></channel></rss>
+{% include list-posts tag=&amp;lsquo;csstalk&amp;rsquo;%}&lt;/p></description></item><item><title/><link>iSec/people/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>iSec/people/</guid><description/></item></channel></rss>

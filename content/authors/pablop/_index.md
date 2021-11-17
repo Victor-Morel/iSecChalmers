@@ -28,7 +28,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Computer Science (Security)
+  - course: PhD in Computer Science
     institution: Carlos III University (UC3M), Madrid
     year: 2013-2016
   - course: MSc in Computer Science
@@ -60,7 +60,7 @@ social:
 email: ""
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -69,15 +69,15 @@ user_groups:
 ---
 
 I am a PostDoc working at Chalmers University, Sweden. I got my PhD in 2016 from Carlos III
-University of Madrid. I obtained my BsC in Computer Science in 2010 at UPM University in Madrid
-and a year later I completed my  MsC in Computer Science in 2011 at Carlos III University of Madrid.
+University of Madrid. I obtained my BSc in Computer Science in 2010 at UPM University in Madrid
+and a year later I completed my  MSc in Computer Science in 2011 at Carlos III University of Madrid.
 
 My research interests range from systems security to applied cryptography. Over the last years I
 have worked on a number of areas in these fields, including <i>Browser Extensions</i>, <i>Biometrics</i> or
 <i>Security in RFID</i>.
 
 Most of my papers and ongoing work are available online; however, if you should require any copy which
-is not online please e-mail me and I will do my best.
+is not online please e-mail me, and I will do my best.
 
 Here you can find my most updated web page: https://pica4x6.github.io
 

@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Thomas Rosentatters
+title: Thomas Rosenstatter
+name: Thomas
+lastName: Rosenstatter
 
 # Is this the primary user of the site?
 superuser: false

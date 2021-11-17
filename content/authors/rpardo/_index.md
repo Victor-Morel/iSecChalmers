@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Raúl Pardo
+name: Raúl
+lastName: Pardo
 
 # Is this the primary user of the site?
 superuser: false

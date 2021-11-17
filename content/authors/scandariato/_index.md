@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Riccardo Scandariato
+name: Riccardo
+lastName: Scandariato
 
 # Is this the primary user of the site?
 superuser: false

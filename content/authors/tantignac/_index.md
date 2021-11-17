@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Thibaud Antignac
+name: Thibaud
+lastName: Antignac
 
 # Is this the primary user of the site?
 superuser: false

@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Marco Vassena
+name: Marco
+lastName: Vassena
 
 # Is this the primary user of the site?
 superuser: false

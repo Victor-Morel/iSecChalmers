@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Francisco Blas
+name: Francisco
+lastName: Blas
 
 # Is this the primary user of the site?
 superuser: false

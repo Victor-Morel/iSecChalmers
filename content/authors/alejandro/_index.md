@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Alejandro Russo
+name: Alejandro
+lastName: Russo
 
 # Is this the primary user of the site?
 superuser: false

@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Gerardo Schneider
+name: Gerardo
+lastName: Schneider
 
 # Is this the primary user of the site?
 superuser: false

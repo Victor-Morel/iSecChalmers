@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Carlo Brunetta
+name: Carlo
+lastName: Brunetta
 
 # Is this the primary user of the site?
 superuser: false

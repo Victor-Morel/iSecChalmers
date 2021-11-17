@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Agustín Mista
+name: Agustín
+lastName: Mista
 
 # Is this the primary user of the site?
 superuser: false

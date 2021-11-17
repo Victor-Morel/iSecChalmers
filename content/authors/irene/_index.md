@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Irene Lobo
+name: Irene 
+lastName: Lobo
 
 # Is this the primary user of the site?
 superuser: false

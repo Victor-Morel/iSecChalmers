@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Benjamin Eriksson
+name: Benjamin
+lastName: Eriksson
 
 # Is this the primary user of the site?
 superuser: false

@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Steven Van Acker
+name: Steven
+lastName: Van Acker
 
 # Is this the primary user of the site?
 superuser: false

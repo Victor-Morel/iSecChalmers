@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Boel Nelson
+name: Boel
+lastName: Nelson
 
 # Is this the primary user of the site?
 superuser: false

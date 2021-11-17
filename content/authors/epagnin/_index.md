@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Elena Pagnin
+name: Elena
+lastName: Pagnin
 
 # Is this the primary user of the site?
 superuser: false

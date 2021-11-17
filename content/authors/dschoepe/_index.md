@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Daniel Schoepe
+name: Daniel
+lastName: Schoepe
 
 # Is this the primary user of the site?
 superuser: false

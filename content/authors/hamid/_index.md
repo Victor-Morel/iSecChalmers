@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Hamid Ebadi
+name: Hamid
+lastName: Ebadi
 
 # Is this the primary user of the site?
 superuser: false

@@ -31,7 +31,7 @@
   </div>
   {{end}}
 
-  {{ range $query }}
+  {{ range sort $query ".Params.lastName"}}
   {{- if and (ne (index (.Params.user_groups) 0) "Alumni") (ne (index (.Params.user_groups) 0) "Former Members") -}}
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
@@ -51,9 +51,8 @@
     {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
     {{with $link}}<a href="{{.}}">{{end}}<img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
     {{ end }}
-
     <div class="portrait-title">
-      <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
+      <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Params.name }} {{.Params.lastName}}{{if $link}}</a>{{end}}</h2>
       {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
       {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
       {{ if $show_social }}{{ partial "social_links" . }}{{ end }}

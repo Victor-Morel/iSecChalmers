@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Magnus Almgren
+name: Magnus
+lastName: Almgren
 
 # Is this the primary user of the site?
 superuser: false

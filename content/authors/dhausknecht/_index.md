@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Daniel Hausknecht
+name: Daniel
+lastName: Hausknecht
 
 # Is this the primary user of the site?
 superuser: false

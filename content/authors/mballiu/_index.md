@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Musard Balliu
+name: Musard
+lastName: Balliu
 
 # Is this the primary user of the site?
 superuser: false

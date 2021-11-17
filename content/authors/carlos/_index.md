@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Carlos Tomé
+name: Carlos
+lastName: Tomé
 
 # Is this the primary user of the site?
 superuser: false

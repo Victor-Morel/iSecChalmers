@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Nachiappan Valliappan
+name: Nachiappan
+lastName: Valliappan
 
 # Is this the primary user of the site?
 superuser: false

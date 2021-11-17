@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Alexander Sjösten
+name: Alexander
+lastName: Sjösten
 
 # Is this the primary user of the site?
 superuser: false

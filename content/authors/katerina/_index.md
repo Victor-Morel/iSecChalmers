@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Aikaterini Mitrokotsa
+name: Aikaterini
+lastName: Mitrokotsa
 
 # Is this the primary user of the site?
 superuser: false

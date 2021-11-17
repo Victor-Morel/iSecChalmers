@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Niklas Broberg
+name: Niklas
+lastName: Broberg
 
 # Is this the primary user of the site?
 superuser: false

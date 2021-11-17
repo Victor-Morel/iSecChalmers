@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Nasser Nowdehi
+name: Nasser
+lastName: Nowdehi
 
 # Is this the primary user of the site?
 superuser: false

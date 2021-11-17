@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Andrei Sabelfeld
+name: Andrei
+lastName: Sabelfeld
 
 # Is this the primary user of the site?
 superuser: false

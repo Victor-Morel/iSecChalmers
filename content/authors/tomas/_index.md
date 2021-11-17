@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Tomas Olovsson
+name: Tomas
+lastName: Olovsson
 
 # Is this the primary user of the site?
 superuser: false

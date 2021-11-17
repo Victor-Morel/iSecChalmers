@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Sandro Stucki
+name: Sandro
+lastName: Stucki
 
 # Is this the primary user of the site?
 superuser: false

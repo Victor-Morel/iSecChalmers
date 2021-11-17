@@ -1,6 +1,8 @@
 ---
 # Display name
 title: David Sans
+name: David
+lastName: Sans
 
 # Is this the primary user of the site?
 superuser: false

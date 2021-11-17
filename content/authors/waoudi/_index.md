@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Wissam Aoudi
+name: Wissam
+lastName: Aoudi
 
 # Is this the primary user of the site?
 superuser: false

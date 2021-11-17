@@ -1,8 +1,11 @@
 ---
 # Display name
-title: Katja Tuma
-name: Katja
-lastName: Tuma
+title: Farnaz Moradi
+name: Farnaz
+lastName: Moradi
+
+# Is this the primary user of the site?
+superuser: false
 # Enter webpage to your profile
 webpage: ""
 

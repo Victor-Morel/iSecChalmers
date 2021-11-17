@@ -1,8 +1,11 @@
 ---
 # Display name
-title: Katja Tuma
-name: Katja
-lastName: Tuma
+title: Pierre Kleberger
+name: Pierre 
+lastName: Kleberger
+
+# Is this the primary user of the site?
+superuser: false
 # Enter webpage to your profile
 webpage: ""
 

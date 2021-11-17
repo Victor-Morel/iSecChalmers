@@ -40,10 +40,10 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
+  #authors: '/author/:slug/'
   tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  #categories: '/category/:slug/'
+  #publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -65,8 +65,8 @@ imaging:
 timeout: 600000
 taxonomies:
   tag: tags
-  publication_type: publication_types
-  author: authors
+  #publication_type: publication_types
+  #author: authors
 related:
   threshold: 80
   includeNewer: true

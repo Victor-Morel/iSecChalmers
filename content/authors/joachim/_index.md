@@ -1,14 +1,14 @@
 ---
 # Display name
-title: David Sands
-name: David
-lastName: Sands
+title: Joachim von Hacht
+name: Joachim
+lastName: von Hacht
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor
+role: Lecturer
 # Enter webpage to your profile
 webpage: ""
 

@@ -14,7 +14,7 @@ main:
     url: event
     weight: 40
   - name: Education
-    url: education
+    url: https://www.cse.chalmers.se/edu/master/secspec/
     weight: 50
   - name: Publications
     url: publication

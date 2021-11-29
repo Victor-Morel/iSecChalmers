@@ -10,7 +10,7 @@ superuser: false
 # Role/position
 role: Researcher
 # Enter webpage to your profile
-webpage: ""
+webpage: "https://sstucki.github.io"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

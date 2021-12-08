@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://www.cse.chalmers.se/research/group/security/hugo/sitemap.xml
+Sitemap: https://www.cse.chalmers.se/research/group/security/sitemap.xml

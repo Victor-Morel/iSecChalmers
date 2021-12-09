@@ -29,8 +29,8 @@ description = "Empirical methods for security <br />Security and Privacy by desi
 [[feature]]
 icon = "network-wired"
 icon_pack = "fas"
-name = "Network Security"
-description = "Firewalls <br />Security protocols (SSL, SSH and IPsec)"
+name = "Systems and Network Security"
+description = "Network Security<br />Attack Detection and Resilience [techniques]<br />Security Protocols"
 
 [[feature]]
 icon = "user-secret"

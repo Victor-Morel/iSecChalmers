@@ -1,7 +1,7 @@
 ---
 title: "On Progressive and Efficient Verification of Digital Signatures"
 
-event: Zoom
+event: hybrid talk in EDIT 8103 and online via Zoom
 event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
 #location: Wowchemy HQ

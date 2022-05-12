@@ -107,8 +107,8 @@ Engineering Chapter.
 [Farzaneh Karegar](https://www.kau.se/en/researchers/farzaneh-karegar)
 has a Bachelor's degree from [University of Tehran
 (UT)](https://ut.ac.ir/en), a Master's degree in Computer Engineering
-from [Shahid Beheshti University (SBU)](https://en.sbu.ac.ir/) and PhD
-from [Karlstad University](https://www.kau.se/en).  Currently, she is
-working on algorithmic transparency and usable transparency of
+from [Shahid Beheshti University (SBU)](https://en.sbu.ac.ir/) and a
+PhD from [Karlstad University](https://www.kau.se/en).  Currently, she
+is working on algorithmic transparency and usable transparency of
 privacy-preserving data analytics with a focus on usable differential
 privacy.

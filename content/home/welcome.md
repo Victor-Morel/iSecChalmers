@@ -8,7 +8,7 @@ headless: true  # This file represents a page section.
 weight: 10  # Order that this section will appear.
 title: |
   Chalmers 
-  Security Lab  
+  Security & Privacy Lab  
   
 hero_media: welcome.jpg
 design:
@@ -21,5 +21,5 @@ design:
 
 <br>
 
-**Chalmers Security Lab** is a center of excellence for Security and Privacy research and teaching at 
+**Chalmers Security & Privacy Lab** is a center of excellence for Security and Privacy research and teaching at 
 Chalmers University of Technology and Gothenburg University.

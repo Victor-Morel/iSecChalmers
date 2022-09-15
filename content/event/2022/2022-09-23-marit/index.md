@@ -13,10 +13,24 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 #  country: United States
 
 summary: |-
-Marit will explain various difficulties of enforcing Art. 25 GDPR from the perspective of a supervisory authority. She will compare the deficiencies in this area with the situation of implementing "security-by-design" approaches. Also, current trends stemming from technology design and from recent court decisions will be discussed concerning their relevance for compliance with data protection requirements. To achieve built-in data protection, Marit will present her "wish list" that addresses stakeholders such as researchers, developers, academic teachers, data protection officers, lawyers and the data protection authorities themselves.
+    Marit will explain various difficulties of enforcing Art. 25 GDPR from the perspective of a supervisory authority. She 
+    will compare the deficiencies in this area with the situation of implementing "security-by-design" approaches. Also, 
+    current trends stemming from technology design and from recent court decisions will be discussed concerning their 
+    relevance for compliance with data protection requirements. To achieve built-in data protection, Marit will present 
+    her "wish list" that addresses stakeholders such as researchers, developers, academic teachers, data protection 
+    officers, lawyers and the data protection authorities themselves.
 
 abstract: |-
-  During the last few years, the General Data Protection Regulation (GDPR) has changed data processing in Europe and beyond. Unlike previous legislation concerning data protection, the existence of the GDPR is known by almost all data controllers, data processors and users. But when it comes to data protection by design and by default as demanded by Article 25 GDPR, appropriate system design cannot be taken for granted. Marit will explain various difficulties of enforcing Art. 25 GDPR from the perspective of a supervisory authority. She will compare the deficiencies in this area with the situation of implementing "security-by-design" approaches. Also, current trends stemming from technology design and from recent court decisions will be discussed concerning their relevance for compliance with data protection requirements. To achieve built-in data protection, Marit will present her "wish list" that addresses stakeholders such as researchers, developers, academic teachers, data protection officers, lawyers and the data protection authorities themselves.
+  During the last few years, the General Data Protection Regulation (GDPR) has changed data processing in Europe and 
+  beyond. Unlike previous legislation concerning data protection, the existence of the GDPR is known by almost all data 
+  controllers, data processors and users. But when it comes to data protection by design and by default as demanded by 
+  Article 25 GDPR, appropriate system design cannot be taken for granted. Marit will explain various difficulties of 
+  enforcing Art. 25 GDPR from the perspective of a supervisory authority. She will compare the deficiencies in this area 
+  with the situation of implementing "security-by-design" approaches. Also, current trends stemming from technology design 
+  and from recent court decisions will be discussed concerning their relevance for compliance with data protection 
+  requirements. To achieve built-in data protection, Marit will present her "wish list" that addresses stakeholders such 
+  as researchers, developers, academic teachers, data protection officers, lawyers and the data protection authorities 
+  themselves.
 
 
 # Talk start and end times.

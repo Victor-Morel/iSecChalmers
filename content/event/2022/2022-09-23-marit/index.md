@@ -34,7 +34,7 @@ Article 25 GDPR, appropriate system design cannot be taken for granted.
 Marit will explain various difficulties of enforcing Art. 25 GDPR from
 the perspective of a supervisory authority. She will compare the
 deficiencies in this area with the situation of implementing
-"security-by-design" approaches. Also, current trends stemming from
+`security-by-design` approaches. Also, current trends stemming from
 technology design and from recent court decisions will be discussed
 concerning their relevance for compliance with data protection
 requirements. To achieve built-in data protection, Marit will present

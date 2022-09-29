@@ -39,7 +39,7 @@ demonstration.
  with the iSec group at Chalmers.
  The CyberSecIT project will tackle the challenges of automation, enabled by software, and 
  autonomy, enabled by machine learning technologies, in IoT systems.
- 'Victor will focus more particularly on human factors, addressing research questions such as:' What are the privacy expectations of users in the IoT? Do these expectations differ
+ Victor will focus more particularly on human factors, addressing research questions such as&#58; What are the privacy expectations of users in the IoT? Do these expectations differ
  across countries and their respective legal framework?
  The answers brought to these questions by user studies will form the basis for the design 
  of a usable and privacy-friendly permissions system for IoT apps.

@@ -15,35 +15,42 @@ event: in EDIT 8103
 summary: |-
     Victor will present in this introductory talk his past work on informed consent in the 
     IoT, and his research perspectives for the CyberSecIT project.
- The first part of his presentation will summarize his PhD work, including a short video 
- demonstration.
- The second part will introduce his interdisciplinary experience within the Sustainable 
- Computing Lab in Vienna on the standardization of consent in the IoT.
- Finally, the third part will expose his research perspectives for the CyberSecIT project 
- with the iSec group at Chalmers.
+    The first part of his presentation will summarize his PhD work, including a short 
+    video demonstration.
+    The second part will introduce his interdisciplinary experience within the Sustainable 
+    Computing Lab in Vienna on the standardization of consent in the IoT.
+    Finally, the third part will expose his research perspectives for the CyberSecIT
+    project with the iSec group at Chalmers.
 
 abstract: |-
-  Victor will present in this introductory talk his past work on consent management in the 
-  IoT, and his research perspectives for the CyberSecIT project.
-The first part of his presentation will summarize his PhD work, including a short video 
-demonstration.
- His PhD, conducted in Privatics - the only team dedicated to privacy at Inria - focused 
- on designing a technological solution for information communication and consent 
- management in the IoT addressing legal requirements of the GDPR.
- The second part will introduce his interdisciplinary experience within the Sustainable 
- Computing Lab in Vienna on the standardization of consent in the IoT.
- His short stay at WU Wien was the opportunity to engage with researchers from other 
- disciplines - including law, design, and cognitive science -, and to conduct an 
- exploratory study on cookie paywalls, a novel form of tracking walls.
- Finally, the third part will expose his research perspectives for the CyberSecIT project 
- with the iSec group at Chalmers.
- The CyberSecIT project will tackle the challenges of automation, enabled by software, and 
- autonomy, enabled by machine learning technologies, in IoT systems.
- Victor will focus more particularly on human factors, addressing research questions such as&#58; What are the privacy expectations of users in the IoT? Do these expectations differ
- across countries and their respective legal framework?
- The answers brought to these questions by user studies will form the basis for the design 
- of a usable and privacy-friendly permissions system for IoT apps.
-
+    Victor will present in this introductory talk his past work on consent management in the 
+    IoT, and his research perspectives for the CyberSecIT project.
+    The first part of his presentation will summarize his PhD work, including a short 
+    video 
+    demonstration.
+     His PhD, conducted in Privatics - the only team dedicated to privacy at Inria - 
+     focused 
+     on designing a technological solution for information communication and consent 
+     management in the IoT addressing legal requirements of the GDPR.
+     The second part will introduce his interdisciplinary experience within the 
+     Sustainable 
+     Computing Lab in Vienna on the standardization of consent in the IoT.
+     His short stay at WU Wien was the opportunity to engage with researchers from other 
+     disciplines - including law, design, and cognitive science -, and to conduct an 
+     exploratory study on cookie paywalls, a novel form of tracking walls.
+     Finally, the third part will expose his research perspectives for the CyberSecIT 
+     project 
+     with the iSec group at Chalmers.
+     The CyberSecIT project will tackle the challenges of automation, enabled by software, 
+     and 
+     autonomy, enabled by machine learning technologies, in IoT systems.
+     Victor will focus more particularly on human factors, addressing research questions 
+     such as&#58; What are the privacy expectations of users in the IoT? Do these 
+     expectations differ
+     across countries and their respective legal framework?
+     The answers brought to these questions by user studies will form the basis for the 
+     design 
+     of a usable and privacy-friendly permissions system for IoT apps.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

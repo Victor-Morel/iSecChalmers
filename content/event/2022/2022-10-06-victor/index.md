@@ -1,7 +1,7 @@
 ---
 title: "Victor Morel's introductory talk - Design and analysis of technical systems for humans"
 
-event: in EDIT 8103
+event: Live talk in EDIT 8103
 # event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
 #location: Wowchemy HQ

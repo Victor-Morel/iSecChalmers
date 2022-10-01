@@ -9,7 +9,7 @@ superuser: false
 
 # Role/position
 role: PhD
-webpage: ""
+webpage: "https://www.chalmers.se/sv/personal/Sidor/mazenm.aspx"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

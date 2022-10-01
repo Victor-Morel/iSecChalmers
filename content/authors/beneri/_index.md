@@ -10,10 +10,10 @@ superuser: false
 # Role/position
 role: PhD
 # Enter webpage to your profile
-webpage: ""
+webpage: "https://beneri.se/about.php"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- PhD
+- Researchers
 ---

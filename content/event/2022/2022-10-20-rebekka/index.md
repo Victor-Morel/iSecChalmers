@@ -13,7 +13,7 @@ event: Live talk in EDIT 8103
 #  country: United States
 
 summary: |-
-    Rebekka will present techniques to build autonomous systems that are aware of humans and their changing preferences.
+    Rebekka will present techniques to build autonomous systems that are aware of humans and their changing preferences. Traditionally, autonomous systems have been designed to automate tasks for a set of predefined objectives (e.g., to reduce energy consumption and minimize cost). These objectives often need to be traded off against each other and might have to be changed over time. In this talk, Rebekka will explain how humans can be kept “on the loop” when working with autonomous systems and their quality trade-offs.
 
 abstract: |-
     Traditionally, autonomous systems have been designed to automate tasks for a set of predefined objectives (e.g., to reduce energy consumption and minimize cost). These objectives often need to be prioritized and traded off against each other. What a "good" trade-off looks like depends on the systems' context and the changing preferences of their human stakeholders. It is unrealistic and undesirable to assume that autonomous systems can set quality priorities without interacting with humans. In this talk, I present research on how humans can be kept “on the loop” when working with autonomous systems and their quality trade-offs. We also discuss how trade-off explanation and decision-making techniques can be used for security and privacy.

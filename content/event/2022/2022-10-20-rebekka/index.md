@@ -62,6 +62,5 @@ slides:
 projects:
 ---
 
-[Victor Morel](https://victor-morel.net/) holds a PhD in computer science from Inria - Privatics.
-
-His research interests include privacy and data protection, networks security, usability, applied cryptography, and ethics of technology in a broad manner.
+[Rebekka Wohlrab](https://rebekkaa.github.io/) is an assistant professor in Software Engineering at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden.
+She is doing research in the areas of self-adaptive systems, software architecture, and requirements engineering.

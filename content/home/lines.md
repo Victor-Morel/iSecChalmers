@@ -15,7 +15,7 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-icon = "lock-keyhole"
+icon = "lock"
 icon_pack = "fas"
 name = "Cryptography"
 description = "Digital Signatures<br />Secure Protocols<br />Homomorphic Encryption"

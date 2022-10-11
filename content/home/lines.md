@@ -24,13 +24,13 @@ description = "Digital Signatures<br />Secure Protocols<br />Homomorphic Encrypt
 icon = "cogs"
 icon_pack = "fas"
 name = "Secure Software Engineering"
-description = "Empirical methods for security <br />Security and Privacy by design"
+description = "Empirical Methods for Security <br />Security and Privacy by Design"
 
 [[feature]]
 icon = "network-wired"
 icon_pack = "fas"
 name = "Systems and Network Security"
-description = "Network Security<br />Attack Detection and Resilience [techniques]<br />Security Protocols"
+description = "Network Security<br />Attack Detection and Resilience<br />Security Protocols"
 
 [[feature]]
 icon = "user-secret"

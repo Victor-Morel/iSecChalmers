@@ -15,10 +15,10 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-icon = "fingerprint"
+icon = "lock-keyhole"
 icon_pack = "fas"
 name = "Cryptography"
-description = "Applied Cryptography<br />Biometrics<br />Homomorphic Encryption"
+description = "Digital Signatures<br />Secure Protocols<br />Homomorphic Encryption"
 
 [[feature]]
 icon = "cogs"

@@ -15,7 +15,7 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-icon = "fa-key"
+icon = "key"
 icon_pack = "fa"
 name = "Cryptography"
 description = "Digital Signatures<br />Secure Protocols<br />Homomorphic Encryption"

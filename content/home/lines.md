@@ -43,7 +43,7 @@ description = "Differential Privacy<br />Location Privacy<br />Social Network Pr
 icon = "file-contract"
 icon_pack = "fas"
 name = "Software Security"
-description = "Security Foundations<br />Web Security"
+description = "Security Foundations<br />Web Security<br />IoT Security"
 
 [[feature]]
 icon = "compass"

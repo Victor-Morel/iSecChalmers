@@ -16,7 +16,7 @@ subtitle = ""
 
 [[feature]]
 icon = "fa-key"
-icon_pack = "fas"
+icon_pack = "fa"
 name = "Cryptography"
 description = "Digital Signatures<br />Secure Protocols<br />Homomorphic Encryption"
 

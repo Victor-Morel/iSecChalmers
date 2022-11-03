@@ -16,10 +16,20 @@ summary: |-
     In this talk, I will explain how one can leverage definitional interpreters written in Agda (using coinduction and variations of the Delay monad) for proving (suitable versions) of noninterference for security-aware higher-order functional languages with effects. These proofs are, in some sense, simpler than the usual step-indexed logical-relations based proofs that abound in the literature.
 
 abstract: |-
-    Definitional interpreters give semantics to programming languages as an evaluation function written in a suitable metalanguage. These interpreters constitute a compelling alternative to relational semantics (e.g., small-step) because they can be used to execute programs, and they are closer to their actual implementation. When the metalanguage is dependently-typed, like Agda or Coq, one can further reason directly about the execution of programs. 
+    Definitional interpreters give semantics to programming languages as an 
+    evaluation function written in a suitable metalanguage. These interpreters 
+    constitute a compelling alternative to relational semantics (e.g., 
+    small-step) because they can be used to execute programs, and they are 
+    closer to their actual implementation. When the metalanguage is 
+    dependently-typed, like Agda or Coq, one can further reason directly about 
+    the execution of programs. 
 
-    
-        In this talk, I will explain how one can leverage definitional interpreters written in Agda (using coinduction and variations of the Delay monad) for proving (suitable versions) of noninterference for security-aware higher-order functional languages with effects. These proofs are, in some sense, simpler than the usual step-indexed logical-relations based proofs that abound in the literature. Disclaimer: This is work in progress.
+    In this talk, I will explain how one can leverage definitional interpreters 
+    written in Agda (using coinduction and variations of the Delay monad) for 
+    proving (suitable versions) of noninterference for security-aware 
+    higher-order functional languages with effects. These proofs are, in some 
+    sense, simpler than the usual step-indexed logical-relations based proofs 
+    that abound in the literature. Disclaimer: This is work in progress.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

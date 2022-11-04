@@ -22,4 +22,4 @@ design:
 <br>
 
 **Chalmers Security & Privacy Lab** is a center of excellence for Security and Privacy research and teaching at 
-Chalmers University of Technology and Gothenburg University.
+Chalmers University of Technology and University of Gothenburg.

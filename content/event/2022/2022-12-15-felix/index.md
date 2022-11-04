@@ -82,4 +82,5 @@ slides:
 projects:
 ---
 
-[Carlos Tomé Cortiñas](https://www.chalmers.se/en/staff/Pages/carlos-tome.aspx) is a PhD student in Information Security at [Chalmers University of Technology](https://www.chalmers.se/) in Gothenburg, Sweden.
+[Felix Engelmann](https://felix.nlogn.org/) a Postdoc at [ITU Copenhagen](https://pure.itu.dk/portal/en/persons/felix-theodor-engelmann).
+His research focuses on non-interactive zero-knowledge proofs, anonymity and confidentiality, and token transaction systems.

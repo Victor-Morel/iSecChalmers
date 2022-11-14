@@ -27,7 +27,7 @@ date_end: "2022-11-22T11:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-11-04T00:00:00Z"
+publishDate: "2022-11-14T00:00:00Z"
 
 authors: [Alley Stoughton]
 tags: [csstalk, programming language, cryptography, security]

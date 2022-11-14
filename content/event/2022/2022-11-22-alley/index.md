@@ -2,7 +2,7 @@
 title: "Applying Cryptography’s Real/Ideal Paradigm to PL Security"
 
 event: Live talk in EDIT 8103
-event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
+# event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
 #location: Wowchemy HQ
 #address:

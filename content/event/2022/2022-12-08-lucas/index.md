@@ -13,7 +13,7 @@ event: Live talk in EDIT 8103
 #  country: United States
 
 summary: |-
-    In this talk, I will address the under-researched area of combining social psychology findings with the construction of secure software systems.
+    In this talk, Lucas will address the under-researched area of combining social psychology findings with the construction of secure software systems.
 
 abstract: |-
     Since software systems are complex, security needs to be built from the ground up together with continuously assuring that security is maintained along the development and deployment of software. Due to the complexity and scale of modern software systems, they also need to be built by teams and teams of teams. If the team, then, is the most important human entity in software development, we also need to understand the social systems to guide industry in how to build secure software. This becomes even more prominent if parts of the development processes are to be automated and integrated with ML/AI components. In this talk, I will address the under-researched area of combining social psychology findings with the construction of secure software systems. In general psychology, research shows that group-level phenomena such as group norms (e.g. psychological safety), team maturity, job climate, social identity etc. do affect security behavior but we have yet to see such studies of the software engineering process.

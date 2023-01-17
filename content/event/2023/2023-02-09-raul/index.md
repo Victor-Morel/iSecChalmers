@@ -62,4 +62,4 @@ slides:
 projects:
 ---
 
-Raúl is an assistant professor in computer science at the IT University of Copenhagen. In the past, he was a postdoc in the SQUARE group at the IT University of Copenhagen hosted by Andrzej Wąsowski. Previously, he was a postdoc in the Privatics team at Inria hosted by Daniel Le Métayer. He has a PhD degree in computer science from Chalmers University of Technology.
+[Raúl](http://raulpardo.net/) is an assistant professor in computer science at the IT University of Copenhagen. In the past, he was a postdoc in the SQUARE group at the IT University of Copenhagen hosted by Andrzej Wąsowski. Previously, he was a postdoc in the Privatics team at Inria hosted by Daniel Le Métayer. He has a PhD degree in computer science from Chalmers University of Technology.

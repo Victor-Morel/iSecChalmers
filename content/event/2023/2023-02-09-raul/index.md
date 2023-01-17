@@ -20,12 +20,12 @@ abstract: |-
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2023-01-19T13:15:00Z"
-date_end: "2023-01-19T14:15:00Z"
+date: "2023-02-09T13:15:00Z"
+date_end: "2023-02-09T14:15:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-12-06T00:00:00Z"
+publishDate: "2023-01-16T00:00:00Z"
 
 authors: [Raúl Pardo]
 tags: [csstalk, privacy, genetics, privacy risks]

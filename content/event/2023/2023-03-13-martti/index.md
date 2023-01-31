@@ -13,12 +13,12 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 #  country: United States
 
 summary: |-
-    We formalize the simulation paradigm of cryptography in terms of category theory and show that protocols secure against abstract attacks form a symmetric monoidal category (≈can be composed sequentially and in parallel). This gives an abstract model of composable security definitions in cryptography that is not tied to any particular machine model. Our model is able to incorporate computational security, set-up assumptions and various attack models such as colluding or independently acting subsets of adversaries in a modular, flexible fashion. We conclude by using string diagrams to rederive the security of the one-time pad and no-go results concerning the limits of bipartite and tripartite cryptography, ruling out e.g., composable commitments and broadcasting.
+    We formalize the simulation paradigm of cryptography in terms of category theory and show that protocols secure against abstract attacks form a symmetric monoidal category (≈ can be composed sequentially and in parallel). This gives an abstract model of composable security definitions in cryptography that is not tied to any particular machine model. Our model is able to incorporate computational security, set-up assumptions and various attack models such as colluding or independently acting subsets of adversaries in a modular, flexible fashion. We conclude by using string diagrams to rederive the security of the one-time pad and no-go results concerning the limits of bipartite and tripartite cryptography, ruling out e.g., composable commitments and broadcasting.
 
 abstract: |-
-    We formalize the simulation paradigm of cryptography in terms of category theory and show that protocols secure against abstract attacks form a symmetric monoidal category (≈can be composed sequentially and in parallel). This gives an abstract model of composable security definitions in cryptography that is not tied to any particular machine model. Our model is able to incorporate computational security, set-up assumptions and various attack models such as colluding or independently acting subsets of adversaries in a modular, flexible fashion. We conclude by using string diagrams to rederive the security of the one-time pad and no-go results concerning the limits of bipartite and tripartite cryptography, ruling out e.g., composable commitments and broadcasting.
+    We formalize the simulation paradigm of cryptography in terms of category theory and show that protocols secure against abstract attacks form a symmetric monoidal category (≈ can be composed sequentially and in parallel). This gives an abstract model of composable security definitions in cryptography that is not tied to any particular machine model. Our model is able to incorporate computational security, set-up assumptions and various attack models such as colluding or independently acting subsets of adversaries in a modular, flexible fashion. We conclude by using string diagrams to rederive the security of the one-time pad and no-go results concerning the limits of bipartite and tripartite cryptography, ruling out e.g., composable commitments and broadcasting. 
 
-The talk is based on joint work with Anne Broadbent, and corresponding text is available at https://arxiv.org/abs/2105.05949 and https://arxiv.org/abs/2208.13232
+    The talk is based on joint work with Anne Broadbent, and corresponding text is available at https://arxiv.org/abs/2105.05949 and https://arxiv.org/abs/2208.13232.
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2023-03-13T15:15:00Z"
@@ -63,5 +63,5 @@ slides:
 projects:
 ---
 
-[Martti Karvonen](https://mysite.science.uottawa.ca/mkarvone/)Martti Karvonen is a postdoc at the University of Ottawa. His research interests include category theory and its applications to fields such as cryptography and quantum computing. 
+[Martti Karvonen](https://mysite.science.uottawa.ca/mkarvone/) is a postdoc at the University of Ottawa. His research interests include category theory and its applications to fields such as cryptography and quantum computing. 
 

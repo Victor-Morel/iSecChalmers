@@ -43,7 +43,7 @@ image:
 #  caption: ''
 
 url_code: ""
-url_pdf: "https://arxiv.org/pdf/2208.12497.pdf"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 

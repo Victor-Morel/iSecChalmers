@@ -13,7 +13,7 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 #  country: United States
 
 summary: |-
-    In this talk, Raul will present a novel methodology to quantify and prevent privacy risks by focusing on polygenic scores and phenotypic information.
+    In this talk, Sofía will present FrodoPIR, a highly configurable, stateful, singleserver Private Information Retrieval (PIR) scheme that involves an offline phase that is completely client-independent.
 
 abstract: |-
     FrodoPIR is a highly configurable, stateful, singleserver Private Information Retrieval (PIR) scheme that involves an offline phase that is completely client-independent. Coupled with small online overheads, it leads to much smaller amortized financial costs on the server-side than previous approaches. In this talk, we will see what PIR schemes are, where they can be used, and present the new FrodoPIR scheme. We will also talk about its security model and possibilities of formal verification.

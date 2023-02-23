@@ -19,8 +19,8 @@ abstract: |-
     A Non-interactive Zero-knowledge Proof of Knowledge (NIZKPoK) is a fundamental cryptographic building block that allows an entity to prove that it "knows'" some secret information through a single message, without revealing anything beyond this fact. A common methodology for constructing NIZKPoKs is to start with an interactive three round "Sigma" protocol that is easy to design and analyze, and then transform it to a NIZKPoK by plugging it into a compiler. The focus of this talk will be such compilers that function in the Random Oracle Model—arguably the most practical in terms of trust assumptions and efficiency—and achieve the gold-standard of security, i.e. Universal Composability. We will revisit the most efficient known compiler (Fischlin, CRYPTO 2005) and tighten the conditions under which it can be applied; we show a novel attack in contexts where it previously wasn't proven to work, and a technique to mitigate the attack by randomization. Based on joint work with abhi shelat that appeared at Asiacrypt '22.
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2023-03-02T13:15:00Z"
-date_end: "2023-03-02T14:15:00Z"
+date: "2023-03-09T13:15:00Z"
+date_end: "2023-03-09T14:15:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

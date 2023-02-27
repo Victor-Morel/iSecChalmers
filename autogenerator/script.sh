@@ -5,6 +5,8 @@ WebPageFile="index.md"
 
 ZoomLink="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09"
 
+echo $(date -d +7 '%Y-%m-%d' | cut -f3- -d' ')
+
 echo -e "Title:"
 read Title
 Title=${Title:-Title}
@@ -47,9 +49,9 @@ echo -e "Speaker's URL:"
 read SpeakerURL
 SpeakerURL=${SpeakerURL:-SpeakerURL}
 
-echo -e "Summary:" 
+echo -e "Summary: [default: Abstract]" 
 read Summary
-Summary=${Summary:-Summary}
+Summary=${Summary:-Abstract}
 
 echo -e "Tags: x, y, z" 
 read Tags

@@ -5,8 +5,6 @@ WebPageFile="index.md"
 
 ZoomLink="https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09"
 
-echo $(date -d +7 '%Y-%m-%d' | cut -f3- -d' ')
-
 echo -e "Title:"
 read Title
 Title=${Title:-Title}
@@ -15,9 +13,10 @@ echo -e "Speaker:"
 read Speaker
 Speaker=${Speaker:-Speaker}
 
-echo -e "Date: [default: 2023-03-09]" 
+echo -e "Date: [default: 8 days from today, format:YYYY-mm-dd]" 
 read Date
-Date=${Date:-2023-03-09}
+Date=${Date:-$(date -j -v +8d '+%Y-%m-%d')}
+echo $Date
 DateExp=$(date -jf '%Y-%m-%d' $Date "+date %B %d, %Y")
 DateExp=$(echo $DateExp | cut -f2- -d' ')
 
@@ -37,13 +36,13 @@ echo -e "Zoom?: [default: yes]"
 read Zoom
 Zoom=${Zoom:-yes}
 
-echo -e "Abstract:" 
+echo -e "Abstract: [default: reading from input-abstract.txt]" 
 read Abstract
-Abstract=${Abstract:-Abstract}
+Abstract=${Abstract:-$(<input-abstract.txt)}
 
-echo -e "Bio:" 
+echo -e "Bio: [default: reading from input-bio.txt]" 
 read Bio
-Bio=${Bio:-Bio}
+Bio=${Bio:-$(<input-bio.txt)}
 
 echo -e "Speaker's URL:" 
 read SpeakerURL
@@ -51,7 +50,7 @@ SpeakerURL=${SpeakerURL:-SpeakerURL}
 
 echo -e "Summary: [default: Abstract]" 
 read Summary
-Summary=${Summary:-Abstract}
+Summary=${Summary:-$Abstract}
 
 echo -e "Tags: x, y, z" 
 read Tags
@@ -75,18 +74,22 @@ $(if [ "$Zoom" = "yes" ]; then
     echo "and over Zoom [$ZoomLink]"
 fi)
 \n\nAbstract:\n$Abstract
+\n\nSpeaker's webpage:\n$SpeakerURL
 \n\nSpeaker's bio:\n$Bio
 \n\n--\nNever miss a seminar, subscribe to our Google calendar:
 \nhttps://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics
 \nhttps://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm
 \n\nChalmers Security & Privacy Lab: https://www.cse.chalmers.se/research/group/security/
 "
-
-echo $EmailSubject > $EmailFile
+#using echo -e "" to preserve the new lines
+echo "$EmailSubject" > $EmailFile
 echo -e "\n---\n" >> $EmailFile
-echo -e $EmailBody >> $EmailFile
+echo -e "$EmailBody" >> $EmailFile
 
 
+AbstractInsideWebContent=$(echo "$Abstract" | sed -e 's/^/\n\t/')
+Summary=$(echo "$Summary" | sed -e 's/^/\n\t/')
+BioInsideWebContent=$(echo "$Bio" | sed -e 's/^/\n/')
 
 WebPageContent="---
 \ntitle: \"$Title\"
@@ -94,8 +97,8 @@ WebPageContent="---
 $(if [ "$Zoom" = "yes" ]; then
     echo "\nevent_url: $ZoomLink"
 fi)
-\n\nsummary: |-\n    $Summary
-\n\nabstract: |-\n    $Abstract
+\n\nsummary: |-\n$Summary
+\n\nabstract: |-\n$AbstractInsideWebContent
 \n\ndate: \""${Date}T${StartTime}:00Z"\"
 \ndate_end: \""${Date}T$EndTime:00Z"\"
 \nall_day: false
@@ -116,9 +119,10 @@ fi)
 \n\nslides:
 \n\nprojects:
 \n---
-\n\n[$Speaker]($SpeakerURL) $Bio
+\n\n$BioInsideWebContent
+\n\n[$Speaker's webpage]($SpeakerURL) 
 "
-echo -e $WebPageContent > $WebPageFile
+echo -e "$WebPageContent" > $WebPageFile
 
 
 echo "email.txt and index.md generated..."

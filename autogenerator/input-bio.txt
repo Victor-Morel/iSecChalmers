@@ -1,0 +1,2 @@
+Tamara Rezk is a research director at Inria, Sophia Antipolis, France. Her main research interests are in the field of system security. She currently focuses her research on program analyses and principled methods to deal with transient execution attacks and JavaScript security.
+She has supervised Ph.D. students on topics such as static and dynamic security analyses, web security, formal methods for security, secure compilation, and provable cryptography. 

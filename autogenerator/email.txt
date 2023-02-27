@@ -1,35 +1,60 @@
-[Chalmers Security & Privacy Seminar] Tamara Rezk - How have threat models changed since 2018 and how hardware security can help handle the new threats?, on 2023-03-16 13:15
+[Chalmers Security & Privacy Seminar] 
+			Speaker - 
+			Title, 
+			on 2023-03-07 
+			13:15
 
 ---
 
-Dear all, 
+Dear all,
 
-It's our pleasure to announce the next talk of Chalmers Security & Privacy Seminar, given by Tamara Rezk. 
 
-Hoping to see many of you there! 
+It's our pleasure to announce the next talk of Chalmers Security & Privacy Seminar, given by Speaker.
 
-Best regards, 
-Mohammad and Victor 
+
+Hoping to see many of you there!
+
+
+Best regards,
+
+Mohammad and Victor
+
 
 Title:
-How have threat models changed since 2018 and how hardware security can help handle the new threats? 
+Title
+
 
 When:
-March 16, 2023 13:15-14:15 
+March 07, 2023 13:15-14:15
+
 
 Where:
-in lecture hall EE 
+in EDIT 8103
+and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
+
 
 Abstract:
-Since the disclosure of Spectre attacks in 2018, both academia and industry have made considerable efforts to defend against all variants of transient execution attacks, the class of attacks to which Spectre belongs to. The first part of this presentation will be dedicated to discovering how these attacks change the way we reason about threat models in security. The second part of the presentation will introduce a new generic formal processor model - called ProSpeCT - to prevent transient execution attacks by construction. ProSpeCT has also been implemented on top of an open-source RISC-V processor and will be presented in Usenix Security 23 in a joint work with Lesly-Ann Daniel, Marton Bognar, Job Noorman, Sébastien Bardin, and Frank Piessens. 
+Since the disclosure of Spectre attacks in 2018, both academia and industry have made considerable efforts to defend against all variants of transient execution attacks, the class of attacks to which Spectre belongs to. 
+The first part of this presentation will be dedicated to discovering how these attacks change the way we reason about threat models in security. The second part of the presentation will introduce a new generic formal processor model - called ProSpeCT - to prevent transient execution attacks by construction. 
+ProSpeCT has also been implemented on top of an open-source RISC-V processor and will be presented in Usenix Security 23 in a joint work with Lesly-Ann Daniel, Marton Bognar, Job Noorman, Sébastien Bardin, and Frank Piessens.
+
+
+Speaker's webpage:
+SpeakerURL
+
 
 Speaker's bio:
-Tamara Rezk [https://www-sop.inria.fr/lemme/Tamara.Rezk/] is a research director at Inria, Sophia Antipolis, France. Her main research interests are in the field of system security. She currently focuses her research on program analyses and principled methods to deal with transient execution attacks and JavaScript security.
-She has supervised Ph.D. students on topics such as static and dynamic security analyses, web security, formal methods for security, secure compilation, and provable cryptography.
+Tamara Rezk is a research director at Inria, Sophia Antipolis, France. Her main research interests are in the field of system security. She currently focuses her research on program analyses and principled methods to deal with transient execution attacks and JavaScript security.
+She has supervised Ph.D. students on topics such as static and dynamic security analyses, web security, formal methods for security, secure compilation, and provable cryptography. 
+
 
 --
-Never miss a seminar, subscribe to our Google calendar: 
-https://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics 
-https://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm 
+Never miss a seminar, subscribe to our Google calendar:
+
+https://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics
+
+https://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm
+
 
 Chalmers Security & Privacy Lab: https://www.cse.chalmers.se/research/group/security/
+

@@ -1,4 +1,5 @@
 #!/bin/bash
+#TODO: date command not working in Linux
 
 EmailFile="email.txt"
 WebPageFile="index.md"
@@ -87,8 +88,8 @@ echo -e "\n---\n" >> $EmailFile
 echo -e "$EmailBody" >> $EmailFile
 
 
-AbstractInsideWebContent=$(echo "$Abstract" | sed -e 's/^/\n\t/')
-Summary=$(echo "$Summary" | sed -e 's/^/\n\t/')
+AbstractInsideWebContent=$(echo "$Abstract" | sed -e 's/^/\n  /')
+Summary=$(echo "$Summary" | sed -e 's/^/\n  /')
 BioInsideWebContent=$(echo "$Bio" | sed -e 's/^/\n/')
 
 WebPageContent="---

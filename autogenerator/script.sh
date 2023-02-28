@@ -16,15 +16,15 @@ Speaker=${Speaker:-Speaker}
 
 echo -e "Date: [default: 8 days from today, format:YYYY-mm-dd]" 
 read Date
-Date=${Date:-$(date -j -v +8d '+%Y-%m-%d')}
+Date=${Date:-$(date -j -v +8d '+%Y-%m-%d'  2>/dev/null || date -d '+8 days' '+%Y-%m-%d')}
 echo $Date
-DateExp=$(date -jf '%Y-%m-%d' $Date "+date %B %d, %Y")
+DateExp=$(date -jf '%Y-%m-%d' $Date "+date %B %d, %Y" 2>/dev/null || date -d $Date "+date %B %d, %Y")
 DateExp=$(echo $DateExp | cut -f2- -d' ')
 
 echo -e "Time: [default: 13:15]" 
 read StartTime
 StartTime=${StartTime:-13:15}
-EndTime=$(date -j -v +1H -f "%T" "$StartTime:00" +%T)
+EndTime=$(date -j -v +1H -f "%T" "$StartTime:00" +%T 2>/dev/null || date -d "$StartTime today + 1 hour" +'%H:%M')
 EndTime=$(echo $EndTime | cut -f1,2 -d':')
 
 When="$DateExp $StartTime-$EndTime"

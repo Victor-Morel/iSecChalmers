@@ -64,7 +64,7 @@ EmailSubject="[Chalmers Security & Privacy Seminar]
 			on $Date 
 			$StartTime"
 EmailBody="Dear all,
-\n\nIt's our pleasure to announce the next talk of Chalmers Security & Privacy Seminar, given by $Speaker.
+\n\nIt's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by $Speaker.
 \n\nHoping to see many of you there!
 \n\nBest regards,
 \nMohammad and Victor

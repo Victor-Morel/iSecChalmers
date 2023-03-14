@@ -1,2 +1,8 @@
-Tamara Rezk is a research director at Inria, Sophia Antipolis, France. Her main research interests are in the field of system security. She currently focuses her research on program analyses and principled methods to deal with transient execution attacks and JavaScript security.
-She has supervised Ph.D. students on topics such as static and dynamic security analyses, web security, formal methods for security, secure compilation, and provable cryptography. 
+Matteo Maffei is professor for Security at TU Wien since 2017. Previously, he was professor at Saarland University - CISPA. He obtained his Ph.D. in Computer Science at the Ca’ Foscari University of Venice in 2006.
+
+Matteo Maffei received an ERC Consolidator Grant in 2018 and a DFG Emmy Noether Fellowship in 2009. He is director of the TU Wien doctoral school SecInt, local leader of the Christian Doppler Lab Blockchain Technologies for the Internet of Things, and director of the FWF special research program SPyCoDe.
+
+His current research interests focus on formal methods for security and privacy, web security, and blockchain technologies.
+
+
+

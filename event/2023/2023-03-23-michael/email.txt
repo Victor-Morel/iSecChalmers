@@ -1,8 +1,4 @@
-[Chalmers Security & Privacy Seminar] 
-			Michael Hay - 
-			Mind the gap: the challenges of taking differential privacy out of the lab and into the field, 
-			on 2023-03-23 
-			10:00
+[Chalmers Security & Privacy Seminar] Michael Hay - Mind the gap: the challenges of taking differential privacy out of the lab and into the field, on 2023-03-23 10:00
 
 ---
 

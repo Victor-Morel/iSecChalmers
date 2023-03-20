@@ -1,37 +1,26 @@
-[Chalmers Security & Privacy Seminar] 
-			Matteo Maffei - 
-			Computer-Aided Formal Security Analysis of the Web Platform, 
-			on 2023-03-23 
-			13:15
+[Chalmers Security & Privacy Seminar] Matteo Maffei - Computer-Aided Formal Security Analysis of the Web Platform, on 2023-03-23 13:15
 
 ---
 
 Dear all,
 
-
 It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Matteo Maffei.
-
 
 Hoping to see many of you there!
 
-
 Best regards,
-
 Mohammad and Victor
 
 
 Title:
 Computer-Aided Formal Security Analysis of the Web Platform
 
-
 When:
 March 23, 2023 13:15-14:15
-
 
 Where:
 in EDIT 8103
 and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
-
 
 Abstract:
 Over the last thirty years, the Web evolved from a mesh of hypertext documents into arguably the most successful software platform. This transition however corresponded to an uncontrolled accumulation of features, which is reflected in the complexity of web browsers, which are considered among the most complex software in use today. New web platform components, i.e., browser functionalities and security mechanisms, are constantly being discussed among browser vendors and the number of Web features is constantly increasing. The launch of a new API however needs to be carefully evaluated, as the addition of a new feature immediately changes the security profile of all existing web applications, as these new APIs, even when not used by any specific application, can be abused by attackers to, e.g., leak private user data.
@@ -42,10 +31,8 @@ In this talk, I will give an overview on this research line, illustrating how fo
 
 This talk is based on on-going work as well as material presented at IEEE CSF’20, Usenix Security’21, IEEE S&P’23.
 
-
 Speaker's webpage:
 https://informatics.tuwien.ac.at/people/matteo-maffei
-
 
 Speaker's bio:
 Matteo Maffei is professor for Security at TU Wien since 2017. Previously, he was professor at Saarland University - CISPA. He obtained his Ph.D. in Computer Science at the Ca’ Foscari University of Venice in 2006.
@@ -54,14 +41,10 @@ Matteo Maffei received an ERC Consolidator Grant in 2018 and a DFG Emmy Noether 
 
 His current research interests focus on formal methods for security and privacy, web security, and blockchain technologies.
 
-
 --
 Never miss a seminar, subscribe to our Google calendar:
-
 https://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics
-
 https://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm
-
 
 Chalmers Security & Privacy Lab: https://www.cse.chalmers.se/research/group/security/
 

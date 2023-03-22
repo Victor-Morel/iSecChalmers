@@ -1,7 +1,7 @@
 [Chalmers Security & Privacy Seminar] 
-			Matteo Maffei - 
-			Computer-Aided Formal Security Analysis of the Web Platform, 
-			on 2023-03-23 
+			Matvey Soloviev - 
+			Security Properties through the Lens of Modal Logic, 
+			on 2023-03-30 
 			13:15
 
 ---
@@ -9,7 +9,7 @@
 Dear all,
 
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Matteo Maffei.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Matvey Soloviev.
 
 
 Hoping to see many of you there!
@@ -21,11 +21,11 @@ Mohammad and Victor
 
 
 Title:
-Computer-Aided Formal Security Analysis of the Web Platform
+Security Properties through the Lens of Modal Logic
 
 
 When:
-March 23, 2023 13:15-14:15
+March 30, 2023 13:15-14:15
 
 
 Where:
@@ -34,25 +34,41 @@ and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNk
 
 
 Abstract:
-Over the last thirty years, the Web evolved from a mesh of hypertext documents into arguably the most successful software platform. This transition however corresponded to an uncontrolled accumulation of features, which is reflected in the complexity of web browsers, which are considered among the most complex software in use today. New web platform components, i.e., browser functionalities and security mechanisms, are constantly being discussed among browser vendors and the number of Web features is constantly increasing. The launch of a new API however needs to be carefully evaluated, as the addition of a new feature immediately changes the security profile of all existing web applications, as these new APIs, even when not used by any specific application, can be abused by attackers to, e.g., leak private user data.
+Computer security research is on a long-running quest for a universal framework
+to reason about security properties. Such a framework ought to be expressive
+enough to capture any security policy conceived of, while also being independent
+of syntactic details and enforcement mechanisms, applicable to any system on
+which we may wish to impose security, and intuitive enough that humans can grasp
+the meaning of any given property (and not experience surprises due to a false
+sense of grasping).
+In this talk, I will present a framework based on modal logic
+which we have recently introduced in pursuit of these goals.
+In our approach, we combine established techniques for modal reasoning about
+knowledge with modalities of time and possible actions, and carefully distinguish
+between agents' capabilities and the effects we wish to permit them to achieve.
 
-While the implementation of new Web platform components is subject to extensive compliance testing, their specification undergoes only manual expert review, lacking principled or automated techniques to detect security vulnerabilities. In addition, most components are tested in isolation, without taking into account the interplay with other components. Even worse, there is no consensus on which security properties should be seen as invariants of the Web, thus expected to hold across platform updates and independently on how its components can possibly interact with each other. An emblematic example is the HttpOnly flag for cookies that was introduced in Internet Explorer 6  to protect the confidentiality of marked cookies by not exposing them to scripts. Eight years after its launch, Singh et al. discovered that this property could be trivially violated by any scripts accessing the response headers of an AJAX request via the getResponseHeader function.  This state of affairs calls for a principled approach security analysis of web components and their interactions.
+As we show, our formalism can be used to represent various progress- and termination-(in)sensitive
+variants of confidentiality, integrity, robust declassification and
+transparent endorsement, for each of which we have proven equivalence to standard definitions.
+The intuitive nature and closeness to semantic reality
+of our approach allows us to make explicit
+several hidden assumptions of these definitions, and identify potential
+issues and subtleties with them, while also holding the promise
+of formulating cleaner versions and future extension to entirely novel properties.
 
-In this talk, I will give an overview on this research line, illustrating how formal methods can positively impact browser and web security. I will initially exemplify  how web security properties can be formalized and enforced, both in browsers and at the level of web specifications. I will then focus on WebSpec, a framework encompassing a formal model of the browser in Coq and a compiler turning Coq specifications into SMT-Lib formulas, thereby enabling the usage of off-the-shelf SMT solvers to automatically discover vulnerabilities and prove security properties. This line of research brings together formal methods and applied security in a cross-fertilizing feedback loop: vulnerabilities identified in the model are measured in the wild and  large-scale evaluations often bring back new threat models that are then fed into the formal specification. This approach allowed us to identify a number of vulnerabilities in the specification and interaction of web components, and to identify fixes that we proved correct in our model.
-
-This talk is based on on-going work as well as material presented at IEEE CSF’20, Usenix Security’21, IEEE S&P’23.
+This project is joint work with Musard Balliu and Roberto Guanciale at KTH.
 
 
 Speaker's webpage:
-https://informatics.tuwien.ac.at/people/matteo-maffei
+https://www.kth.se/profile/matvey?l=en
 
 
 Speaker's bio:
-Matteo Maffei is professor for Security at TU Wien since 2017. Previously, he was professor at Saarland University - CISPA. He obtained his Ph.D. in Computer Science at the Ca’ Foscari University of Venice in 2006.
-
-Matteo Maffei received an ERC Consolidator Grant in 2018 and a DFG Emmy Noether Fellowship in 2009. He is director of the TU Wien doctoral school SecInt, local leader of the Christian Doppler Lab Blockchain Technologies for the Internet of Things, and director of the FWF special research program SPyCoDe.
-
-His current research interests focus on formal methods for security and privacy, web security, and blockchain technologies.
+Matvey Soloviev is a postdoc at KTH working under Musard Balliu.
+Previously, he obtained a Ph.D. at Cornell University under
+the supervision of Joseph Y. Halpern. The focus of his research is in developing
+formal approaches to program security by borrowing insights from fields such as
+logic, analytic philosophy and game theory.
 
 
 --

@@ -58,16 +58,12 @@ read Tags
 Tags=${Tags:-x, y, z}
 
 
-EmailSubject="[Chalmers Security & Privacy Seminar] 
-			$Speaker - 
-			$Title, 
-			on $Date 
-			$StartTime"
+EmailSubject="[Chalmers Security & Privacy Seminar] $Speaker - $Title, on $DateExp at $StartTime"
 EmailBody="Dear all,
-\n\nIt's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by $Speaker.
-\n\nHoping to see many of you there!
+\nIt's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by $Speaker.
+\nHoping to see many of you there!
 \n\nBest regards,
-\nMohammad and Victor
+Mohammad and Victor
 \n\nTitle:\n$Title
 \n\nWhen:\n$When
 \n\nWhere:\nin $Where

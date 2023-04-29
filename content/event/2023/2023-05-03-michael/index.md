@@ -23,7 +23,7 @@ abstract: |-
 
 date: "2023-05-03T13:15:00Z"
 
-date_end: "2023-05-03T14:15:00Z"
+date_end: ""
 
 all_day: false
 

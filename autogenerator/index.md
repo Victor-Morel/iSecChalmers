@@ -1,29 +1,26 @@
 ---
 
-title: "Building a Secure Foundation"
+title: "Research challenges for the Tor anonymous communication system"
 
 
-event: Live talk in EB
+event: Live talk in EDIT 8103
 
+event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
 
 summary: |-
 
-  Block, Inc. (NYSE: SQ) is a global technology company with a focus on financial services. Made up of Square, Cash App, Spiral, TIDAL, and TBD, we build tools to help more people access the economy. Square helps sellers run and grow their businesses with its integrated ecosystem of commerce solutions, business software, and banking services. With Cash App, anyone can easily send, spend, or invest their money in stocks or Bitcoin. Spiral builds and funds free, open-source Bitcoin projects. Artists use TIDAL to help them succeed as entrepreneurs and connect more deeply with fans. TBD is building an open developer platform to make it easier to access Bitcoin and other blockchain technologies without having to go through an institution.
-
-  This session will cover my transition from academic security research at Northeastern’s Seclab into a role of industrial security engineering. We will dive into recent major infrastructure security projects at Block, such as a system to integrate acquisitions into the Block service mesh and bringing security infrastructure features from our Data Center and AWS EKS to AWS Lambda. Through these deep dives we will share how an academic background helps in industrial security engineering.
+  The Tor anonymous communication system helps millions of users every day to use the Internet more safely, protecting their identity, blocking tracking, and in some cases circumventing censorship. Since its creation in 2005, the Tor Project has worked to enhance the usability and security of Tor, bringing it from a research prototype with a handful of users to an easy-to-use modern application today. In this talk, I’ll discuss the research challenges that had to be addressed during this journey and open research questions that remain, including on usability, traffic-analysis resistance, ethical considerations, and post-quantum cryptography.
 
 
 abstract: |-
 
-  Block, Inc. (NYSE: SQ) is a global technology company with a focus on financial services. Made up of Square, Cash App, Spiral, TIDAL, and TBD, we build tools to help more people access the economy. Square helps sellers run and grow their businesses with its integrated ecosystem of commerce solutions, business software, and banking services. With Cash App, anyone can easily send, spend, or invest their money in stocks or Bitcoin. Spiral builds and funds free, open-source Bitcoin projects. Artists use TIDAL to help them succeed as entrepreneurs and connect more deeply with fans. TBD is building an open developer platform to make it easier to access Bitcoin and other blockchain technologies without having to go through an institution.
-
-  This session will cover my transition from academic security research at Northeastern’s Seclab into a role of industrial security engineering. We will dive into recent major infrastructure security projects at Block, such as a system to integrate acquisitions into the Block service mesh and bringing security infrastructure features from our Data Center and AWS EKS to AWS Lambda. Through these deep dives we will share how an academic background helps in industrial security engineering.
+  The Tor anonymous communication system helps millions of users every day to use the Internet more safely, protecting their identity, blocking tracking, and in some cases circumventing censorship. Since its creation in 2005, the Tor Project has worked to enhance the usability and security of Tor, bringing it from a research prototype with a handful of users to an easy-to-use modern application today. In this talk, I’ll discuss the research challenges that had to be addressed during this journey and open research questions that remain, including on usability, traffic-analysis resistance, ethical considerations, and post-quantum cryptography.
 
 
-date: "2023-05-03T13:15:00Z"
+date: "2023-08-22T13:15:00Z"
 
-date_end: "2023-05-03T14:15:00Z"
+date_end: "2023-08-22T14:15:00Z"
 
 all_day: false
 
@@ -31,10 +28,10 @@ all_day: false
 publishDate: "2023-01-16T00:00:00Z"
 
 
-authors: [Michael Weissbacher]
+authors: [Steven Murdoch]
 
 
-tags: [csstalk, blockchain, security infrastructure]
+tags: [csstalk, privacy, anonymous communication, usability, traffic analysis, post-quantum cryptography]
 
 
 featured: false
@@ -48,7 +45,7 @@ image:
 
   preview_only: true
 
-  alt_text: Michael Weissbacher
+  alt_text: Steven Murdoch
 
 
 
@@ -71,8 +68,8 @@ projects:
 
 
 
-Michael Weissbacher is a Staff Security Engineer at Block where he develops infrastructure software that makes the business operate more securely. His primary area is providing identity to workloads in the cloud. Michael has a PhD from Northeastern University where he was working at the Secure Systems Lab. His main area of research was web security, he also worked on fuzzing for algorithmic slowdowns and integrating humans with automated program exploitation. His work was published in venues such as USENIX Security, ACM CCS, NDSS, and others. He has presented work on detecting privacy invasions of browser extensions at the FTC, which has been covered by various news outlets, such as Le Figaro and Heise. Michael’s recent industry work has been presented at Black Hat USA in 2021.
+Professor Steven Murdoch is the head of University College London's Information Security Research Group. His research interests include payment systems and privacy-enhancing technologies, particularly anonymous communication systems. He was the creator of the Tor Browser and continues to be a member of the Tor Project. He is a Fellow of the IET and BCS and a director of the Open Rights Group.
 
 
-[Michael Weissbacher's webpage](https://mweissbacher.com/) 
+[Steven Murdoch's webpage](https://murdoch.is/) 
 

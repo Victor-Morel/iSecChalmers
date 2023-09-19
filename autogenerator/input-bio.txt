@@ -1,2 +1,8 @@
-Professor Steven Murdoch is the head of University College London's Information Security Research Group. His research interests include payment systems and privacy-enhancing technologies, particularly anonymous communication systems. He was the creator of the Tor Browser and continues to be a member of the Tor Project. He is a Fellow of the IET and BCS and a director of the Open Rights Group.
+Jaap-Henk Hoepman is guest professor at the PRISEC - Privacy And Security group of Karlstad University, Sweden.
 
+He is also an associate professor of privacy enhancing protocols and privacy by design in the Digital Security group at the Institute for Computing and Information Sciences of the Radboud University Nijmegen, principal scientist of the Privacy & Identity Lab, and member of iHub, Radboud University’s interdisciplinary research hub on Digitalization and Society.
+
+Moreover he is an associate professor in the IT Law section of the Transboundary Legal Studies department of the Faculty of Law of the University of Groningen.
+
+His main research interest are privacy by design, privacy friendly protocols and identity management.
+He also writes a lot about the societal impact of new technologies.

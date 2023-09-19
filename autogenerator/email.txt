@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Steven Murdoch - Research challenges for the Tor anonymous communication system, on August 22, 2023 at 13:15
+[Chalmers Security & Privacy Seminar] Jaap-Henk Hoepman - Mutual Contact Discovery, on October 16, 2023 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Steven Murdoch.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Jaap-Henk Hoepman.
 
 Hoping to see many of you there!
 
@@ -14,11 +14,11 @@ Mohammad and Victor
 
 
 Title:
-Research challenges for the Tor anonymous communication system
+Mutual Contact Discovery
 
 
 When:
-August 22, 2023 13:15-14:15
+October 16, 2023 13:15-14:15
 
 
 Where:
@@ -27,15 +27,22 @@ and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNk
 
 
 Abstract:
-The Tor anonymous communication system helps millions of users every day to use the Internet more safely, protecting their identity, blocking tracking, and in some cases circumventing censorship. Since its creation in 2005, the Tor Project has worked to enhance the usability and security of Tor, bringing it from a research prototype with a handful of users to an easy-to-use modern application today. In this talk, I’ll discuss the research challenges that had to be addressed during this journey and open research questions that remain, including on usability, traffic-analysis resistance, ethical considerations, and post-quantum cryptography.
+Contact discovery allows new users of a messaging service to find existing contacts that already use that service. Existing users are similarly informed of new users that join. Current contact discovery protocols allow the server to reconstruct the social graph (i.e. the graph describing who is a contact of who), which is a serious privacy issue, unless they use trusted hardware to prevent this. But even in the latter case, privacy is still at stake: anyone already on the service that has your number on their contact list gets notified that you joined. Even if you don't know that person, or if it is an ex or former colleague that you long parted with and whose contact details you deleted long ago.
 
 
 Speaker's webpage:
-https://murdoch.is/
+https://www.cs.ru.nl/J.H.Hoepman/
 
 
 Speaker's bio:
-Professor Steven Murdoch is the head of University College London's Information Security Research Group. His research interests include payment systems and privacy-enhancing technologies, particularly anonymous communication systems. He was the creator of the Tor Browser and continues to be a member of the Tor Project. He is a Fellow of the IET and BCS and a director of the Open Rights Group.
+Jaap-Henk Hoepman is guest professor at the PRISEC - Privacy And Security group of Karlstad University, Sweden.
+
+He is also an associate professor of privacy enhancing protocols and privacy by design in the Digital Security group at the Institute for Computing and Information Sciences of the Radboud University Nijmegen, principal scientist of the Privacy & Identity Lab, and member of iHub, Radboud University’s interdisciplinary research hub on Digitalization and Society.
+
+Moreover he is an associate professor in the IT Law section of the Transboundary Legal Studies department of the Faculty of Law of the University of Groningen.
+
+His main research interest are privacy by design, privacy friendly protocols and identity management.
+He also writes a lot about the societal impact of new technologies.
 
 
 --

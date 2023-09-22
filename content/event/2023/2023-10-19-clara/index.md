@@ -15,11 +15,29 @@ summary: |-
 
 abstract: |-
 
-  Smart contracts are distributed applications, which govern financial assets in cryptocurrencies such as Ethereum and, hence, can implement advanced financial instruments, such as decentralized exchanges or autonomous organizations (DAOs). 
-  Their financial nature makes smart contracts an attractive attack target, as demonstrated by numerous exploits on popular contracts resulting in financial damage of millions of dollars. 
-  This omnipresent attack hazard motivates the need for sound static analysis tools, which assist smart contract developers in eliminating contract vulnerabilities a priori to deployment. 
-  In this talk, I will overview our advances in developing static analyzers that come with provable guarantees. 
-  I will first show how to define generic security properties that characterize the absence of prominent attack classes (such as reentrancy or transaction order dependence) and then discuss different forms of static analysis that can prove these properties and that can be efficiently implemented to analyze real-world smart contracts.
+  Smart contracts are distributed applications, which 
+  govern financial assets in cryptocurrencies such as 
+  Ethereum and, hence, can implement advanced financial 
+  instruments, such as decentralized exchanges or 
+  autonomous organizations (DAOs). 
+  Their financial nature makes smart contracts an 
+  attractive attack target, as demonstrated by numerous 
+  exploits on popular contracts resulting in financial 
+  damage of millions of dollars. 
+  This omnipresent attack hazard motivates the need for 
+  sound static analysis tools, which assist smart 
+  contract developers in eliminating contract 
+  vulnerabilities a priori to deployment. 
+  In this talk, I will overview our advances in 
+  developing static analyzers that come with provable 
+  guarantees. 
+  I will first show how to define generic security 
+  properties that characterize the absence of prominent 
+  attack classes (such as reentrancy or transaction 
+  order dependence) and then discuss different forms of 
+  static analysis that can prove these properties and 
+  that can be efficiently implemented to analyze 
+  real-world smart contracts.
 
 
 date: "2023-10-19T13:15:00Z"

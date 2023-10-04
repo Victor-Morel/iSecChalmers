@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Jaap-Henk Hoepman - Mutual Contact Discovery, on October 16, 2023 at 13:15
+[Chalmers Security & Privacy Seminar] Clara Schneidewind - Provably Sound Static Analysis for Ethereum Smart Contracts, on October 19, 2023 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Jaap-Henk Hoepman.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Clara Schneidewind.
 
 Hoping to see many of you there!
 
@@ -14,11 +14,11 @@ Mohammad and Victor
 
 
 Title:
-Mutual Contact Discovery
+Provably Sound Static Analysis for Ethereum Smart Contracts
 
 
 When:
-October 16, 2023 13:15-14:15
+October 19, 2023 13:15-14:15
 
 
 Where:
@@ -27,22 +27,19 @@ and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNk
 
 
 Abstract:
-Contact discovery allows new users of a messaging service to find existing contacts that already use that service. Existing users are similarly informed of new users that join. Current contact discovery protocols allow the server to reconstruct the social graph (i.e. the graph describing who is a contact of who), which is a serious privacy issue, unless they use trusted hardware to prevent this. But even in the latter case, privacy is still at stake: anyone already on the service that has your number on their contact list gets notified that you joined. Even if you don't know that person, or if it is an ex or former colleague that you long parted with and whose contact details you deleted long ago.
+Smart contracts are distributed applications, which govern financial assets in cryptocurrencies such as Ethereum and, hence, can implement advanced financial instruments, such as decentralized exchanges or autonomous organizations (DAOs). 
+Their financial nature makes smart contracts an attractive attack target, as demonstrated by numerous exploits on popular contracts resulting in financial damage of millions of dollars. 
+This omnipresent attack hazard motivates the need for sound static analysis tools, which assist smart contract developers in eliminating contract vulnerabilities a priori to deployment. 
+In this talk, I will overview our advances in developing static analyzers that come with provable guarantees. 
+I will first show how to define generic security properties that characterize the absence of prominent attack classes (such as reentrancy or transaction order dependence) and then discuss different forms of static analysis that can prove these properties and that can be efficiently implemented to analyze real-world smart contracts.
 
 
 Speaker's webpage:
-https://www.cs.ru.nl/J.H.Hoepman/
+https://www.mpi-sp.org/schneidewind
 
 
 Speaker's bio:
-Jaap-Henk Hoepman is guest professor at the PRISEC - Privacy And Security group of Karlstad University, Sweden.
-
-He is also an associate professor of privacy enhancing protocols and privacy by design in the Digital Security group at the Institute for Computing and Information Sciences of the Radboud University Nijmegen, principal scientist of the Privacy & Identity Lab, and member of iHub, Radboud University’s interdisciplinary research hub on Digitalization and Society.
-
-Moreover he is an associate professor in the IT Law section of the Transboundary Legal Studies department of the Faculty of Law of the University of Groningen.
-
-His main research interest are privacy by design, privacy friendly protocols and identity management.
-He also writes a lot about the societal impact of new technologies.
+Clara Schneidewind is a research group leader at the Max Planck Institute for Security and Privacy (MPI-SP) in Bochum. In her research, she is interested in improving the security and scalability of blockchain-based applications using techniques from formal methods and applied cryptography.
 
 
 --

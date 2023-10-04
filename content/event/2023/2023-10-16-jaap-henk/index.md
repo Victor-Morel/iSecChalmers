@@ -3,9 +3,9 @@
 title: "Mutual Contact Discovery"
 
 
-event: Live talk in EDIT 8103
+event: Live talk in ED
 
-event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
+event_url: https://chalmers.zoom.us/j/69061076925?pwd=MElTbE5lK0YzZ29QQ3NQNGkzOGJpZz09
 
 
 summary: |-
@@ -85,5 +85,5 @@ His main research interest are privacy by design, privacy friendly protocols and
 He also writes a lot about the societal impact of new technologies.
 
 
-[Jaap-Henk Hoepman's webpage](https://www.cs.ru.nl/J.H.Hoepman/) 
+[Jaap-Henk Hoepman's webpage](https://www.cs.ru.nl/J.H.Hoepman/)
 

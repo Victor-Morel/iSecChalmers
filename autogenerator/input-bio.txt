@@ -1,8 +1,1 @@
-Jaap-Henk Hoepman is guest professor at the PRISEC - Privacy And Security group of Karlstad University, Sweden.
-
-He is also an associate professor of privacy enhancing protocols and privacy by design in the Digital Security group at the Institute for Computing and Information Sciences of the Radboud University Nijmegen, principal scientist of the Privacy & Identity Lab, and member of iHub, Radboud University’s interdisciplinary research hub on Digitalization and Society.
-
-Moreover he is an associate professor in the IT Law section of the Transboundary Legal Studies department of the Faculty of Law of the University of Groningen.
-
-His main research interest are privacy by design, privacy friendly protocols and identity management.
-He also writes a lot about the societal impact of new technologies.
+Yuko Hara-Azumi received her Ph.D. degree in Information Science from Nagoya University, Japan, in 2010. She was a JSPS postdoctoral research fellow from 2010 to 2012, during which she was also a visiting scholar at University of California, Irvine, USA and Karlsruhe Institute of Technology, Germany. In 2012, she joined Nara Institute of Science and Technology, as an assistant professor. Since 2014, she has been with School of Engineering, Tokyo Institute of Technology, where she is currently an associate professor. She was a visiting scholar at Katholieke Universiteit Leuven, Belgium in 2023. Her research interests include system-level design automation, microprocessor architecture, and hardware/software co-design for embedded/IoT systems.

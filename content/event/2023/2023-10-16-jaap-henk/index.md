@@ -12,11 +12,15 @@ summary: |-
 
   Contact discovery allows new users of a messaging service to find existing contacts that already use that service. Existing users are similarly informed of new users that join. Current contact discovery protocols allow the server to reconstruct the social graph (i.e. the graph describing who is a contact of who), which is a serious privacy issue, unless they use trusted hardware to prevent this. But even in the latter case, privacy is still at stake: anyone already on the service that has your number on their contact list gets notified that you joined. Even if you don't know that person, or if it is an ex or former colleague that you long parted with and whose contact details you deleted long ago.
 
+  To solve this, we propose a *mutual* contact discovery protocol, that only allow users to discover each other when *both* are (still) in each other's contact list. Mutual contact discovery has the additional advantage that it can be implemented in a more privacy friendly fashion (e.g. protecting the social graph from the server) than traditional, one-sided contact discovery, without necessarily relying on trusted hardware.
+
+
 
 abstract: |-
 
   Contact discovery allows new users of a messaging service to find existing contacts that already use that service. Existing users are similarly informed of new users that join. Current contact discovery protocols allow the server to reconstruct the social graph (i.e. the graph describing who is a contact of who), which is a serious privacy issue, unless they use trusted hardware to prevent this. But even in the latter case, privacy is still at stake: anyone already on the service that has your number on their contact list gets notified that you joined. Even if you don't know that person, or if it is an ex or former colleague that you long parted with and whose contact details you deleted long ago.
 
+  To solve this, we propose a *mutual* contact discovery protocol, that only allow users to discover each other when *both* are (still) in each other's contact list. Mutual contact discovery has the additional advantage that it can be implemented in a more privacy friendly fashion (e.g. protecting the social graph from the server) than traditional, one-sided contact discovery, without necessarily relying on trusted hardware.
 
 date: "2023-10-16T13:15:00Z"
 

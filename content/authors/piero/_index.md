@@ -10,7 +10,7 @@ superuser: false
 # Role/position
 role: PhD
 # Enter webpage to your profile
-webpage: "https://www.linkedin.com/in/piero-romare-763635112/"
+webpage: "http://pieroromare.github.io"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

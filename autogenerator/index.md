@@ -1,6 +1,6 @@
 ---
 
-title: "The ambivalent role of deep learning in cybersecurity: insights from traffic analysis attacks and defenses"
+title: "Integrating Side Channel Security into the High Level Synthesis based Design Flow"
 
 
 event: Live talk in EDIT 8103
@@ -10,17 +10,17 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 
 summary: |-
 
-  The transformative potential of deep learning in enhancing computer science solutions has not gone unnoticed in the fields of security and privacy. However, the sheer volume of related scientific literature and the significant gap between a lab context and real-world environments make it extremely challenging to assess the current progress in the area. In this talk, I will review underlying mechanisms and main principles behind deep learning when applied to offensive and defensive cybersecurity solutions. I will focus on two primary use cases: traffic analysis attacks on Tor and network-based intrusion detection systems, analyzing the expected benefits and potential pitfalls of using deep learning. This analysis effectively challenges the common perception of a purely end-to-end approach. To that end, the presentation emphasizes the importance of explainability and error analysis for validating and troubleshooting deep neural networks. This discussion is meant to equip cybersecurity researchers and practitioners to begin incorporating deep learning in their toolbox while maintaining a critical and holistic perspective.
+  In the Internet of Things era, edge devices have been considerably diversified and are often designed using high level synthesis (HLS), which translates behavioral descriptions into hardware descriptions, for improved design productivity. However, HLS tools were originally developed in a security-unaware manner, resulting in vulnerabilities to side-channel attacks. In our recent work that was published at ACM Trans. on Embedded Computing Systems, we integrated side-channel security in the state-of-the-art high-level-synthesis-based hardware design flow, leveraging a provably countermeasure called the threshold implementation. As case studies for lightweight block ciphers composed of addition/rotation/XOR (ARX)-based permutations, our evaluation using an FPGA board demonstrated that our proposed method can successfully improve the side-channel security for all ARX-based ciphers used as benchmarks.
 
 
 abstract: |-
 
-  The transformative potential of deep learning in enhancing computer science solutions has not gone unnoticed in the fields of security and privacy. However, the sheer volume of related scientific literature and the significant gap between a lab context and real-world environments make it extremely challenging to assess the current progress in the area. In this talk, I will review underlying mechanisms and main principles behind deep learning when applied to offensive and defensive cybersecurity solutions. I will focus on two primary use cases: traffic analysis attacks on Tor and network-based intrusion detection systems, analyzing the expected benefits and potential pitfalls of using deep learning. This analysis effectively challenges the common perception of a purely end-to-end approach. To that end, the presentation emphasizes the importance of explainability and error analysis for validating and troubleshooting deep neural networks. This discussion is meant to equip cybersecurity researchers and practitioners to begin incorporating deep learning in their toolbox while maintaining a critical and holistic perspective.
+  In the Internet of Things era, edge devices have been considerably diversified and are often designed using high level synthesis (HLS), which translates behavioral descriptions into hardware descriptions, for improved design productivity. However, HLS tools were originally developed in a security-unaware manner, resulting in vulnerabilities to side-channel attacks. In our recent work that was published at ACM Trans. on Embedded Computing Systems, we integrated side-channel security in the state-of-the-art high-level-synthesis-based hardware design flow, leveraging a provably countermeasure called the threshold implementation. As case studies for lightweight block ciphers composed of addition/rotation/XOR (ARX)-based permutations, our evaluation using an FPGA board demonstrated that our proposed method can successfully improve the side-channel security for all ARX-based ciphers used as benchmarks.
 
 
-date: "2023-12-01T14:00:00Z"
+date: "2023-11-13T13:15:00Z"
 
-date_end: "2023-12-01T15:00:00Z"
+date_end: "2023-11-13T14:15:00Z"
 
 all_day: false
 
@@ -28,10 +28,10 @@ all_day: false
 publishDate: "2023-01-16T00:00:00Z"
 
 
-authors: [Vera Rimmer]
+authors: [Yuko Hara-Azumi]
 
 
-tags: [csstalk, deep learning, traffic analysis, cybersecurity]
+tags: [csstalk, x, y, z]
 
 
 featured: false
@@ -45,7 +45,7 @@ image:
 
   preview_only: true
 
-  alt_text: Vera Rimmer
+  alt_text: Yuko Hara-Azumi
 
 
 
@@ -68,8 +68,8 @@ projects:
 
 
 
-Vera Rimmer is a post-doctoral researcher at the DistriNet lab in KU Leuven, Belgium, where she has recently completed her PhD under the supervision of Prof. Wouter Joosen and  Dr. Davy Preuveneers. She studies cybersecurity and privacy-enhancing technologies; data analytics in cybersecurity and privacy; applied machine learning and deep learning; privacy and trustworthiness of applied data-driven AI. Her published research revolves around exploring deep learning as a threat against anonymous communication, and various aspects of AI-enabled network intrusion detection and authentication.
+Yuko Hara-Azumi received her Ph.D. degree in Information Science from Nagoya University, Japan, in 2010. She was a JSPS postdoctoral research fellow from 2010 to 2012, during which she was also a visiting scholar at University of California, Irvine, USA and Karlsruhe Institute of Technology, Germany. In 2012, she joined Nara Institute of Science and Technology, as an assistant professor. Since 2014, she has been with School of Engineering, Tokyo Institute of Technology, where she is currently an associate professor. She was a visiting scholar at Katholieke Universiteit Leuven, Belgium in 2023. Her research interests include system-level design automation, microprocessor architecture, and hardware/software co-design for embedded/IoT systems.
 
 
-[Vera Rimmer's webpage](https://distrinet.cs.kuleuven.be/people/VeraRimmer) 
+[Yuko Hara-Azumi's webpage](https://sites.google.com/site/yukoharaazumi/home) 
 

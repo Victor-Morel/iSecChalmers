@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Yuko Hara-Azumi - Integrating Side Channel Security into the High Level Synthesis based Design Flow, on November 13, 2023 at 13:15
+[Chalmers Security & Privacy Seminar] Lesly-Ann Daniel - Hardware-software co-designs for microarchitectural security beyond constant-time programming, on November 20, 2023 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Yuko Hara-Azumi.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Lesly-Ann Daniel.
 
 Hoping to see many of you there!
 
@@ -14,28 +14,29 @@ Mohammad and Victor
 
 
 Title:
-Integrating Side Channel Security into the High Level Synthesis based Design Flow
+Hardware-software co-designs for microarchitectural security beyond constant-time programming
 
 
 When:
-November 13, 2023 13:15-14:15
+November 20, 2023 13:15-14:15
 
 
 Where:
-in EDIT 8103
-and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
+in EDIT 6217
+
 
 
 Abstract:
-In the Internet of Things era, edge devices have been considerably diversified and are often designed using high level synthesis (HLS), which translates behavioral descriptions into hardware descriptions, for improved design productivity. However, HLS tools were originally developed in a security-unaware manner, resulting in vulnerabilities to side-channel attacks. In our recent work that was published at ACM Trans. on Embedded Computing Systems, we integrated side-channel security in the state-of-the-art high-level-synthesis-based hardware design flow, leveraging a provably countermeasure called the threshold implementation. As case studies for lightweight block ciphers composed of addition/rotation/XOR (ARX)-based permutations, our evaluation using an FPGA board demonstrated that our proposed method can successfully improve the side-channel security for all ARX-based ciphers used as benchmarks.
+Microarchitectural optimizations, such as caches, or speculative out-of-order execution, play a crucial role for enhancing system performance. However, these optimizations also enable attacks that undermine software-enforced security policies. The conventional approach of constant-time programming, while widely adopted for safeguarding cryptographic implementations against microarchitectural attacks, has its limitations. From a security perspective, it relies on certain assumptions about the underlying hardware and, for instance, does not suffice to protect against Spectre attacks. In terms of performance, it imposes an additional overhead due to, among other things, control-flow linearization.
+In this presentation, we introduce two novel hardware-software co-design solutions to address some of the shortcomings of constant-time programming. First, we present ProSpeCT, a generic formal processor model that guarantees that constant-time programs (under a non-speculative semantics) are free from Spectre attacks, while still enabling speculative out-of-order execution. Second, Architectural Mimicry, a novel ISA extension that provides dedicated hardware support for efficient control-flow balancing and linearization of secret-dependent branches. Both defenses have been implemented and evaluated on top of Proteus, an extensible RISC-V processor. To conclude, we will discuss some of the remaining challenges that still need to be addressed to achieve provable end-to-end security guarantees.
 
 
 Speaker's webpage:
-https://sites.google.com/site/yukoharaazumi/home
+https://leslyann-daniel.fr/
 
 
 Speaker's bio:
-Yuko Hara-Azumi received her Ph.D. degree in Information Science from Nagoya University, Japan, in 2010. She was a JSPS postdoctoral research fellow from 2010 to 2012, during which she was also a visiting scholar at University of California, Irvine, USA and Karlsruhe Institute of Technology, Germany. In 2012, she joined Nara Institute of Science and Technology, as an assistant professor. Since 2014, she has been with School of Engineering, Tokyo Institute of Technology, where she is currently an associate professor. She was a visiting scholar at Katholieke Universiteit Leuven, Belgium in 2023. Her research interests include system-level design automation, microprocessor architecture, and hardware/software co-design for embedded/IoT systems.
+Lesly-Ann Daniel is a post-doctoral researcher at the DistriNet lab in KU Leuven, Belgium, working with Frank Piessens working on hardware software co-designs for security. She completed her PhD in 2021 at CEA List, France, under the supervision of Tamara Rezk and Sébastien Bardin. She is generally interested in the application of formal methods for microarchitectural security, and more particularly in binary analysis, secure compilation, design of hardware defenses, and hardware verification.
 
 
 --

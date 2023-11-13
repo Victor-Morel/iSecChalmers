@@ -106,7 +106,7 @@ fi)
 \n\nimage:
 \n  placement: 1
 \n  focal_point: TopRight
-\n  preview_only: true
+\n  preview_only: false
 \n  alt_text: $Speaker
 \n\n
 \nurl_code: \"\"

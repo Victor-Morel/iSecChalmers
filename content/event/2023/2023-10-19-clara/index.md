@@ -69,7 +69,7 @@ image:
 
   focal_point: TopRight
 
-  preview_only: true
+  preview_only: false
 
   alt_text: Clara Schneidewind
 

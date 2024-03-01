@@ -1,28 +1,30 @@
 ---
 
-title: "Semantic Intermediate Representations for Sound Language Interoperability"
+title: "Experimental Analyses of the Physical Surveillance Risks in Client-side Content Scanning"
 
 
-event: Live talk in EDIT Analysen
+event: Live talk in EDIT 8103
 
+event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
 
 summary: |-
 
-  In this talk, I'll advocate a proof technique for ensuring soundness or security properties of practical languages, which implement interoperability using glue code that mediates interaction between languages after compilation to a common lower-level intermediate representation (IR). This proof technique involves building a _semantic intermediate representation_: a semantic model of source-language types as relations on terms of the lower-level IR. Semantic IRs can be used to guide the design and implementation of sound FFIs and to verify that the IR glue code used to implement conversions ensures type soundness. More interestingly, semantic IRs provide a basis for numerous avenues of future work on the principled design of language interoperability: how to support the inclusion of libraries whose behavior is foreign to the original language, how to prove soundness and security properties that are robust to behaviors (attackers) outside of the semantic IR, and how to develop a compiler IRs and backends that makes it easier to implement and verify sound interoperability for a wide array of source languages.
+  Content scanning systems employ perceptual hashing algorithms to scan user content for illicit material, such as child pornography or terrorist recruitment flyers. Perceptual hashing algorithms help determine whether two images are visually similar while preserving the privacy of the input images. Several efforts from industry and academia propose scanning on client devices such as smartphones due to the impending rollout of end-to-end encryption that will make server-side scanning difficult. These proposals have met with strong criticism because of the potential for the technology to be misused for censorship. However, the risks of this technology in the context of surveillance are not well understood.
 
+  This talk will discuss results from our experimental investigation of physical surveillance risks in these systems. Concretely:  (1) we offer a definition of physical surveillance in the context of client-side image scanning systems; (2) we experimentally characterize this risk; (3) we experimentally study the trade-off between the robustness of client-side image scanning systems and surveillance, showing that more robust detection of illicit material leads to an increased potential for physical surveillance in most settings.
 
 
 abstract: |-
 
-  Designers of typed programming languages commonly prove meta-theoretic properties such as type soundness and, if applicable, security properties such as noninterference, for at least a core of their language. But any practical language implementation must provide some way of interoperating with code written in other languages -- usually via a foreign-function interface (FFI) -- which opens the door to new, potentially unsafe and insecure, behaviors that aren't accounted for in the original type soundness or security proofs. Despite the prevalence of interoperability in practical software, principled foundations for the end-to-end design, implementation, and verification of interoperability mechanisms have been largely neglected. 
+  Content scanning systems employ perceptual hashing algorithms to scan user content for illicit material, such as child pornography or terrorist recruitment flyers. Perceptual hashing algorithms help determine whether two images are visually similar while preserving the privacy of the input images. Several efforts from industry and academia propose scanning on client devices such as smartphones due to the impending rollout of end-to-end encryption that will make server-side scanning difficult. These proposals have met with strong criticism because of the potential for the technology to be misused for censorship. However, the risks of this technology in the context of surveillance are not well understood.
 
-  In this talk, I'll advocate a proof technique for ensuring soundness or security properties of practical languages, which implement interoperability using glue code that mediates interaction between languages after compilation to a common lower-level intermediate representation (IR). This proof technique involves building a _semantic intermediate representation_: a semantic model of source-language types as relations on terms of the lower-level IR. Semantic IRs can be used to guide the design and implementation of sound FFIs and to verify that the IR glue code used to implement conversions ensures type soundness. More interestingly, semantic IRs provide a basis for numerous avenues of future work on the principled design of language interoperability: how to support the inclusion of libraries whose behavior is foreign to the original language, how to prove soundness and security properties that are robust to behaviors (attackers) outside of the semantic IR, and how to develop a compiler IRs and backends that makes it easier to implement and verify sound interoperability for a wide array of source languages.
+  This talk will discuss results from our experimental investigation of physical surveillance risks in these systems. Concretely:  (1) we offer a definition of physical surveillance in the context of client-side image scanning systems; (2) we experimentally characterize this risk; (3) we experimentally study the trade-off between the robustness of client-side image scanning systems and surveillance, showing that more robust detection of illicit material leads to an increased potential for physical surveillance in most settings.
 
 
-date: "2024-03-25T13:15:00Z"
+date: "2024-03-13T13:30:00Z"
 
-date_end: "2024-03-25T14:15:00Z"
+date_end: "2024-03-13T14:30:00Z"
 
 all_day: false
 
@@ -30,10 +32,10 @@ all_day: false
 publishDate: "2023-01-16T00:00:00Z"
 
 
-authors: [Amal Ahmed]
+authors: [Earlence Fernandes]
 
 
-tags: [csstalk, typed programming languages, language interoperability]
+tags: [csstalk, Physical Surveillance, Content Scanning]
 
 
 featured: false
@@ -47,7 +49,7 @@ image:
 
   preview_only: false
 
-  alt_text: Amal Ahmed
+  alt_text: Earlence Fernandes
 
 
 
@@ -70,8 +72,8 @@ projects:
 
 
 
-Amal Ahmed is a Professor at the Khoury College of Computer Sciences at Northeastern University. Her interests include type systems and semantics, compiler verification, language interoperability, and secure compilation. Her early work showed how to scale the logical relations proof method to realistic languages, leading to wide use of the technique, including for soundness of advanced type systems such as Rust's, correctness of compiler transformations, verification of concurrent data structures, and as a foundation for the Iris program logic. Her current work includes design and verification of safe FFIs and richer ABIs, and development of RichWasm, a richly typed WebAssembly that supports safe, shared-memory, inter-language linking. She is a frequent lecturer at the Oregon PL Summer School and recently served as Program Chair for OOPSLA and POPL. 
+Earlence Fernandes is an assistant professor of computer science at UC San Diego. His research focuses on computer security for emerging technologies. He has received two best paper awards, the NSF CAREER award, and research awards from Meta and Amazon. He hacked a Stop sign once, and it is now in a museum.
 
 
-[Amal Ahmed's webpage](https://www.khoury.northeastern.edu/home/amal/) 
+[Earlence Fernandes's webpage](https://www.earlence.com/) 
 

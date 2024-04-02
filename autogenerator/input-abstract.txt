@@ -1,2 +1,14 @@
-Designers of typed programming languages commonly prove meta-theoretic properties such as type soundness and, if applicable, security properties such as noninterference, for at least a core of their language. But any practical language implementation must provide some way of interoperating with code written in other languages -- usually via a foreign-function interface (FFI) -- which opens the door to new, potentially unsafe and insecure, behaviors that aren't accounted for in the original type soundness or security proofs. Despite the prevalence of interoperability in practical software, principled foundations for the end-to-end design, implementation, and verification of interoperability mechanisms have been largely neglected. 
-In this talk, I'll advocate a proof technique for ensuring soundness or security properties of practical languages, which implement interoperability using glue code that mediates interaction between languages after compilation to a common lower-level intermediate representation (IR). This proof technique involves building a _semantic intermediate representation_: a semantic model of source-language types as relations on terms of the lower-level IR. Semantic IRs can be used to guide the design and implementation of sound FFIs and to verify that the IR glue code used to implement conversions ensures type soundness. More interestingly, semantic IRs provide a basis for numerous avenues of future work on the principled design of language interoperability: how to support the inclusion of libraries whose behavior is foreign to the original language, how to prove soundness and security properties that are robust to behaviors (attackers) outside of the semantic IR, and how to develop a compiler IRs and backends that makes it easier to implement and verify sound interoperability for a wide array of source languages.
+The presentation delves into the critical aspects of QNAME Minimization within
+the DNS, presenting an in-depth analysis through two key studies. The first
+segment, "Adoption of QNAME Minimization," presents the main takeaways from "A
+Second Look at QNAME Minimization" (PAM, 2023). This study provides insights
+into how QNAME Minimization has been embraced across different platforms and
+its implications for privacy and performance in DNS lookups.  The second
+segment, "Implementation of QNAME Minimization," introduces new research on
+fingerprinting DNS resolvers by leveraging the query patterns emerging from
+QNAME Minimization. This study, currently under submission, aims to shed light
+on the plethora of implementation approaches to minimizing queries and how
+these differences can be used to fingerprint resolver software and versions.
+Through these studies, the presentation aims to foster a deeper understanding
+of DNS resolver dynamics, highlighting the importance of QNAME Minimization in
+bolstering DNS privacy.

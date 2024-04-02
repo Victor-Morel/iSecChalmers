@@ -1,1 +1,5 @@
-Amal Ahmed is a Professor at the Khoury College of Computer Sciences at Northeastern University. Her interests include type systems and semantics, compiler verification, language interoperability, and secure compilation. Her early work showed how to scale the logical relations proof method to realistic languages, leading to wide use of the technique, including for soundness of advanced type systems such as Rust's, correctness of compiler transformations, verification of concurrent data structures, and as a foundation for the Iris program logic. Her current work includes design and verification of safe FFIs and richer ABIs, and development of RichWasm, a richly typed WebAssembly that supports safe, shared-memory, inter-language linking. She is a frequent lecturer at the Oregon PL Summer School and recently served as Program Chair for OOPSLA and POPL. 
+Jonathan Magnusson is a PhD student in the PriSec group at
+Karlstad University (KAU), Sweden since 2021. His research area is Cybersecurity
+and Network Analysis of the Domain Name System, sponsored by
+The Swedish Internet Foundation (IIS). In 2022 he established the KAUotic Hacking Club
+at KAU, where he personally focuses on capture-the-flag (CTF) hacking competitions and cyber ranges.

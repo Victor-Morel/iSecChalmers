@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Amal Ahmed - Semantic Intermediate Representations for Sound Language Interoperability, on March 25, 2024 at 13:15
+[Chalmers Security & Privacy Seminar] Jonathan Magnusson - Adoption and Implementation of QNAME Minimization in DNS, on April 11, 2024 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Amal Ahmed.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Jonathan Magnusson.
 
 Hoping to see many of you there!
 
@@ -14,29 +14,45 @@ Mohammad and Victor
 
 
 Title:
-Semantic Intermediate Representations for Sound Language Interoperability
+Adoption and Implementation of QNAME Minimization in DNS
 
 
 When:
-March 25, 2024 13:15-14:15
+April 11, 2024 13:15-14:15
 
 
 Where:
-in EDIT Analysen
-
+in EDIT 8103
+and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
 
 
 Abstract:
-Designers of typed programming languages commonly prove meta-theoretic properties such as type soundness and, if applicable, security properties such as noninterference, for at least a core of their language. But any practical language implementation must provide some way of interoperating with code written in other languages -- usually via a foreign-function interface (FFI) -- which opens the door to new, potentially unsafe and insecure, behaviors that aren't accounted for in the original type soundness or security proofs. Despite the prevalence of interoperability in practical software, principled foundations for the end-to-end design, implementation, and verification of interoperability mechanisms have been largely neglected. 
-In this talk, I'll advocate a proof technique for ensuring soundness or security properties of practical languages, which implement interoperability using glue code that mediates interaction between languages after compilation to a common lower-level intermediate representation (IR). This proof technique involves building a _semantic intermediate representation_: a semantic model of source-language types as relations on terms of the lower-level IR. Semantic IRs can be used to guide the design and implementation of sound FFIs and to verify that the IR glue code used to implement conversions ensures type soundness. More interestingly, semantic IRs provide a basis for numerous avenues of future work on the principled design of language interoperability: how to support the inclusion of libraries whose behavior is foreign to the original language, how to prove soundness and security properties that are robust to behaviors (attackers) outside of the semantic IR, and how to develop a compiler IRs and backends that makes it easier to implement and verify sound interoperability for a wide array of source languages.
+The presentation delves into the critical aspects of QNAME Minimization within
+the DNS, presenting an in-depth analysis through two key studies. The first
+segment, "Adoption of QNAME Minimization," presents the main takeaways from "A
+Second Look at QNAME Minimization" (PAM, 2023). This study provides insights
+into how QNAME Minimization has been embraced across different platforms and
+its implications for privacy and performance in DNS lookups.  The second
+segment, "Implementation of QNAME Minimization," introduces new research on
+fingerprinting DNS resolvers by leveraging the query patterns emerging from
+QNAME Minimization. This study, currently under submission, aims to shed light
+on the plethora of implementation approaches to minimizing queries and how
+these differences can be used to fingerprint resolver software and versions.
+Through these studies, the presentation aims to foster a deeper understanding
+of DNS resolver dynamics, highlighting the importance of QNAME Minimization in
+bolstering DNS privacy.
 
 
 Speaker's webpage:
-https://www.khoury.northeastern.edu/home/amal/
+https://www.jonathanmagnusson.com/about/
 
 
 Speaker's bio:
-Amal Ahmed is a Professor at the Khoury College of Computer Sciences at Northeastern University. Her interests include type systems and semantics, compiler verification, language interoperability, and secure compilation. Her early work showed how to scale the logical relations proof method to realistic languages, leading to wide use of the technique, including for soundness of advanced type systems such as Rust's, correctness of compiler transformations, verification of concurrent data structures, and as a foundation for the Iris program logic. Her current work includes design and verification of safe FFIs and richer ABIs, and development of RichWasm, a richly typed WebAssembly that supports safe, shared-memory, inter-language linking. She is a frequent lecturer at the Oregon PL Summer School and recently served as Program Chair for OOPSLA and POPL. 
+Jonathan Magnusson is a PhD student in the PriSec group at
+Karlstad University (KAU), Sweden since 2021. His research area is Cybersecurity
+and Network Analysis of the Domain Name System, sponsored by
+The Swedish Internet Foundation (IIS). In 2022 he established the KAUotic Hacking Club
+at KAU, where he personally focuses on capture-the-flag (CTF) hacking competitions and cyber ranges.
 
 
 --

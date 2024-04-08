@@ -3,7 +3,7 @@
 title: "Towards safeguarding software components from supply chain attacks"
 
 
-event: Live talk in EA Lecture Hall
+event: Live talk in EA Lecture Hall and over Zoom
 
 event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
@@ -20,7 +20,7 @@ abstract: |-
 
 date: "2024-04-24T14:15:00Z"
 
-date_end: "2024-04-24T15:15:00Z"
+date_end: "2024-04-24T15:00:00Z"
 
 all_day: false
 

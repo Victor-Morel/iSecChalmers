@@ -1,14 +1,1 @@
-The presentation delves into the critical aspects of QNAME Minimization within
-the DNS, presenting an in-depth analysis through two key studies. The first
-segment, "Adoption of QNAME Minimization," presents the main takeaways from "A
-Second Look at QNAME Minimization" (PAM, 2023). This study provides insights
-into how QNAME Minimization has been embraced across different platforms and
-its implications for privacy and performance in DNS lookups.  The second
-segment, "Implementation of QNAME Minimization," introduces new research on
-fingerprinting DNS resolvers by leveraging the query patterns emerging from
-QNAME Minimization. This study, currently under submission, aims to shed light
-on the plethora of implementation approaches to minimizing queries and how
-these differences can be used to fingerprint resolver software and versions.
-Through these studies, the presentation aims to foster a deeper understanding
-of DNS resolver dynamics, highlighting the importance of QNAME Minimization in
-bolstering DNS privacy.
+Software supply chain attacks exploit discrepancies between source code repositories and deployed artifacts, highlighting the need for rigorous integrity checks during the artifact’s build process. As systems grow in complexity, preemptive measures are essential to ensure that the source code certifiably aligns with the deployed code. Modern software development relies heavily on third-party libraries sourced from registries like Maven Central, npm, and PyPI. However, these ecosystems have become prime targets for supply-chain attacks, introducing malware into and also shadowing trusted packages. Such attacks jeopardize both developers and users, compromising the integrity of their software supply chain. This presentation discusses recent supply chain attacks and proposed solutions. Additionally, we present Macaron, our open-source project from Oracle Labs offering a flexible checker framework and policy engine to detect and mitigate supply chain security threats, safeguarding software components and maintaining their security posture over the development lifecycle.

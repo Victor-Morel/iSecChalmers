@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Behnaz Hassanshahi - Towards safeguarding software components from supply chain attacks, on April 24, 2024 at 14:15
+[Chalmers Security & Privacy Seminar] George Oikonomou - Ransomware Protection and Anomaly Detection in Networks of Severely Constrained Wireless Embedded Devices, on April 12, 2024 at 14:30
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Behnaz Hassanshahi.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by George Oikonomou.
 
 Hoping to see many of you there!
 
@@ -14,28 +14,32 @@ Mohammad and Victor
 
 
 Title:
-Towards safeguarding software components from supply chain attacks
+Ransomware Protection and Anomaly Detection in Networks of Severely Constrained Wireless Embedded Devices
 
 
 When:
-April 24, 2024 14:15-15:15
+April 12, 2024 14:30-15:30
 
 
 Where:
-in EA Lecture Hall
+in EDIT Room Analysen
 and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
 
 
 Abstract:
-Software supply chain attacks exploit discrepancies between source code repositories and deployed artifacts, highlighting the need for rigorous integrity checks during the artifact’s build process. As systems grow in complexity, preemptive measures are essential to ensure that the source code certifiably aligns with the deployed code. Modern software development relies heavily on third-party libraries sourced from registries like Maven Central, npm, and PyPI. However, these ecosystems have become prime targets for supply-chain attacks, introducing malware into and also shadowing trusted packages. Such attacks jeopardize both developers and users, compromising the integrity of their software supply chain. This presentation discusses recent supply chain attacks and proposed solutions. Additionally, we present Macaron, our open-source project from Oracle Labs offering a flexible checker framework and policy engine to detect and mitigate supply chain security threats, safeguarding software components and maintaining their security posture over the development lifecycle.
+The threat and severe consequences (financial or otherwise) of ransomware in traditional desktop- and handheld-based computer systems have been well documented in the literature. The same cannot be said for systems comprising constrained, embedded IoT devices used in industrial applications: When it comes to ransomware, the landscape is still largely unexplored. In industrial settings, IoT devices have started being considered for the control of mission-critical systems. A simultaneous or almost-simultaneous ransomware attack on a very large number of devices could prove very disruptive, costly, or outright dangerous. An attack of this nature could for example disrupt the operation of IoT-enabled supply chains, compromise food production by targeting smart agriculture settings, cause unforeseeable consequences to the power grid through compromise of smart metering or electric car charging infrastructure, or even endanger lives by tampering with actuators in factories or transport systems. The CHARIOT EPSRC-funded project aims to devise, design, and prototype methods to prevent, detect, recover from and immunise against ransomware attacks in resource-constrained industrial IoT environments. In this talk I will present the project’s progress to date, as well as some prior work on anomaly detection that led to this research activity at Bristol.
 
 
 Speaker's webpage:
-https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2193
+https://research-information.bris.ac.uk/en/persons/george-oikonomou
 
 
 Speaker's bio:
-Behnaz is a principal researcher at Oracle Labs Australia, working in the areas of program analysis and security. She received her PhD from the National University of Singapore in 2016. Her research has contributed to techniques in static and dynamic analysis of Android, Java, Node.js, and Client-side JavaScript applications, and most recently supply chain and infrastructure-as-code security. Behnaz has led the Gelato project for web application fuzzing, which was transferred to the SaaS Cloud Security team at Oracle and is now actively finding bugs in Oracle products. Currently, she leads the open-source initiative Macaron, aimed at analyzing software supply chain and infrastructure security issues. Her passion lies in designing tools to empower developers in constructing inherently secure software.
+George's research focuses on energy-efficient networking and security for severely constrained wireless embedded devices and the IoT, with an emphasis on industrial applications.
+His objective is to invent and prototype algorithms that are optimised for constrained/low-capability, battery-powered devices without sacrificing performance and reliability.
+Over the last few years he has been focussing on IEEE 802.15.4 / .15.4g networks, doing work that covers the entire 6LoWPAN/RPL stack. More specifically, he has made contributions in the areas of multicast forwarding; MAC layers with time-synchronisation (such as TSCH); congestion control; routing; neighbour discovery; service discovery. Within the same IoT context, he is also interested in secure software writing techniques; digital forensics; and software defined networking.
+
+A lot of his work has been released as open source software and is distributed as part of the Contiki-NG operating system for the Internet of Things, an open-source project of which he iis a co-founder and steering group member. Most of the work is also part of the original Contiki OS, for which he used to serve as maintainer.
 
 
 --

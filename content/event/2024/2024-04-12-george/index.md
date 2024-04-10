@@ -5,7 +5,7 @@ title: "Ransomware Protection and Anomaly Detection in Networks of Severely Cons
 
 event: Live talk in EDIT Room Analysen
 
-event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
+event_url: https://maps.chalmers.se/#c84de3d1-c331-4415-b5f9-54bce623de70
 
 
 summary: |-
@@ -79,5 +79,4 @@ Over the last few years he has been focussing on IEEE 802.15.4 / .15.4g networks
 A lot of his work has been released as open source software and is distributed as part of the Contiki-NG operating system for the Internet of Things, an open-source project of which he iis a co-founder and steering group member. Most of the work is also part of the original Contiki OS, for which he used to serve as maintainer.
 
 
-[George Oikonomou's webpage](https://research-information.bris.ac.uk/en/persons/george-oikonomou) 
-
+[George Oikonomou's webpage](https://research-information.bris.ac.uk/en/persons/george-oikonomou)

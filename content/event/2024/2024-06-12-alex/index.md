@@ -5,7 +5,7 @@ title: "A verified WebAssembly interpreter in Lean"
 
 event: Live talk in EA Lecture Hall
 
-event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
+event_url:
 
 
 summary: |-
@@ -79,5 +79,5 @@ projects:
 Alex Ionescu is a Computing Science Master's student at Utrecht University, currently working on verified WebAssembly interpretation. He's passionate about functional programming, programming languages & compilers, and cybersecurity.
 
 
-[Alex Ionescu's webpage](https://github.com/aionescu) 
+[Alex Ionescu's webpage](https://github.com/aionescu)
 

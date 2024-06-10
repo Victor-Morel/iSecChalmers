@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Rhouma Rhouma - Analysis and Design of cryptographic and data hiding algorithms, on June 13, 2024 at 13:15
+[Chalmers Security & Privacy Seminar] Alex Ionescu - A verified WebAssembly interpreter in Lean, on June 12, 2024 at 10:00
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Rhouma Rhouma.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Alex Ionescu.
 
 Hoping to see many of you there!
 
@@ -14,28 +14,30 @@ Mohammad and Victor
 
 
 Title:
-Analysis and Design of cryptographic and data hiding algorithms
+A verified WebAssembly interpreter in Lean
 
 
 When:
-June 13, 2024 13:15-14:15
+June 12, 2024 10:00-11:00
 
 
 Where:
-in EDIT 8103
+in EA Lecture Hall
 and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
 
 
 Abstract:
-Cryptography, data Hiding and digital watermarking algorithms being the basic building blocks for making powerful security solutions and security and privacy protocols. The systems at each end must negotiate and establish the configuration of these basic algorithms and their parameters before secure communication can occur. I will describe my research on the design of different types of cryptographic algorithms aimed at some application domains which will span everything from crypto-compression techniques and new image cryptosystems to lightweight cryptographic primitives for resource-restrained devices. One of the main objectives will be to provide a formal verification of these algorithms regarding their statistical, differential, and linear cryptanalysis, to verify their claims of security proof.  In addition to standard cryptography, we might look at new ways to support confidentiality, e.g., data hiding in digital images.  I will be talking about blind steganalysis methods using machine learning/deep learning methods which can be used in targeted attacks to break or assess the security of these data hiding systems. I will also illustrate the significant value that a rigorous cryptanalysis / security evaluation plays in the comprehensive design of what the critical security and privacy constructs. These techniques combine domain knowledge and cryptographic algorithms to secure the way in which sensitive data can be integrated. This analysis may provide an understanding of what types of algorithms can be better to use based on their cryptanalysis work.
+WebAssembly is a new low-level programming language designed with the goal to increase interoperability and security across the software ecosystem. The WebAssembly specification is defined by the World Wide Web Consortium, with a multitude of implementors, ranging from browsers to standalone runtimes.
+In order to ensure adherence to the specification, some WebAssembly implementations use formally-verified interpreters as testing oracles. This thesis explores a novel approach to designing a formally-verified interpreter, by using an intrinsically-typed representation of the WebAssembly syntax.
+This intrinsically-typed interpreter is implemented in the Lean 4 proof assistant, leveraging its functional-but-in-place features to achieve good performance without sacrificing functional purity.
 
 
 Speaker's webpage:
-https://sites.google.com/site/rhoouma/
+https://github.com/aionescu
 
 
 Speaker's bio:
-Rhouma Rhouma is a senior lecturer in CSE, Chalmers/University of Gothenburg. Obtained the telecommunications engineering in 2003, master in 2004, PhD in 2008 and a Habilitation in 2012 from the ENIT (Ecole Nationale d’Ingenieurs de Tunis), University of tunis el manar. He worked for 14 years across many universities in Tunisia. Visiting professor in the Lebanese university of Nouakchott in Mauritaniya for two years. He was with the UTAS in the sultanate of Oman from 2018 to 2024 before joining Chalmers/GU. His main research is cryptography, cryptanalysis, Digital watermarking and Data hiding.
+Alex Ionescu is a Computing Science Master's student at Utrecht University, currently working on verified WebAssembly interpretation. He's passionate about functional programming, programming languages & compilers, and cybersecurity.
 
 
 --

@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Alex Ionescu - A verified WebAssembly interpreter in Lean, on June 12, 2024 at 10:00
+[Chalmers Security & Privacy Seminar] Steven Murdoch - Re-designing computer systems for reliable electronic evidence, on August 22, 2024 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Alex Ionescu.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Steven Murdoch.
 
 Hoping to see many of you there!
 
@@ -14,30 +14,28 @@ Mohammad and Victor
 
 
 Title:
-A verified WebAssembly interpreter in Lean
+Re-designing computer systems for reliable electronic evidence
 
 
 When:
-June 12, 2024 10:00-11:00
+August 22, 2024 13:15-14:15
 
 
 Where:
-in EA Lecture Hall
+in EDIT 8103
 and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
 
 
 Abstract:
-WebAssembly is a new low-level programming language designed with the goal to increase interoperability and security across the software ecosystem. The WebAssembly specification is defined by the World Wide Web Consortium, with a multitude of implementors, ranging from browsers to standalone runtimes.
-In order to ensure adherence to the specification, some WebAssembly implementations use formally-verified interpreters as testing oracles. This thesis explores a novel approach to designing a formally-verified interpreter, by using an intrinsically-typed representation of the WebAssembly syntax.
-This intrinsically-typed interpreter is implemented in the Lean 4 proof assistant, leveraging its functional-but-in-place features to achieve good performance without sacrificing functional purity.
+Computer systems are increasingly relied upon for a wide range of important tasks, but much of the research on reliability has been restricted to the control systems for safety-critical hardware. For other systems, efforts to assess their effectiveness has been more ad-hoc and of questionable validity, even those relied upon to produce legally admissible evidence. From breathalyzers and forensic software to the infamous Post Office Horizon system, computer bugs can make the difference between someone being imprisoned and going free. This talk will discuss some examples of computer evidence failures risking causing miscarriages of justice, and what can be done to mitigate such risks in the future. In particular, it will motivate the idea that computer systems relied upon for computer evidence should be built with rigorous engineering techniques, but that these techniques are distinct from what are needed for safety-critical systems. When combined with appropriate treatment by the legal system, we can help avoid future miscarriages of justice.
 
 
 Speaker's webpage:
-https://github.com/aionescu
+https://murdoch.is/
 
 
 Speaker's bio:
-Alex Ionescu is a Computing Science Master's student at Utrecht University, currently working on verified WebAssembly interpretation. He's passionate about functional programming, programming languages & compilers, and cybersecurity.
+Steven J. Murdoch is Professor of Security Engineering and head of the Information Security Research Group of University College London, working on payment system security, privacy-enhancing technologies, online safety, and the interaction between computer science and the law. He teaches on the UCL MSc in Information Security. His research interests include authentication/passwords, banking security, anonymous communications, censorship resistance and covert channels. He has worked with the OpenNet Initiative, investigating Internet censorship, and for the Tor Project, on improving the security and usability of the Tor anonymity system. His current research is on how computer systems can produce evidence to allow fair and efficient dispute resolution. Professor Murdoch was Chief Security Architect at Cronto, and following their acquisition of the technology he developed, he took on the role of Distinguished Scientist for OneSpan. He is a member of REPHRAIN, the National Research Centre on Privacy, Harm Reduction and Adversarial Influence Online. He is a director of the Open Rights Group, a UK-based digital campaigning organisation working to protect rights to privacy and free speech online and is a Fellow of the IET and BCS.
 
 
 --

@@ -1,0 +1,50 @@
+[Chalmers Security & Privacy Seminar] Benjamin Nguyen - Data Collection via Forms with Data Minimization, Full Accuracy and Informed Consent, on August 30, 2024 at 10
+
+---
+
+Dear all,
+
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Benjamin Nguyen.
+
+Hoping to see many of you there!
+
+
+Best regards,
+Mohammad and Victor
+
+
+Title:
+Data Collection via Forms with Data Minimization, Full Accuracy and Informed Consent
+
+
+When:
+August 30, 2024 10-11:00
+
+
+Where:
+in EDIT 8103
+and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
+
+
+Abstract:
+The advent of privacy laws and principles such as data minimization and informed consent are supposed to protect citizens from over-collection of personal data. Nevertheless, current processes, mainly through filling forms are still based on practices that lead to over-collection. Indeed, any citizen wishing to apply for a benefit (or service) will transmit all their personal data involved in the evaluation of the eligibility criteria. The resulting problem of over-collection affects millions of individuals, with considerable volumes of information collected. If this problem of compliance concerns both public and private organizations (e.g., social services, banks, insurance companies), it is because it faces non-trivial issues, which hinder the implementation of data minimization by developers. In this paper, we propose a new modeling approach that enables data minimization and informed choices for the users, for any decision problem modeled using classical logic, which covers a wide range of practical cases. Our data minimization solution uses game theoretic notions to explain and quantify the privacy payoff for the user. We show how our algorithms can be applied to practical cases study as a new PET for minimal, fully accurate (all due services must be preserved) and informed data collection. If time permits, we will perform a short demonstration of our prototype system.
+
+
+Speaker's webpage:
+https://www.benjamin-nguyen.fr/
+
+
+Speaker's bio:
+Benjamin Nguyen is Professor at INSA Centre Val de Loire since 2014, member of the Inria PETSCRAFT team, and part of the Systems and Data Security group of the Laboratoire d'Informatique Fondamentale d'Orléans (LIFO). He graduated from Ecole Normale Supérieure de Paris-Saclay in 2000, received his Ph.D. in 2003 from University of Paris-Sud on the topic of Personal Web Data Management, and was Associate Professor at University of Versailles and Inria between 2004 and 2014. He was head of LIFO from 2016 to 2022, associate director of INSA Centre Val de Loire (from 2015 to 2019) and is now head of the Inria PETSCRAFT team. His research interests cover Privacy and Security in Information Management Systems and Applications, in particular the evaluation of anonymization techniques, and the design and implementation of large scale privacy by design information management systems using PETs.
+
+
+--
+Never miss a seminar, subscribe to our Google calendar:
+
+https://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics
+
+https://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm
+
+
+Chalmers Security & Privacy Lab: https://www.cse.chalmers.se/research/group/security/
+

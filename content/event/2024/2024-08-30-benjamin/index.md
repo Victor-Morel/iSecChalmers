@@ -18,7 +18,8 @@ abstract: |-
   The advent of privacy laws and principles such as data minimization and informed consent are supposed to protect citizens from over-collection of personal data. Nevertheless, current processes, mainly through filling forms are still based on practices that lead to over-collection. Indeed, any citizen wishing to apply for a benefit (or service) will transmit all their personal data involved in the evaluation of the eligibility criteria. The resulting problem of over-collection affects millions of individuals, with considerable volumes of information collected. If this problem of compliance concerns both public and private organizations (e.g., social services, banks, insurance companies), it is because it faces non-trivial issues, which hinder the implementation of data minimization by developers. In this paper, we propose a new modeling approach that enables data minimization and informed choices for the users, for any decision problem modeled using classical logic, which covers a wide range of practical cases. Our data minimization solution uses game theoretic notions to explain and quantify the privacy payoff for the user. We show how our algorithms can be applied to practical cases study as a new PET for minimal, fully accurate (all due services must be preserved) and informed data collection. If time permits, we will perform a short demonstration of our prototype system.
 
 
-date: "2024-08-30T10:00Z"
+date: "2024-08-30T10:00:00Z"
+
 
 date_end: "2024-08-30T11:00:00Z"
 

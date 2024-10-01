@@ -42,9 +42,9 @@ abstract: |-
   Our main technical contribution is a technique to keep the size of primary blueprint components independent of the number of updates and reasonable for practical applications. This is achieved by elegantly extending an algebraic NIZK by Couteau and Hartmann (CRYPTO'20) with an update function and making it compatible with our additive updates. This result is of independent interest and may find additional applications thanks to the concise size of our proofs.
 
 
-date: "Mikhail Volkhov2024-11-14T13:15:00Z"
+date: "2024-11-14T13:15:00Z"
 
-date_end: "Mikhail Volkhov2024-11-14T14:15:00Z"
+date_end: "2024-11-14T14:15:00Z"
 
 all_day: false
 
@@ -52,10 +52,10 @@ all_day: false
 publishDate: "2023-01-16T00:00:00Z"
 
 
-authors: [Speaker]
+authors: [Mikhail Volkhov]
 
 
-tags: [csstalk, Updatable NIZKs, Privacy-Preserving Blueprints]
+tags: [csstalk, Privacy-Preserving Blueprints, Updatable NIZKs]
 
 
 featured: false
@@ -69,7 +69,7 @@ image:
 
   preview_only: false
 
-  alt_text: Speaker
+  alt_text: Mikhail Volkhov
 
 
 
@@ -95,5 +95,5 @@ projects:
 Mikhail Volkhov is a cryptographer, currently working as a ZK engineer at O1Labs. Mikhail's research interests range from practical side, such as design of efficient NIZKs, folding schemes, or zkVMs, to the more privacy-oriented side, where he is working on privacy-preserving primitives, auditability, and compact updatable proofs of knowledge.
 
 
-[Speaker's webpage](https://volhovm.com/) 
+[Mikhail Volkhov's webpage](https://volhovm.com/) 
 

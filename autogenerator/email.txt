@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Speaker - Updatable Privacy-Preserving Blueprints, on  at 13:15
+[Chalmers Security & Privacy Seminar] Mikhail Volkhov - Updatable Privacy-Preserving Blueprints, on November 14, 2024 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Speaker.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Mikhail Volkhov.
 
 Hoping to see many of you there!
 
@@ -18,7 +18,7 @@ Updatable Privacy-Preserving Blueprints
 
 
 When:
- 13:15-14:15
+November 14, 2024 13:15-14:15
 
 
 Where:

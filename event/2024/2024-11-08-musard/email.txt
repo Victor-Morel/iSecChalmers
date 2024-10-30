@@ -1,0 +1,50 @@
+[Chalmers Security & Privacy Seminar] Musard Balliu - Code-reuse attacks in JavaScript-driven applications, on November 08, 2024 at 13:15
+
+---
+
+Dear all,
+
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Musard Balliu.
+
+Hoping to see many of you there!
+
+
+Best regards,
+Mohammad and Victor
+
+
+Title:
+Code-reuse attacks in JavaScript-driven applications
+
+
+When:
+November 08, 2024 13:15-14:15
+
+
+Where:
+in EDIT 6217
+and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
+
+
+Abstract:
+The last decade has seen a proliferation of code-reuse attacks in the context of web applications. These attacks target vulnerabilities in which attacker-controlled data exploits legitimate code fragments within the application’s codebase to execute a code chain that performs malicious computations, e.g. Remote Code Execution, on the attacker’s behalf. In this talk, we will discuss how principled large-scale static and dynamic code analysis helps in discovering and exploiting vulnerabilities in high-profile server-side applications and their software supply chain, as well as existing defensive mechanisms.  
+
+
+Speaker's webpage:
+https://people.kth.se/~musard/
+
+
+Speaker's bio:
+Musard Balliu is an Associate Professor at KTH Royal Institute of Technology in Stockholm, Sweden. His research interests lie at the intersection of computer security, programming languages, formal methods and software engineering. Musard Balliu's contributions range from foundations to practice of security and privacy with main focus on language-based security and its application to the Web and IoT domain. 
+
+
+--
+Never miss a seminar, subscribe to our Google calendar:
+
+https://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics
+
+https://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm
+
+
+Chalmers Security & Privacy Lab: https://www.cse.chalmers.se/research/group/security/
+

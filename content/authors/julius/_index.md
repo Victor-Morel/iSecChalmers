@@ -1,19 +1,19 @@
 ---
 # Display name
-title: Sandro Stucki
-name: Sandro
-lastName: Stucki
+title: Julius Marozas
+name: Julius
+lastName: Marozas
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Researcher
+role: PhD
 # Enter webpage to your profile
-webpage: "https://sstucki.github.io"
+webpage: "https://github.com/Jul1u5/"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- PhD Students
 ---

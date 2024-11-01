@@ -1,16 +1,13 @@
 ---
 # Display name
-title: Sandro Stucki
-name: Sandro
-lastName: Stucki
+title: Christoph Egger
+name: Christoph
+lastName: Egger
 
 # Is this the primary user of the site?
 superuser: false
+webpage: "https://www.christoph-egger.org/"
 
-# Role/position
-role: Researcher
-# Enter webpage to your profile
-webpage: "https://sstucki.github.io"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

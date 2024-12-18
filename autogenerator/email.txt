@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Mojtaba Moazen - TAPShield: Securing Trigger-Action Platforms against Strong Attackers, on December 05, 2024 at 13:15
+[Chalmers Security & Privacy Seminar] Steven Furnell - Fostering a community-based approach towards SME cybersecurity, on January 24, 2025 at 13:15
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Mojtaba Moazen.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Steven Furnell.
 
 Hoping to see many of you there!
 
@@ -14,11 +14,11 @@ Mohammad and Victor
 
 
 Title:
-TAPShield: Securing Trigger-Action Platforms against Strong Attackers
+Fostering a community-based approach towards SME cybersecurity
 
 
 When:
-December 05, 2024 13:15-14:15
+January 24, 2025 13:15-14:15
 
 
 Where:
@@ -27,17 +27,15 @@ and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNk
 
 
 Abstract:
-Automation apps enable seamless connection of IoT devices and services to provide useful functionality for end-users. These apps are typically executed on cloud-based Trigger-Action Platforms(TAPs) such as IFTTT and Node-RED, supporting both single- and multi-tenant architectures. These architectures raise security and privacy concerns in the face of cloud attackers and malicious app makers, resulting in massive exfiltration of sensitive user data.
-To address these concerns, we design TAPShield, an architecture that uses confidential computing and language-level sandboxing to protect users’ sensitive information against untrustworthy TAPs and malicious apps. TAPShield targets JavaScript-driven TAPs built on the Node.js environment and uses trusted execution environments via Intel SGX to protect against cloud attackers. It further uses language-level sandboxes such as vm2 and SandTrap to protect against malicious apps. We implement TAPShield for two popular TAPs, Node-RED and IFTTT, and report on the security, performance, and compatibility trade-offs on a range of real-world apps.
+Ensuring cyber security often poses particular challenges for Small and Medium-sized Enterprises (SMEs), with constraints in terms of time, skills and resources leading to difficulties in understanding the issues and following good practice.  The Cyber Security Communities of Support (CyCOS) project has been further investigating the challenges, with data collected from both SMEs and support providers. The project aims to trial a new community-based approach to support, offering a further channel through which to socialise and demystify cyber security for the SME audience, based upon collaboration between organisations in the same region, sector or supply chain.  In this session, Prof. Steven Furnell will discuss the issue of cyber security for SMEs, drawing upon key findings from the work to date from both the SME and provider perspectives.  He will also outline the plans for the proposed Communities of Support approach.
 
 
 Speaker's webpage:
-https://www.kth.se/profile/moazen
+https://www.nottingham.ac.uk/computerscience/people/steven.furnell
 
 
 Speaker's bio:
-Mojtaba Moazen is a PhD student at the Theoretical Computer Science Division of KTH Royal Institute of Technology. He is contributing to the WASP – Wallenberg AI, Autonomous Systems, and Software Program NEST CyberSecIT project, one of WASP’s flagship initiatives.
-He earned his master’s degree in Computer Science from Sharif University of Technology, where he focused on using static analysis for detecting repackaged apps for Android. Currently, at KTH, his research is dedicated to Software Security including IoT applications and Software Supply Chains. 
+Prof. Steven Furnell is Professor of Cyber Security in the School of Computer Science at the University of Nottingham. His research interests include security management and culture, usability of security and privacy, and technologies for user authentication and intrusion detection.  He has authored over 400 papers in refereed international journals and conference proceedings, as well as various books, book chapters, and industry reports.  Steve is the UK representative to Technical Committee 11 (security and privacy) within the International Federation for Information Processing, and a board member of the Chartered Institute of Information Security, and a member of the Steering Group for the Cyber Security Body of Knowledge (CyBOK) and the Careers and Learning Working Group within the UK Cyber Security Council.  Steve is the Principal Investigator on the CyCOS project, looking at enhancing cyber security support for small organisations.
 
 
 --

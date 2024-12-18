@@ -10,7 +10,7 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 
 summary: |-
 
-  Ensuring cyber security often poses particular challenges for Small and Medium-sized Enterprises (SMEs), with constraints in terms of time, skills and resources leading to difficulties in understanding the issues and following good practice.  The Cyber Security Communities of Support (CyCOS) project has been further investigating the challenges, with data collected from both SMEs and support providers. The project aims to trial a new community-based approach to support, offering a further channel through which to socialise and demystify cyber security for the SME audience, based upon collaboration between organisations in the same region, sector or supply chain.  In this session, Prof. Steven Furnell will discuss the issue of cyber security for SMEs, drawing upon key findings from the work to date from both the SME and provider perspectives.  He will also outline the plans for the proposed Communities of Support approach.
+  In this session, Prof. Steven Furnell will discuss the issue of cyber security for SMEs, drawing upon key findings from the work to date from both the SME and provider perspectives.  He will also outline the plans for the proposed Communities of Support approach.
 
 
 abstract: |-

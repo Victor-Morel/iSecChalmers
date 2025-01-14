@@ -10,18 +10,18 @@ echo -e "Title:"
 read Title
 Title=${Title:-Title}
 
-echo -e "Speaker:" 
+echo -e "Speaker:"
 read Speaker
 Speaker=${Speaker:-Speaker}
 
-echo -e "Date: [default: 8 days from today, format:YYYY-mm-dd]" 
+echo -e "Date: [default: 8 days from today, format:YYYY-mm-dd]"
 read Date
 Date=${Date:-$(date -j -v +8d '+%Y-%m-%d'  2>/dev/null || date -d '+8 days' '+%Y-%m-%d')}
 echo $Date
 DateExp=$(date -jf '%Y-%m-%d' $Date "+date %B %d, %Y" 2>/dev/null || date -d $Date "+date %B %d, %Y")
 DateExp=$(echo $DateExp | cut -f2- -d' ')
 
-echo -e "Time: [default: 13:15]" 
+echo -e "Time: [default: 13:15]"
 read StartTime
 StartTime=${StartTime:-13:15}
 EndTime=$(date -j -v +1H -f "%T" "$StartTime:00" +%T 2>/dev/null || date -d "$StartTime today + 1 hour" +'%H:%M')
@@ -29,31 +29,31 @@ EndTime=$(echo $EndTime | cut -f1,2 -d':')
 
 When="$DateExp $StartTime-$EndTime"
 
-echo -e "Where: [default: EDIT 8103]" 
+echo -e "Where: [default: EDIT 8103]"
 read Where
 Where=${Where:-EDIT 8103}
 
-echo -e "Zoom?: [default: yes]" 
+echo -e "Zoom?: [default: yes]"
 read Zoom
 Zoom=${Zoom:-yes}
 
-echo -e "Abstract: [default: reading from input-abstract.txt]" 
+echo -e "Abstract: [default: reading from input-abstract.txt]"
 read Abstract
 Abstract=${Abstract:-$(<input-abstract.txt)}
 
-echo -e "Bio: [default: reading from input-bio.txt]" 
+echo -e "Bio: [default: reading from input-bio.txt]"
 read Bio
 Bio=${Bio:-$(<input-bio.txt)}
 
-echo -e "Speaker's URL:" 
+echo -e "Speaker's URL:"
 read SpeakerURL
 SpeakerURL=${SpeakerURL:-SpeakerURL}
 
-echo -e "Summary: [default: Abstract]" 
+echo -e "Summary: [default: Abstract]"
 read Summary
 Summary=${Summary:-$Abstract}
 
-echo -e "Tags: x, y, z" 
+echo -e "Tags: x, y, z"
 read Tags
 Tags=${Tags:-x, y, z}
 
@@ -63,7 +63,7 @@ EmailBody="Dear all,
 \nIt's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by $Speaker.
 \nHoping to see many of you there!
 \n\nBest regards,
-Mohammad and Victor
+Alex and Victor
 \n\nTitle:\n$Title
 \n\nWhen:\n$When
 \n\nWhere:\nin $Where
@@ -117,7 +117,7 @@ fi)
 \n\nprojects:
 \n---
 \n\n$BioInsideWebContent
-\n\n[$Speaker's webpage]($SpeakerURL) 
+\n\n[$Speaker's webpage]($SpeakerURL)
 "
 echo -e "$WebPageContent" > $WebPageFile
 

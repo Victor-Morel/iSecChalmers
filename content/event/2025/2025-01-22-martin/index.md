@@ -21,6 +21,7 @@ abstract: |-
 
   In this work, we present a protocol-agnostic system capable of identifying videos independent of network layer information, and demonstrates a practical attack over the largest dataset to date, comprising over 240k videos covering three entire streaming services. By leveraging a combination of k-d tree search and time series methods, our system achieves over 99.5% accuracy in real-time video identification and remains effective even in scenarios involving victims behind VPNs or Wi-Fi eavesdropping. Since large-scale video identification compromises user privacy and may enable potential mass surveillance of video services, we complement our work with an analysis of the vulnerability root cause and propose a mitigation strategy. Recognizing the lack of open-source tooling in this domain, we publish an extensive dataset of video fingerprints, network data and tools to foster awareness and prompt timely solutions within the video streaming community to address these privacy concerns effectively.
 
+  Link to the datasets, binaries and source code of all our tools: https://doi.org/10.5281/zenodo.14676526
 
 date: "2025-01-22T13:00:00Z"
 

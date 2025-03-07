@@ -10,7 +10,7 @@ superuser: false
 # Role/position
 role: Professor
 # Enter webpage to your profile
-webpage: "https://www-sop.inria.fr/lemme/Tamara.Rezk/"
+webpage: "https://www-sop.inria.fr/members/Tamara.Rezk/"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

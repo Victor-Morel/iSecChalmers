@@ -44,3 +44,5 @@ projects:
 ---
 
 Sara Saeidian is a postdoctoral researcher at Inria Saclay and KTH Royal Institute of Technology. Her research focuses on privacy-preserving frameworks in statistics and machine learning, with a foundation in information theory. She earned her PhD from KTH in February 2024. She has received an international postdoctoral grant from the Swedish Research Council (Vetenskapsrådet) and the Marie Skłodowska-Curie Actions Postdoctoral Fellowship Seal of Excellence.
+
+[Sara Saeidian's webpage](https://saawraaw.github.io/)

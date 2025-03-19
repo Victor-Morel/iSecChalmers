@@ -3,6 +3,7 @@
 title: "Rethinking Privacy with Pointwise Maximal Leakage"
 
 event: Live talk in EDIT 8103
+event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 
 summary: |-
 
@@ -30,7 +31,7 @@ image:
   placement: 1
   focal_point: TopRight
   preview_only: false
-  alt_text: Steven Furnell
+  alt_text: Sara Saeidian
 
 url_code: ""
 url_pdf: ""

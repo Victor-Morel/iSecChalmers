@@ -1,0 +1,38 @@
+[Chalmers Security & Privacy Seminar] Sara Saeidian - Rethinking Privacy with Pointwise Maximal Leakage, on March 25, 2025 at 13:00
+
+---
+
+Hi,
+
+The next talk of the Chalmers Security & Privacy Seminar is happening on March 25.
+Please spread the word by including it in the weekly news 🙂. Thanks!
+
+Thank you and best regards,
+Alex and Victor
+
+
+
+[Link: https://www.cse.chalmers.se/research/group/security/event/2025/2025-03-25-sara/]
+[Speaker's picture attached]
+
+Title:
+Rethinking Privacy with Pointwise Maximal Leakage
+
+
+When:
+March 25, 2025 13:00-14:00
+
+
+Where:
+in EDIT 8103
+
+
+Summary:
+
+In this talk, Sara will discuss the problem of privacy-preserving statistical analysis, presenting the privacy measure of Pointwise Maximal Leakage (developed during her PhD studies) and highlighting both its connections to and differences from Differential Privacy.
+
+
+
+Speaker's bio:
+
+Sara Saeidian is a postdoctoral researcher at Inria Saclay and KTH Royal Institute of Technology. Her research focuses on privacy-preserving frameworks in statistics and machine learning, with a foundation in information theory.

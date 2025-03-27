@@ -10,12 +10,12 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 
 summary: |-
 
-  Several recent works have establish lower bounds on the communication cost of secure messaging protocols using only selected primitives. We argue that these bounds no longer apply if succinct noninteractive multi-party key exchange (SMNIKE) exists, a setup-free primitive where no party’s message depends on the number of parties. We introduce succinct PPRFs, where the punctured key is of size 5λ and, in particular, independent of the input size, as long as the punctured point has a short description. We then show how to combine succinct PPRFs with JJ to show that a variant of the Boneh–Zhandry construction is already an SMNIKE.
+  Several recent works have established lower bounds on the communication cost of secure messaging protocols using only selected primitives. We argue that these bounds no longer apply if succinct noninteractive multi-party key exchange (SMNIKE) exists, a setup-free primitive where no party’s message depends on the number of parties. We introduce succinct PPRFs, where the punctured key is of size 5λ and, in particular, independent of the input size, as long as the punctured point has a short description. We then show how to combine succinct PPRFs with JJ to show that a variant of the Boneh–Zhandry construction is already an SMNIKE.
 
 
 abstract: |-
 
-  Several recent works have establish lower bounds on the communication cost of secure messaging protocols using only selected primitives. We argue that these bounds no longer apply if succinct noninteractive multi-party key exchange (SMNIKE) exists, a setup-free primitive where no party’s message depends on the number of parties. Boneh and Zhandry (CRYPTO 2014) present an iO-based multi-party NIKE construction where the setup (or a special party’s message) depends on the number of parties, and else, messages are short. SMNIKE is a strengthening of their primitive.
+  Several recent works have established lower bounds on the communication cost of secure messaging protocols using only selected primitives. We argue that these bounds no longer apply if succinct noninteractive multi-party key exchange (SMNIKE) exists, a setup-free primitive where no party’s message depends on the number of parties. Boneh and Zhandry (CRYPTO 2014) present an iO-based multi-party NIKE construction where the setup (or a special party’s message) depends on the number of parties, and else, messages are short. SMNIKE is a strengthening of their primitive.
 
   Jain and Jin (JJ, FOCS 2022) construct input-succinct indistinguishability obfuscation (iO) for Turing machines, opening the possibility of SMNIKE via iO. Unfortunately, the keys of known puncturable PRFs (PPRFs) grow with their input length n. For example, the punctured key of the Goldreich–Goldwasser–Micali (GGM) PPRF has size nλ.
 

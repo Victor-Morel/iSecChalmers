@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Sara Saeidian - Rethinking Privacy with Pointwise Maximal Leakage, on March 25, 2025 at 13:00
+[Chalmers Security & Privacy Seminar] Chris Brzuska - Succinct PPRFs via Memory-Tight Reductions, on April 08, 2025 at 10:30
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Sara Saeidian.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Chris Brzuska.
 
 Hoping to see many of you there!
 
@@ -14,11 +14,11 @@ Alex and Victor
 
 
 Title:
-Rethinking Privacy with Pointwise Maximal Leakage
+Succinct PPRFs via Memory-Tight Reductions
 
 
 When:
-March 25, 2025 13:00-14:00
+April 08, 2025 10:30-11:30
 
 
 Where:
@@ -27,15 +27,19 @@ and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNk
 
 
 Abstract:
-In this talk, I will discuss the problem of privacy-preserving statistical analysis. I will start with an introduction to _differential privacy_, a key framework in this area. Then, I will present _pointwise maximal leakage (PML)_, a privacy measure that I developed during my PhD studies. PML quantifies the amount of information leaking about a secret  when releasing the outcome of a randomized function calculated on the secret. I will draw connections between PML and differential privacy while also highlighting their differences. Additionally, I will discuss an application where private information is sanitized while guaranteeing privacy in the sense of PML. Finally, I will explore open questions, current, and future research directions.
+Several recent works have establish lower bounds on the communication cost of secure messaging protocols using only selected primitives. We argue that these bounds no longer apply if succinct noninteractive multi-party key exchange (SMNIKE) exists, a setup-free primitive where no party’s message depends on the number of parties. Boneh and Zhandry (CRYPTO 2014) present an iO-based multi-party NIKE construction where the setup (or a special party’s message) depends on the number of parties, and else, messages are short. SMNIKE is a strengthening of their primitive.
+Jain and Jin (JJ, FOCS 2022) construct input-succinct indistinguishability obfuscation (iO) for Turing machines, opening the possibility of SMNIKE via iO. Unfortunately, the keys of known puncturable PRFs (PPRFs) grow with their input length n. For example, the punctured key of the Goldreich–Goldwasser–Micali (GGM) PPRF has size nλ.
+We introduce succinct PPRFs, where the punctured key is of size 5λ and, in particular, independent of the input size, as long as the punctured point has a short description. We then show how to combine succinct PPRFs with JJ to show that a variant of the Boneh–Zhandry construction is already an SMNIKE.
+At the heart of our succinct PPRF construction is a novel memorytight reduction for GGM. While the original GGM reduction requires nq game hops and space λq, our reduction needs 4qn game hops but only 5λ memory, where q is the number of PRF queries. Our proof technique allows to show that GGM is a succinct PPRF, and also that GGM as a (standard) PRF has a memory-tight reduction against adversaries who make non-repeating queries, a restriction that we prove to be inherent.
+This is joint work with Patrick Harasser (TU Darmstadt) and Jérôme Govinden (TU Darmstadt).
 
 
 Speaker's webpage:
-https://saawraaw.github.io
+https://chrisbrzuska.de/
 
 
 Speaker's bio:
-Sara Saeidian is a postdoctoral researcher at Inria Saclay and KTH Royal Institute of Technology. Her research focuses on privacy-preserving frameworks in statistics and machine learning, with a foundation in information theory. She earned her PhD from KTH in February 2024. She has received an international postdoctoral grant from the Swedish Research Council (Vetenskapsrådet) and the Marie Skłodowska-Curie Actions Postdoctoral Fellowship Seal of Excellence.
+Chris Brzuska is a faculty member of the departments computer science as well as mathematics and systems analysis at [Aalto University](http://www.aalto.fi/) in Finland. His research area is cryptography and its connections to related areas such as IT security, verification and complexity theory. Until March 2018, he was a junior professor at [TU Hamburg](http://www.tuhh.de/) in Germany and held the chair for IT Security Analysis in collaboration with and supported by [NXP Semiconductors](http://www.nxp.com/). Until September 2015, he was a post-doctoral researcher at Microsoft Research Cambridge, UK. Until September 2014, he was a post-doctoral researcher at [Tel-Aviv University](http://www.tau.ac.il/) working with [Benny Applebaum](http://www.eng.tau.ac.il/~bennyap/) and [Iftach Haitner](http://www.cs.tau.ac.il/~iftachh/). Until October 2012, he was a PhD student advised by [Marc Fischlin](http://www.fischlin.de/) at [TU Darmstadt](http://www.tu-darmstadt.de/). During his PhD, he also visited [Russell Impagliazzo](http://cseweb.ucsd.edu/~russell/) at [IAS](http://www.ias.edu/) from October 2011 to March 2012. Before, he studied mathematics in Duisburg-Essen, Bordeaux and Darmstadt with the key aspects cryptography, logic and lattice theory (partial orders)
 
 
 --

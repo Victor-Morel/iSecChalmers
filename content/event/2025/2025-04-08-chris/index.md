@@ -23,7 +23,7 @@ abstract: |-
 
   At the heart of our succinct PPRF construction is a novel memorytight reduction for GGM. While the original GGM reduction requires nq game hops and space λq, our reduction needs 4qn game hops but only 5λ memory, where q is the number of PRF queries. Our proof technique allows to show that GGM is a succinct PPRF, and also that GGM as a (standard) PRF has a memory-tight reduction against adversaries who make non-repeating queries, a restriction that we prove to be inherent.
 
-  This is joint work with Patrick Harasser (TU Darmstadt) and Jérôme Govinden (TU Darmstadt).
+  This is joint work with Joël Alwen (Amazon Research), Jérôme Govinden (TU Darmstadt), Patrick Harasser (TU Darmstadt) and Stefano Tessaro (U Washington).
 
 
 date: "2025-04-08T10:30:00Z"

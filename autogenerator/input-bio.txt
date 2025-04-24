@@ -1,1 +1,2 @@
-Kelsey Melissaris is a cryptographer. She received her PhD from the City University of New York, and wrote her thesis on authenticated key exchange. Most recently, she was a postdoctoral fellow at Aarhus University’s Cryptography and Security Group, researching threshold cryptography and digital signatures.
+Raphina recently completed her MSc in Cybersecurity and Stockholms University, and is currently a research engineer with Martin Monperrus's group at KTH; Raphina is currently exploring potential academic
+ positions.

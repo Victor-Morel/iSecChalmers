@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Kelsey Melissaris - A Two-Round, Ideally Secure, Strong Asymmetric PAKE, on April 03, 2025 at 13:15
+[Chalmers Security & Privacy Seminar] Raphina Liu - Dirty-Waters: Detecting Software Supply Chain Smells, on April 29, 2025 at 10:00
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Kelsey Melissaris.
+It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Raphina Liu.
 
 Hoping to see many of you there!
 
@@ -14,11 +14,11 @@ Alex and Victor
 
 
 Title:
-A Two-Round, Ideally Secure, Strong Asymmetric PAKE
+Dirty-Waters: Detecting Software Supply Chain Smells
 
 
 When:
-April 03, 2025 13:15-14:15
+April 29, 2025 10:00-11:00
 
 
 Where:
@@ -27,15 +27,16 @@ and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNk
 
 
 Abstract:
-Strong Asymmetric Password-Authenticated Key Exchange (saPAKE) enables a client, holding only a low-entropy password, to repeatedly establish shared high-entropy session keys with a server, holding a digest of that password. Ideally, an adversary is limited to impersonation attempts, online dictionary attacks, and, in the event of a leaked digest, a brute-force attack that does not admit precomputation. In this talk, I will present our novel saPAKE protocol, which is the first to simultaneously achieve the ideal security, as described, in a single round trip without generic algebraic models. We instantiate our saPAKE from an oblivious pseudorandom function (OPRF); I will also present our novel Dodis-Yampolskiy-based OPRF, the first online-extractable and input-committing UC-secure OPRF.
+Using open-source dependencies is essential in modern software development. However, this practice implies significant trust in third-party code, while there is little support for developers to assess this trust. As a consequence, attacks have been increasingly occurring through third-party dependencies. These are called software supply chain attacks. In this talk, we will introduce the novel concept of software supply chain smell and present DIRTY-WATERS, a tool for detecting software supply chain smells. We will also demonstrate the prevalence of all proposed software supply chain smells.
 
 
 Speaker's webpage:
-https://www.kelseymelissaris.com/
+https://scholar.google.com/citations?user=h1uxQNcAAAAJ&hl=en
 
 
 Speaker's bio:
-Kelsey Melissaris is a cryptographer. She received her PhD from the City University of New York, and wrote her thesis on authenticated key exchange. Most recently, she was a postdoctoral fellow at Aarhus University’s Cryptography and Security Group, researching threshold cryptography and digital signatures.
+Raphina recently completed her MSc in Cybersecurity and Stockholms University, and is currently a research engineer with Martin Monperrus's group at KTH; Raphina is currently exploring potential academic
+ positions.
 
 
 --

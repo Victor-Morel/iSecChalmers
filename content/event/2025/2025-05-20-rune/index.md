@@ -10,91 +10,32 @@ event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQX
 
 summary: |-
 
-  In this talk, Rune gives an overview of his research so far.
-
-  The first part of the talk covers Signal's initial handshake protocol
-
-  and transitioning to a post-quantum protocol. He has proposed a
-
-  post-quantum replacement protocol called SPQR [PKC:BFGJS22] and analyzed
-
-  the confidentiality [PKC:FieGun25] and deniability [PoPETS:FieJan24] of
-
-  PQXDH, the post-quantum protocol that Signal has deployed for the
-
-  initial handshake.
-
-  In the second part he presents his (impossibility) results on deniable
-
-  authentication against malicious verifiers and the implications for
-
-  Signal's initial handshake. [EPRINT:FieLan25]
-
-  In the third part he introduces the Beyond UnForgeability Features
-
-  (BUFF) for signature schemes [SP:CDFFJ21] and gives an overview how the
-
-  signature schemes in the NIST standardization process are doing wrt.
-
-  BUFF properties [SAC:DuzFieFis24].
-
-  
+  In this talk, Rune gives an overview of his research so far. 
+  The first part of the talk covers Signal's initial handshake protocol and transitioning to a post-quantum protocol. 
+  He has proposed a post-quantum replacement protocol called SPQR [PKC:BFGJS22] and analyzed the confidentiality [PKC:FieGun25] and deniability [PoPETS:FieJan24] of PQXDH, the post-quantum protocol that Signal has deployed for the initial handshake.
+  In the second part he presents his (impossibility) results on deniable authentication against malicious verifiers and the implications for Signal's initial handshake. [EPRINT:FieLan25] 
+  In the third part he introduces the Beyond UnForgeability Features (BUFF) for signature schemes [SP:CDFFJ21] and gives an overview how the signature schemes in the NIST standardization process are doing wrt. BUFF properties [SAC:DuzFieFis24].
 
   [PKC:BFGJS22] https://eprint.iacr.org/2021/769
-
   [PKC:FieGun25] https://eprint.iacr.org/2024/702
-
   [PoPETS:FieJan24] https://eprint.iacr.org/2024/702
-
   [EPRINT:FieLan25] https://eprint.iacr.org/2025/470
-
   [SP:CDFFJ21] https://eprint.iacr.org/2020/1525
-
   [SAC:DuzFieFis24] https://eprint.iacr.org/2024/710
-
 
 abstract: |-
 
-  In this talk, Rune gives an overview of his research so far.
-
-  The first part of the talk covers Signal's initial handshake protocol
-
-  and transitioning to a post-quantum protocol. He has proposed a
-
-  post-quantum replacement protocol called SPQR [PKC:BFGJS22] and analyzed
-
-  the confidentiality [PKC:FieGun25] and deniability [PoPETS:FieJan24] of
-
-  PQXDH, the post-quantum protocol that Signal has deployed for the
-
-  initial handshake.
-
-  In the second part he presents his (impossibility) results on deniable
-
-  authentication against malicious verifiers and the implications for
-
-  Signal's initial handshake. [EPRINT:FieLan25]
-
-  In the third part he introduces the Beyond UnForgeability Features
-
-  (BUFF) for signature schemes [SP:CDFFJ21] and gives an overview how the
-
-  signature schemes in the NIST standardization process are doing wrt.
-
-  BUFF properties [SAC:DuzFieFis24].
-
-  
+  In this talk, Rune gives an overview of his research so far. 
+  The first part of the talk covers Signal's initial handshake protocol and transitioning to a post-quantum protocol. 
+  He has proposed a post-quantum replacement protocol called SPQR [PKC:BFGJS22] and analyzed the confidentiality [PKC:FieGun25] and deniability [PoPETS:FieJan24] of PQXDH, the post-quantum protocol that Signal has deployed for the initial handshake.
+  In the second part he presents his (impossibility) results on deniable authentication against malicious verifiers and the implications for Signal's initial handshake. [EPRINT:FieLan25] 
+  In the third part he introduces the Beyond UnForgeability Features (BUFF) for signature schemes [SP:CDFFJ21] and gives an overview how the signature schemes in the NIST standardization process are doing wrt. BUFF properties [SAC:DuzFieFis24].
 
   [PKC:BFGJS22] https://eprint.iacr.org/2021/769
-
   [PKC:FieGun25] https://eprint.iacr.org/2024/702
-
   [PoPETS:FieJan24] https://eprint.iacr.org/2024/702
-
   [EPRINT:FieLan25] https://eprint.iacr.org/2025/470
-
   [SP:CDFFJ21] https://eprint.iacr.org/2020/1525
-
   [SAC:DuzFieFis24] https://eprint.iacr.org/2024/710
 
 

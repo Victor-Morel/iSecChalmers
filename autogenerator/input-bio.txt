@@ -1,2 +1,1 @@
-Raphina recently completed her MSc in Cybersecurity and Stockholms University, and is currently a research engineer with Martin Monperrus's group at KTH; Raphina is currently exploring potential academic
- positions.
+Rune is a fifth-year PhD student at TU Darmstadt, Germany, supervised by Marc Fischlin. His research interests cover Signal's messaging protocol(s), post-quantum security, deniability, and signature schemes. 

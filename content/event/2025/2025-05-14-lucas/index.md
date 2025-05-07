@@ -36,7 +36,7 @@ abstract: |-
 
 date: "2025-05-14T14:15:00Z"
 
-date_end: "2025-05-14T15:15:00Z"
+date_end: "2025-05-14T15:00:00Z"
 
 all_day: false
 

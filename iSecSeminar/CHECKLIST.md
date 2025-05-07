@@ -2,12 +2,16 @@
 
 Check these off as you're preparing to announce the talk, but _don't_ commit the filled-in list!
 
+---
+
 * [ ] Email speaker and ask for infos
   * Title
   * Abstract
   * Bio
   * Picture
   * Personal webpage
+  * Ask whether to stream the talk on Zoom
+* [ ] Add the event to Google Calendar
 * [ ] Ensure room is booked
   * Standard timeslot: Thu 13:15-14:15
 * [ ] Update website
@@ -32,27 +36,27 @@ Check these off as you're preparing to announce the talk, but _don't_ commit the
         * `git pull`
       * Alternatively, to check the changes on your local machine: `hugo server`
   </details>
-* Send emails to announce the talk
-  * [ ] Weekly news
-    * `info.cse@chalmers.se`
-    * Send email to have the talk included in the next weekly news.
-    * Provide short abstract: "2-3 sentences, maximum 300-350 characters including blank spaces" as per CSE Info
+* [ ] Send email to have the talk included in the next weekly news
+  * `info.cse@chalmers.se`
+  * Provide short abstract: "2-3 sentences, maximum 300-350 characters including blank spaces" as per CSE Info
+
 > [!IMPORTANT]
 > **Weekly news deadline**: Week before the talk, **Thursday 13:00**
-  * [ ] Internal email
-    * `CSE ISEC <isec.cse@chalmers.se>`
-    * `CSE SysSec <syssec.cse@chalmers.se>`
-    * `cse-prosec <prosec.cse@chalmers.se>`
-    * Optional: Other divisions and units (on a case-by-case basis depending on topic)
-      * `Networks and Systems <ns.cse@chalmers.se>`
-      * `Formal methods <fm@lists.chalmers.se>`
-      * `ProgLog <proglog@lists.chalmers.se>`
-      * `CSE Computing Science Division <cs.cse@chalmers.se>`
-  * [ ] Optional: External email (for public talks)
-    * `swits@lists.kau.se`
+
+* [ ] Send an internal announcement email
+  * `CSE ISEC <isec.cse@chalmers.se>`
+  * `CSE SysSec <syssec.cse@chalmers.se>`
+  * `cse-prosec <prosec.cse@chalmers.se>`
+  * Optional: Other divisions and units (on a case-by-case basis depending on topic)
+    * `Networks and Systems <ns.cse@chalmers.se>`
+    * `Formal methods <fm@lists.chalmers.se>`
+    * `ProgLog <proglog@lists.chalmers.se>`
+    * `CSE Computing Science Division <cs.cse@chalmers.se>`
+* [ ] Optional: External announcement email (for public talks)
+  * `swits@lists.kau.se`
+
 > [!CAUTION]
 > **Don't leak our internal mailing lists on this email!**
-  * [ ] Optional: One-on-one meetings
-    * In a separate email
-* [ ] Day of the talk: Send a reminder email
-  * Include one-on-one meetings link if applicable
+
+* [ ] Optional: One-on-one meetings email
+* [ ] Day of the talk: Send a reminder email (Include one-on-one meetings link if applicable)

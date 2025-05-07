@@ -1,21 +1,5 @@
-In this talk, Rune gives an overview of his research so far.
-The first part of the talk covers Signal's initial handshake protocol
-and transitioning to a post-quantum protocol. He has proposed a
-post-quantum replacement protocol called SPQR [PKC:BFGJS22] and analyzed
-the confidentiality [PKC:FieGun25] and deniability [PoPETS:FieJan24] of
-PQXDH, the post-quantum protocol that Signal has deployed for the
-initial handshake.
-In the second part he presents his (impossibility) results on deniable
-authentication against malicious verifiers and the implications for
-Signal's initial handshake. [EPRINT:FieLan25]
-In the third part he introduces the Beyond UnForgeability Features
-(BUFF) for signature schemes [SP:CDFFJ21] and gives an overview how the
-signature schemes in the NIST standardization process are doing wrt.
-BUFF properties [SAC:DuzFieFis24].
+At Meta, we’ve been working to incorporate privacy into different systems of our software stack as part of our Privacy Aware Infrastructure (PAI) initiative. PAI offers efficient and reliable first-class privacy constructs embedded in Meta infrastructure to address complex privacy issues. In this talk, we will describe Policy Zones: an Information-Flow Control system that is deployed across our infrastructure to address privacy restrictions on data, such as using data only for allowed purposes, providing strong guarantees for limiting the purposes of its processing.
 
-[PKC:BFGJS22] https://eprint.iacr.org/2021/769
-[PKC:FieGun25] https://eprint.iacr.org/2024/702
-[PoPETS:FieJan24] https://eprint.iacr.org/2024/702
-[EPRINT:FieLan25] https://eprint.iacr.org/2025/470
-[SP:CDFFJ21] https://eprint.iacr.org/2020/1525
-[SAC:DuzFieFis24] https://eprint.iacr.org/2024/710
+In this talk, we describe how we model the restrictions on data through a mix of toy examples and a real-world case study. Our approach to enforcing restrictions on data involves using annotations to represent different aspects of data and its processing and using these annotations to apply policy checks across data flows. Equipped with privacy-relevant annotations, we show how Policy Zones enforces high-level data restrictions across two paradigms that, together, encompass the common lifecycle of data: general-purpose programming languages where the data is initially collected, and data warehouse systems where the data is processed in batch.
+
+There are several challenges in designing Policy Zones, including: translating high-level privacy restrictions to code; handling different data granularities to avoid label creep; maintaining homogeneity of data annotations across heterogeneous data processing systems; managing reclassification in practice; and the scale of applying this tech to large companies such as Meta.

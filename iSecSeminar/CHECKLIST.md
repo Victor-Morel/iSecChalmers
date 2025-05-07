@@ -37,8 +37,8 @@ Check these off as you're preparing to announce the talk, but _don't_ commit the
     * `info.cse@chalmers.se`
     * Send email to have the talk included in the next weekly news.
     * Provide short abstract: "2-3 sentences, maximum 300-350 characters including blank spaces" as per CSE Info
-    * > [!IMPORTANT]
-      > **Deadline**: Week before the talk, **Thursday 13:00**
+> [!IMPORTANT]
+> **Weekly news deadline**: Week before the talk, **Thursday 13:00**
   * [ ] Internal email
     * `CSE ISEC <isec.cse@chalmers.se>`
     * `CSE SysSec <syssec.cse@chalmers.se>`
@@ -50,8 +50,8 @@ Check these off as you're preparing to announce the talk, but _don't_ commit the
       * `CSE Computing Science Division <cs.cse@chalmers.se>`
   * [ ] Optional: External email (for public talks)
     * `swits@lists.kau.se`
-    * > [!WARNING]
-      > **Don't leak our internal mailing lists on this email!**
+> [!CAUTION]
+> **Don't leak our internal mailing lists on this email!**
   * [ ] Optional: One-on-one meetings
     * In a separate email
 * [ ] Day of the talk: Send a reminder email

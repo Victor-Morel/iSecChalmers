@@ -1,38 +1,51 @@
-[Chalmers Security & Privacy Seminar] Sara Saeidian - Rethinking Privacy with Pointwise Maximal Leakage, on March 25, 2025 at 13:00
+[Chalmers Security & Privacy Seminar] Two talks by Meta on Wednesday, May 14th 2025
 
 ---
 
 Hi,
 
-The next talk of the Chalmers Security & Privacy Seminar is happening on March 25.
-Please spread the word by including it in the weekly news 🙂. Thanks!
+There will be two talks for the Chalmers Security & Privacy Seminar on Wednesday, May 14th 2025.
+Please spread the word by including them in the weekly news 🙂. Thanks!
 
 Thank you and best regards,
 Alex and Victor
 
+---
 
-
-[Link: https://www.cse.chalmers.se/research/group/security/event/2025/2025-03-25-sara/]
-[Speaker's picture attached]
+[Link: https://www.cse.chalmers.se/research/group/security/event/2025/2025-05-14-yiannis/]
+[Speaker's picture attached as yiannis.jpg]
 
 Title:
-Rethinking Privacy with Pointwise Maximal Leakage
-
+Enforcing Privacy Requirements at Meta: A summary and Key Learnings
 
 When:
-March 25, 2025 13:00-14:00
-
+May 14th 2025 13:15-14:00
 
 Where:
-in EDIT 8103
-
+in HB3
 
 Summary:
-
-In this talk, Sara will discuss the problem of privacy-preserving statistical analysis, presenting the privacy measure of Pointwise Maximal Leakage (developed during her PhD studies) and highlighting both its connections to and differences from Differential Privacy.
-
-
+Enforcing Privacy Requirements at scale is a challenging task. This talk will go over key learnings on this space, using the more familiar domain of Security to draw analogies and highlight differences.
 
 Speaker's bio:
+Yiannis Papagiannis is an Engineering Director on Meta’s Privacy team. He received his PhD from Imperial College on Information-Flow Control under the supervision of Prof. Peter Pietzuch and an MSc/BSc degree from the National Technical University of Athens.
 
-Sara Saeidian is a postdoctoral researcher at Inria Saclay and KTH Royal Institute of Technology. Her research focuses on privacy-preserving frameworks in statistics and machine learning, with a foundation in information theory.
+---
+
+[Link: https://www.cse.chalmers.se/research/group/security/event/2025/2025-05-14-lucas/]
+[Speaker's picture attached as lucas.png]
+
+Title:
+Policy Zones: Information-Flow Control at Meta
+
+When:
+May 14th 2025 14:15-15:00
+
+Where:
+in HB3
+
+Summary:
+This talk describes Policy Zones: an Information-Flow Control system that is deployed across Meta's infrastructure to address privacy restrictions on data, such as using data only for allowed purposes, providing strong guarantees for limiting the purposes of its processing.
+
+Speaker's bio:
+Lucas Waye is a Software Engineer at Meta working on its Privacy Aware Infrastructure. He received a Ph.D. and Master’s degree from Harvard under the guidance of Stephen Chong and a Bachelor’s degree from Cornell.

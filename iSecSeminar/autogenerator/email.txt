@@ -1,30 +1,39 @@
-[Chalmers Security & Privacy Seminar] Lucas Waye - Policy Zones: Information-Flow Control at Meta, on May 14, 2025 at 14:15
+[Chalmers Security & Privacy Seminar] Two talks by Meta on Wednesday, May 14th 2025
 
 ---
 
 Dear all,
 
-It's our pleasure to announce the upcoming talk of Chalmers Security & Privacy Seminar, given by Lucas Waye.
+It is our pleasure to announce _two_ upcoming talks for the Chalmers Security & Privacy Seminar, given by Yiannis Papagiannis and Lucas Waye from Meta:
+
+* May 14th 2025 13:15-14:00: Yiannis Papagiannis - Enforcing Privacy Requirements at Meta: A summary and Key Learnings
+* May 14th 2025 14:15-15:00: Lucas Waye - Policy Zones: Information-Flow Control at Meta
+
+Both talks will be located in **HB3**.
+
+Yiannis and Lucas are also available for one-on-one/group meetings (and lunch!) on Wednesday, May 14th. Feel free to sign up here:
+https://docs.google.com/document/d/111caccmsu-bbhhK2TNVN0PmnGMghGKENf2bg_r2GXGE/
 
 Hoping to see many of you there!
-
 
 Best regards,
 Alex and Victor
 
+---
 
-Title:
+Talk #1:
+Enforcing Privacy Requirements at Meta: A summary and Key Learnings
+
+Abstract:
+Enforcing Privacy Requirements at scale is a challenging task. In this talk we will go over key learnings on this space, using the more familiar domain of Security to draw analogies and highlight differences. The talk covers four key learnings: (a) the key similarities and distinctions between security and privacy requirements, (b) how to design an effective enforcement framework, (c) how to get such an enforcement framework deployed at scale, and (d), the main approaches for demonstrating the effectiveness of such enforcement to relevant parties. Overall, the talk will emphasize a proactive and comprehensive approach to enforcing privacy requirements.
+
+Speaker's bio:
+Yiannis Papagiannis is an Engineering Director on Meta’s Privacy team. He’s spent the last decade designing, bootstrapping and evolving enforcement systems and teams to safeguard the implementation of privacy requirements such as data deletion, retention and access across Meta’s infrastructure and products. Yiannis received his PhD from Imperial College on Information Flow Control under the supervision of Prof Peter Pietzuch and an MSc/BSc degree from the National Technical University of Athens.
+
+---
+
+Talk #2:
 Policy Zones: Information-Flow Control at Meta
-
-
-When:
-May 14, 2025 14:15-15:15
-
-
-Where:
-in HB3
-and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
-
 
 Abstract:
 At Meta, we’ve been working to incorporate privacy into different systems of our software stack as part of our Privacy Aware Infrastructure (PAI) initiative. PAI offers efficient and reliable first-class privacy constructs embedded in Meta infrastructure to address complex privacy issues. In this talk, we will describe Policy Zones: an Information-Flow Control system that is deployed across our infrastructure to address privacy restrictions on data, such as using data only for allowed purposes, providing strong guarantees for limiting the purposes of its processing.
@@ -33,22 +42,15 @@ In this talk, we describe how we model the restrictions on data through a mix of
 
 There are several challenges in designing Policy Zones, including: translating high-level privacy restrictions to code; handling different data granularities to avoid label creep; maintaining homogeneity of data annotations across heterogeneous data processing systems; managing reclassification in practice; and the scale of applying this tech to large companies such as Meta.
 
-
-Speaker's webpage:
-SpeakerURL
-
-
 Speaker's bio:
 Lucas Waye is a Software Engineer at Meta working on its Privacy Aware Infrastructure. Previously he worked on the analytics platforms at TiVo and Hulu. In graduate school Lucas researched principled approaches to solving privacy and functional correctness issues in distributed settings. Lucas received a Ph.D. and Master's degree from Harvard under the guidance of Stephen Chong and a Bachelor's degree from Cornell.
 
+---
 
---
 Never miss a seminar, subscribe to our Google calendar:
 
 https://calendar.google.com/calendar/ical/9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com/public/basic.ics
 
 https://calendar.google.com/calendar/embed?src=9vh2t9lmhui0mccsfm3stqroh0%40group.calendar.google.com&ctz=Europe%2FStockholm
 
-
 Chalmers Security & Privacy Lab: https://www.cse.chalmers.se/research/group/security/
-

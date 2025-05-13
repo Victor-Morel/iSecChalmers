@@ -1,0 +1,31 @@
+[Chalmers Security & Privacy Seminar] Giancarlo Pellegrino - YuraScanner: An Autonomous Web Application Scanner, on May 22, 2025 at 14:00
+
+---
+
+Hi,
+
+The next talk of the Chalmers Security & Privacy Seminar is happening on May 22, 2025.
+Please help spread the word by including it in the weekly news 🙂. Thanks!
+
+Thank you and best regards,
+Alex and Victor
+
+---
+
+[Link: https://www.cse.chalmers.se/research/group/security/event/2025/2025-05-22-giancarlo]
+[Speaker's picture attached]
+
+Title:
+YuraScanner: An Autonomous Web Application Scanner
+
+When:
+May 22, 2025 14:00-15:00
+
+Where:
+in EDIT 8103
+
+Summary:
+This talk introduces YuraScanner, one of the first autonomous, task-driven web vulnerability scanners. Unlike traditional scanners, YuraScanner leverages large language models (LLMs) to interpret and reason about the application’s state and behavior, enabling broad adaptability across diverse web applications.
+
+Speaker's bio:
+Giancarlo Pellegrino is a faculty at CISPA Helmholtz Center for Information Security, where he leads the application security research group.

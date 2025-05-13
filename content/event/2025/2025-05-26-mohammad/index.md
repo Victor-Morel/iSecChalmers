@@ -31,7 +31,7 @@ publishDate: "2023-01-16T00:00:00Z"
 authors: [Mohammad M. Ahmadpanah]
 
 
-tags: [csstalk, sandbox, JavaScript, Information-Flow Control]
+tags: [csstalk, sandbox, JavaScript]
 
 
 featured: false

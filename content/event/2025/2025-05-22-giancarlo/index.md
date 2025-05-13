@@ -1,7 +1,7 @@
 ---
 
 title: 'YuraScanner: An Autonomous Web Application Scanner'
-event: Live talk in CSE EDIT 8103
+event: Live talk in EDIT 8103
 event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 summary: |
   Web applications are evolving at an unprecedented pace, introducing new features that often come with new vulnerabilities. Relying solely on developers to identify these issues is no longer sustainable, highlighting the urgent need for automated tools to support the security process. Web application scanning is arguably the flagship testing technique capable of taking on this responsibility, yet significant challenges remain to achieve full automation.

@@ -3,7 +3,7 @@
 title: "A Roadmap for Server-Side JavaScript Sandboxing"
 
 
-event: Live talk in EDIT 8103
+event: Live talk in EDIT 6217
 
 event_url: https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09
 

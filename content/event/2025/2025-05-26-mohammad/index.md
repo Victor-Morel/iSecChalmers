@@ -15,7 +15,12 @@ summary: |-
 
 abstract: |-
 
-  In this talk, we explore the state of server-side JavaScript sandboxing, a critical mechanism for executing untrusted code securely. We demonstrate how sandbox breakouts in real-world commercial platforms can lead to exposing sensitive data and executing arbitrary code. Our study reveals that, especially after the deprecation of the popular solution vm2 due to fatal flaws, there is no go-to sandboxing solution. To understand how developers are coping, we conduct a GitHub mining study that uncovers concerning migration patterns, and we also study security trade-offs in current alternatives. In response, we introduce Fiberglass, a new sandbox based on isolated-vm, designed to enforce robust isolation while enabling secure, mediated bidirectional reference transfer between host and sandbox. We conclude with a decision tree to guide developers and researchers in choosing a suitable secure sandbox, balancing isolation guarantees with functional requirements of a given application.
+  In this talk, we explore the state of server-side JavaScript sandboxing, a critical mechanism for executing untrusted code securely. We demonstrate how sandbox breakouts in real-world commercial platforms can lead to exposing sensitive data and executing arbitrary code. Our study reveals that, especially after the deprecation of the popular solution vm2 due to fatal flaws, there is no go-to sandboxing solution. To understand how developers are coping, we conduct a GitHub mining study that uncovers concerning migration patterns, and we also study security trade-offs in current alternatives. In response, we introduce Fiberglass, a new sandbox based on isolated-vm, designed to enforce robust isolation while enabling secure, mediated bidirectional reference transfer between host and sandbox. We conclude with a decision tree to guide developers and researchers in choosing a suitable secure sandbox, balancing isolation guarantees with functional requirements of a given application. This is a joint work with Daniel Hedin, Tamara Rezk, and Andrei Sabelfeld. This is a joint work with Daniel Hedin, Tamara Rezk, and Andrei Sabelfeld.
+
+
+
+
+
 
 
 date: "2025-05-26T13:15:00Z"

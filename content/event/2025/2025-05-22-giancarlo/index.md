@@ -14,7 +14,7 @@ abstract: |
 date: 2025-05-22 14:00:00 +02:00
 date_end: 2025-05-22 15:00:00 +02:00
 all_day: false
-publishDate: 2025-05-13 12:58:01.825535863 +02:00
+publishDate: 2025-06-04 17:34:34.138733207 +02:00
 authors:
 - Giancarlo Pellegrino
 tags:

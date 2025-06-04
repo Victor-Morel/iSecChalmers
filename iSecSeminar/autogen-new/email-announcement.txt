@@ -1,10 +1,10 @@
-[Chalmers Security & Privacy Seminar] Giancarlo Pellegrino - YuraScanner: An Autonomous Web Application Scanner, on May 22, 2025 at 14:00
+[Chalmers Security & Privacy Seminar] Adrià Torralba-Agell - Scaling at a (Security) Cost: Unveiling the Security Assumptions Behind Today’s Blockchain Layer 2 Scaling Solutions, on Jun 12, 2025 at 13:15
 
 ---
 
 Dear all,
 
-It is our pleasure to announce the upcoming talk of the Chalmers Security & Privacy Seminar, given by Giancarlo Pellegrino.
+It is our pleasure to announce the upcoming talk of the Chalmers Security & Privacy Seminar, given by Adrià Torralba-Agell.
 Hoping to see many of you there!
 
 Best regards,
@@ -13,25 +13,37 @@ Alex and Victor
 ---
 
 Title:
-YuraScanner: An Autonomous Web Application Scanner
+Scaling at a (Security) Cost: Unveiling the Security Assumptions Behind Today’s Blockchain Layer 2 Scaling Solutions
 
 When:
-May 22, 2025 14:00-15:00
+Jun 12, 2025 13:15-13:15
 
 Where:
 in EDIT 8103
 and over Zoom [https://chalmers.zoom.us/j/65786317139?pwd=U1FlMks3THpNNG1WaFRJNkJxQXdBQT09]
 
 Abstract:
-Web applications are evolving at an unprecedented pace, introducing new features that often come with new vulnerabilities. Relying solely on developers to identify these issues is no longer sustainable, highlighting the urgent need for automated tools to support the security process. Web application scanning is arguably the flagship testing technique capable of taking on this responsibility, yet significant challenges remain to achieve full automation.
+Blockchains promise trust without intermediaries - but only if their security assumptions hold. 
+To push throughput from tens to thousands of transactions per second, the industry and market now leans towards Layer 2 (L2) solutions such as Payment Channel Networks, Optimistic Rollups, Zero-Knowledge Rollups, Validium and Volition.
+Each provide with scalability, yet each quietly adds new security assumptions and/or trust assumptions.
 
-In this talk, we briefly review the current state of web application scanning and outline its key challenges and limitations. We then introduce YuraScanner, one of the first autonomous, task-driven web scanners. YuraScanner approaches attack surface discovery as a goal-oriented agent: it dynamically generates testing objectives and executes actions to navigate complex web application workflows with no human intervention. Unlike traditional scanners, it leverages large language models (LLMs) to interpret and reason about the application’s state and behavior, enabling broad adaptability across diverse web applications. Our evaluation across 20 popular web applications demonstrates that YuraScanner uncovers deeper attack surfaces and identifies more XSS vulnerabilities than conventional tools.
+This talk presents a concise tour of the first comprehensive taxonomy of those assumptions. In particular, we will:
+
+1. Revisit the baseline security assumptions of permissionless Layer 1 Blockchains.
+2. Review the inherited and additional security assumptions that Layer 2 Scaling Solutions put on top of the baseline ones.
+3. Compare how different L2 designs trade censorship-resistance, data availability and decentralisation for scalability.
+4. Offer a number of insights that practitioners can use to evaluate whether an L2’s threat model matches their risk tolerance.
+
+Attendees will leave with a sharper understanding of the hidden costs of “scaling solutions”, the questions to ask before integrating or investing, and a roadmap for research directions that could reclaim security without sacrificing performance.
 
 Speaker's webpage:
-https://trouge.net/
+https://0xadriatorralba.github.io/
 
 Speaker's bio:
-Giancarlo Pellegrino is a faculty at CISPA Helmholtz Center for Information Security, where he leads the application security research group. Previously, he was a visiting asst professor at Stanford University as the first member of the CISPA-Stanford Center for Cybersecurity. Giancarlo earned his Ph.D. in Computer Science from Eurecom. His research primarily focuses on identifying, analyzing, and addressing vulnerabilities in web applications, both at the application and platform levels, developing testing tools that can operate at scale. Giancarlo served as a PC member for the major security venues (e.g., IEEE SP, CCS, and USENIX Security), as an area chair (USENIX Security 22-23), and is currently serving as a PC co-chair for USENIX Security 2025.
+Adrià Torralba-Agell is a PhD Student at the [K-riptography and Information Security for Open Networks (KISON) research group](https://recerca.uoc.edu/grupos/37397/detalle?lang=en) at Universitat Oberta de Catalunya (UOC), doing a Research Stay at Chalmers University of Technology at [SecuraLab Research Group](https://securalab.org/). 
+He holds a Double BSc on Mathematics and Computer Science by the Universitat de Barcelona (UB) and also has a MSc on Fundamental Principles of Data Science by UB.
+
+His research interests are on Cryptography and Blockchain. In particular, he is interested on blockchain security assumptions, and on the use of Zero-Knowledge Proofs to scale blockchains.
 
 ---
 

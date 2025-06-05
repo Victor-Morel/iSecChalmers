@@ -11,7 +11,7 @@ def gen-webpage [inputs]: nothing -> string {
     event: $"Live talk in ($inputs.location)"
     event_url: (if $inputs."zoom?" { $ZOOM_LINK })
 
-    summary: $inputs.abstract # Should use abstract-short maybe?
+    summary: $inputs.abstract-short
     abstract: $inputs.abstract
 
     date: $inputs.date

@@ -10,6 +10,8 @@
 # The abstract and bio will be pasted as-is into `index.md`, so Markdown formatting is supported.
 # The *-short versions are used for the Weekly News email, and abstract-short will be used for the event summary.
 
+# Please don't commit the filled-in form!
+
 speaker:
 title:
 

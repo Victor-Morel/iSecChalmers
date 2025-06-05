@@ -1,0 +1,12 @@
+# Speaker pictures
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Generated emails
+email-announcement.txt
+email-weekly-news.txt
+
+# Template for inputs
+inputs.yaml

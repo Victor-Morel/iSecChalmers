@@ -1,9 +1,5 @@
 # iSec Seminar Talk Checklist
 
-Check these off as you're preparing to announce the talk, but _don't_ commit the filled-in list!
-
----
-
 * [ ] Email speaker and ask for infos
   * Title
   * Abstract

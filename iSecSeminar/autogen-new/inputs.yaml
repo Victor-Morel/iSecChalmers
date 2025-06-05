@@ -1,4 +1,6 @@
-# Tip: Use YAML's multiline strings for long texts like abstract and bio, e.g.
+# Tip: Use YAML's multiline strings for long texts like abstract and bio.
+# The text needs to be indented, but YAML will trim the indentation.
+# e.g.
 # abstract: |
 #   Line of text 1.
 #   Line of text 2.
@@ -6,46 +8,27 @@
 #   Line of text 3.
 
 # The abstract and bio will be pasted as-is into `index.md`, so Markdown formatting is supported.
-# The *-short versions are used for the Weekly News email.
+# The *-short versions are used for the Weekly News email, and abstract-short will be used for the event summary.
 
-speaker: Adrià Torralba-Agell
-title: "Scaling at a (Security) Cost: Unveiling the Security Assumptions Behind Today’s Blockchain Layer 2 Scaling Solutions"
+speaker:
+title:
 
 abstract: |
- Blockchains promise trust without intermediaries - but only if their security assumptions hold. 
- To push throughput from tens to thousands of transactions per second, the industry and market now leans towards Layer 2 (L2) solutions such as Payment Channel Networks, Optimistic Rollups, Zero-Knowledge Rollups, Validium and Volition.
- Each provide with scalability, yet each quietly adds new security assumptions and/or trust assumptions.
-
- This talk presents a concise tour of the first comprehensive taxonomy of those assumptions. In particular, we will:
-
- 1. Revisit the baseline security assumptions of permissionless Layer 1 Blockchains.
- 2. Review the inherited and additional security assumptions that Layer 2 Scaling Solutions put on top of the baseline ones.
- 3. Compare how different L2 designs trade censorship-resistance, data availability and decentralisation for scalability.
- 4. Offer a number of insights that practitioners can use to evaluate whether an L2’s threat model matches their risk tolerance.
-
- Attendees will leave with a sharper understanding of the hidden costs of “scaling solutions”, the questions to ask before integrating or investing, and a roadmap for research directions that could reclaim security without sacrificing performance.
 
 abstract-short: |
- Blockchains promise trust without intermediaries—but only if their security assumptions hold. 
- To push throughput from tens to thousands of transactions per second, the industry and market now leans towards Layer 2 (L2) solutions such as Payment Channel Networks, Optimistic Rollups, Zero-Knowledge Rollups, Validium and Volition. 
- This talk presents a concise tour of the first comprehensive taxonomy of those assumptions. 
 
 speaker-bio: |
- Adrià Torralba-Agell is a PhD Student at the [K-riptography and Information Security for Open Networks (KISON) research group](https://recerca.uoc.edu/grupos/37397/detalle?lang=en) at Universitat Oberta de Catalunya (UOC), doing a Research Stay at Chalmers University of Technology at [SecuraLab Research Group](https://securalab.org/). 
- He holds a Double BSc on Mathematics and Computer Science by the Universitat de Barcelona (UB) and also has a MSc on Fundamental Principles of Data Science by UB.
-
- His research interests are on Cryptography and Blockchain. In particular, he is interested on blockchain security assumptions, and on the use of Zero-Knowledge Proofs to scale blockchains.
 
 speaker-bio-short: |
- Adrià Torralba-Agell is a PhD Student at the [K-riptography and Information Security for Open Networks (KISON) research group](https://recerca.uoc.edu/grupos/37397/detalle?lang=en) at Universitat Oberta de Catalunya (UOC), doing a Research Stay at Chalmers University of Technology at [SecuraLab Research Group](https://securalab.org/). 
 
-speaker-webpage: https://0xadriatorralba.github.io/
-picture-path: IMG_1398.jpeg
+speaker-webpage:
+picture-path:
 
-date: 2025-06-12 13:15
-date-end: 2025-06-12 13:15
+# YYYY-MM-DD HH:MM
+date:
+date-end:
 
 location: EDIT 8103
 zoom?: true
 
-tags: [Blockchain]
+tags: []

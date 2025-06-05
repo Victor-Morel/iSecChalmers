@@ -19,14 +19,14 @@ Title:
 Scaling at a (Security) Cost: Unveiling the Security Assumptions Behind Today’s Blockchain Layer 2 Scaling Solutions
 
 When:
-Jun 12, 2025 13:15-13:15
+Jun 12, 2025 13:15-14:15
 
 Where:
 in EDIT 8103
 
 Summary:
-Blockchains promise trust without intermediaries—but only if their security assumptions hold. 
-To push throughput from tens to thousands of transactions per second, the industry and market now leans towards Layer 2 (L2) solutions such as Payment Channel Networks, Optimistic Rollups, Zero-Knowledge Rollups, Validium and Volition. 
+Blockchains promise trust without intermediaries—but only if their security assumptions hold.
+To push throughput from tens to thousands of transactions per second, the industry and market now leans towards Layer 2 (L2) solutions such as Payment Channel Networks, Optimistic Rollups, Zero-Knowledge Rollups, Validium and Volition.
 This talk presents a concise tour of the first comprehensive taxonomy of those assumptions.
 
 Speaker's bio:
